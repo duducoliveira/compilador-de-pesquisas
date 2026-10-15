@@ -33,6 +33,7 @@
   const multiFormat = (d) => (d.getDate() === 1 ? (d.getMonth() === 0 ? locale.format("%Y")(d) : fMesCurto(d)) : fDiaMes(d));
   const num = (v, casas = 1) => (v == null || isNaN(v) ? "–" : v.toLocaleString("pt-BR", { minimumFractionDigits: 0, maximumFractionDigits: casas }));
   const num1 = (v) => (v == null || isNaN(v) ? "–" : v.toLocaleString("pt-BR", { minimumFractionDigits: 1, maximumFractionDigits: 1 }));
+  const num2 = (v) => (v == null || isNaN(v) ? "–" : v.toLocaleString("pt-BR", { minimumFractionDigits: 2, maximumFractionDigits: 2 }));
   const sinal = (v) => (v > 0 ? "+" : v < 0 ? "−" : "±") + num1(Math.abs(v));
   const el = (tag, attrs = {}, ...filhos) => {
     const e = document.createElement(tag);
@@ -203,6 +204,26 @@
     if (p.amostra) extra.push(`${p.amostra.toLocaleString("pt-BR")} entrevistas`);
     if (p.margem != null) extra.push(`±${num(p.margem)} pp`);
     if (extra.length) linhas.push(el("div", { class: "tt-s" }, extra.join(" · ")));
+    return linhas;
+  }
+
+  // resultado oficial: todos os candidatos, comparados à média das pesquisas na data
+  function ttResultado(turno, series) {
+    const res = RESULTADO[String(turno)];
+    const rm = estado.metrica === "validos" ? res.validos : res.totais;
+    const tr = parseD(res.data).getTime();
+    const linhas = [
+      el("div", { class: "tt-t" }, `Resultado oficial do ${turno}º turno · TSE`),
+      el("div", { class: "tt-s" }, `${fDiaAno(parseD(res.data))} · ${estado.metrica === "validos" ? "votos válidos" : "votos totais"}`),
+    ];
+    Object.entries(rm.candidatos).sort((a, b) => b[1] - a[1]).forEach(([c, v]) => {
+      const media = series ? tendenciaEm(series.get(c) || [], tr) : null;
+      linhas.push(ttLinha(c, num2(v) + "%", media != null ? ` · média ${num1(media)}` : ""));
+    });
+    if (rm.outros != null) linhas.push(el("div", { class: "tt-r" }, el("i", { style: "background:var(--c-outro)" }), el("b", {}, num2(rm.outros) + "%"), el("span", {}, "Outros")));
+    if (rm.brancos_nulos != null) linhas.push(el("div", { class: "tt-r" }, el("i", { style: "background:var(--rule)" }), el("b", {}, num2(rm.brancos_nulos) + "%"), el("span", {}, "Brancos e nulos")));
+    const vs = Object.entries(rm.candidatos).sort((a, b) => b[1] - a[1]);
+    if (vs.length >= 2) linhas.push(el("hr"), el("div", { class: "tt-s" }, `${vs[0][0]} à frente por ${num2(vs[0][1] - vs[1][1])} pp`));
     return linhas;
   }
 
@@ -394,6 +415,7 @@
     });
 
     // resultado oficial
+    const resPts = [];
     if (resMap && estado.resultado) {
       const tr = parseD(res.data).getTime();
       if (tr >= t0 - DIA && tr <= t1) {
@@ -401,6 +423,7 @@
         cands.forEach((c) => {
           const v = resMap.candidatos[c];
           if (v == null) return;
+          resPts.push({ px: x(tr), py: y(v) });
           gR.append("path").attr("d", d3.symbol(d3.symbolDiamond, 64)()).attr("transform", `translate(${x(tr)},${y(v)})`)
             .attr("fill", cor(c)).attr("stroke", "var(--surface)").attr("stroke-width", 1.5);
         });
@@ -440,6 +463,7 @@
         const [mx, my] = d3.pointer(ev);
         const t = x.invert(mx).getTime();
         cross.attr("x1", mx).attr("x2", mx).attr("opacity", .6);
+        if (resPts.some((r) => Math.hypot(r.px - mx, r.py - my) < 14)) { mostrarTip(ev, ttResultado(estado.turno, series), host); return; }
         const pt = maisProximo(mx, my);
         if (pt) { mostrarTip(ev, ttPesquisa(pt.p, cands), host); return; }
         const linhas = [el("div", { class: "tt-s" }, `Média em ${fDiaAno(new Date(t))}`)];
@@ -451,6 +475,7 @@
           linhas.push(el("hr"));
           linhas.push(el("div", { class: "tt-s" }, "Divulgadas neste dia: " + Array.from(new Set(doDia.map((p) => p.instituto))).join(", ")));
         }
+        if (resPts.length && Math.abs(resPts[0].px - mx) < 6) linhas.push(el("hr"), ...ttResultado(estado.turno, null));
         mostrarTip(ev, linhas, host);
       })
       .on("pointerleave", () => { cross.attr("opacity", 0); esconderTip(); })
@@ -534,10 +559,12 @@
       if (sd.length) svg.append("path").attr("d", d3.line().x((d) => x(d.t)).y((d) => y(d.v)).curve(d3.curveMonotoneX)(sd)).attr("fill", "none").attr("stroke", "var(--ink)").attr("stroke-width", 2);
     }
     const res = RESULTADO[String(estado.turno)];
+    let resDif = null;
     if (res && estado.resultado) {
       const rm = estado.metrica === "validos" ? res.validos : res.totais;
       const tr = parseD(res.data).getTime();
       if (rm && rm.candidatos[a] != null && rm.candidatos[b] != null && tr >= t0 - DIA && tr <= t1) {
+        resDif = { px: x(tr), py: y(rm.candidatos[a] - rm.candidatos[b]), d: rm.candidatos[a] - rm.candidatos[b] };
         svg.append("path").attr("d", d3.symbol(d3.symbolDiamond, 70)()).attr("transform", `translate(${x(tr)},${y(rm.candidatos[a] - rm.candidatos[b])})`).attr("fill", "var(--ink)").attr("stroke", "var(--surface)").attr("stroke-width", 1.5);
       }
     }
@@ -545,6 +572,10 @@
     svg.append("rect").attr("x", m.l).attr("y", m.t).attr("width", w - m.l - m.r).attr("height", h - m.t - m.b).attr("fill", "transparent")
       .on("pointermove", (ev) => {
         const [mx, my] = d3.pointer(ev);
+        if (resDif && Math.hypot(resDif.px - mx, resDif.py - my) < 14) {
+          mostrarTip(ev, [el("div", { class: "tt-t" }, `Resultado oficial do ${estado.turno}º turno · TSE`), el("div", { class: "tt-r" }, el("b", {}, sinal(resDif.d)), el("span", {}, `${a} − ${b}`))], host);
+          return;
+        }
         const d = pts[delaunay.find(mx, my)];
         if (!d || Math.hypot(d.px - mx, d.py - my) > 18) { esconderTip(); return; }
         mostrarTip(ev, [...ttPesquisa(d.p, [a, b]), el("hr"), el("div", { class: "tt-r" }, el("b", {}, sinal(d.d)), el("span", {}, `${a} − ${b}`))], host);
