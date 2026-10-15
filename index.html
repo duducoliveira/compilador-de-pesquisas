@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<!-- artifact:head:start -->
+<title>Compilador de Pesquisas Presidenciais</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: painel operacional — cabeçalho compacto, filtros numa faixa, KPIs, gráfico principal largo, análises em grade, tabela de pesquisas no fim. */
+:root {
+  --bg: #f3f5f4;
+  --surface: #fcfcfb;
+  --surface-2: #eceeed;
+  --ink: #14181a;
+  --ink-2: #4b5254;
+  --ink-3: #788082;
+  --rule: #d9dddc;
+  --grid: #e6e9e8;
+  --accent: #0f5e52;
+  --accent-ink: #ffffff;
+  --event: #9a7b2f;
+  --c-lula: #e34948;
+  --c-flavio: #2a78d6;
+  --c-caiado: #1baf7a;
+  --c-zema: #eb6834;
+  --c-renan: #6250d6;
+  --c-cury: #eda100;
+  --c-tarcisio: #008300;
+  --c-ratinho: #e87ba4;
+  --c-outro: #8a8f91;
+  --font-display: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --font-body: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --font-data: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --radius: 6px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #121514; --surface: #1a1d1c; --surface-2: #232726; --ink: #eef1f0; --ink-2: #b8bfbe;
+    --ink-3: #8a9291; --rule: #2f3433; --grid: #262a29; --accent: #4fc2ad; --accent-ink: #0b1312;
+    --event: #d1b062;
+    --c-lula: #e66767; --c-flavio: #3987e5; --c-caiado: #199e70; --c-zema: #d95926; --c-renan: #9085e9;
+    --c-cury: #c98500; --c-tarcisio: #2f9a2f; --c-ratinho: #d55181; --c-outro: #8f9594;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #121514; --surface: #1a1d1c; --surface-2: #232726; --ink: #eef1f0; --ink-2: #b8bfbe;
+  --ink-3: #8a9291; --rule: #2f3433; --grid: #262a29; --accent: #4fc2ad; --accent-ink: #0b1312;
+  --event: #d1b062;
+  --c-lula: #e66767; --c-flavio: #3987e5; --c-caiado: #199e70; --c-zema: #d95926; --c-renan: #9085e9;
+  --c-cury: #c98500; --c-tarcisio: #2f9a2f; --c-ratinho: #d55181; --c-outro: #8f9594;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink);
+  font-family: var(--font-body); font-size: 14px; line-height: 1.45;
+  font-variation-settings: "wdth" 96;
+}
+.wrap {
+  max-width: 1280px; margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 20px 48px;
+  display: flex; flex-direction: column; gap: 18px;
+}
+a { color: var(--accent); }
+button, input, select { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* Cabeçalho */
+.masthead { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 12px 24px; }
+.masthead h1 {
+  margin: 0; font-family: var(--font-display); font-weight: 800; font-size: clamp(24px, 3.4vw, 36px);
+  font-variation-settings: "wdth" 72; letter-spacing: -0.01em; line-height: 1.02; text-wrap: balance;
+}
+.masthead h1 span { color: var(--ink-3); font-weight: 600; }
+.masthead .meta { color: var(--ink-2); font-size: 12.5px; display: flex; flex-direction: column; gap: 2px; align-items: flex-end; text-align: right; }
+.eyebrow { text-transform: uppercase; letter-spacing: .08em; font-size: 11px; font-weight: 700; color: var(--ink-3); }
+
+/* Abas de turno */
+.turnos { display: inline-flex; border: 1px solid var(--rule); border-radius: var(--radius); background: var(--surface); padding: 3px; gap: 3px; }
+.turnos button {
+  border: 0; background: transparent; padding: 7px 16px; border-radius: 4px; cursor: pointer; font-weight: 650;
+  font-variation-settings: "wdth" 88; color: var(--ink-2);
+}
+.turnos button[aria-selected="true"] { background: var(--ink); color: var(--surface); }
+.turnos button small { font-weight: 500; opacity: .75; margin-left: 4px; font-family: var(--font-data); font-size: 11px; }
+
+/* Filtros */
+.filtros {
+  display: flex; flex-wrap: wrap; gap: 14px 22px; align-items: flex-start;
+  border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); padding-block: 14px;
+}
+.grupo { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.grupo > .eyebrow { display: flex; gap: 8px; align-items: baseline; }
+.grupo > .eyebrow button { border: 0; background: none; padding: 0; color: var(--accent); font-size: 11px; cursor: pointer; text-transform: none; letter-spacing: 0; font-weight: 600; }
+.linha { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.seg { display: inline-flex; border: 1px solid var(--rule); border-radius: var(--radius); overflow: hidden; background: var(--surface); }
+.seg button { border: 0; border-right: 1px solid var(--rule); background: transparent; padding: 5px 10px; cursor: pointer; font-size: 13px; white-space: nowrap; }
+.seg button:last-child { border-right: 0; }
+.seg button[aria-pressed="true"] { background: var(--ink); color: var(--surface); }
+.chip {
+  border: 1px solid var(--rule); background: var(--surface); border-radius: 999px; padding: 3px 10px 3px 8px;
+  cursor: pointer; font-size: 12.5px; display: inline-flex; align-items: center; gap: 6px; white-space: nowrap;
+}
+.chip .n { font-family: var(--font-data); font-size: 10.5px; color: var(--ink-3); }
+.chip .sw { width: 10px; height: 3px; border-radius: 2px; background: var(--ink-3); }
+.chip[aria-pressed="false"] { color: var(--ink-3); background: transparent; border-style: dashed; }
+.chip[aria-pressed="false"] .sw { opacity: .35; }
+.datas { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+.datas input[type="date"], .grupo select {
+  border: 1px solid var(--rule); background: var(--surface); border-radius: var(--radius); padding: 4px 8px; font-size: 13px;
+}
+.check { display: inline-flex; gap: 6px; align-items: center; font-size: 13px; cursor: pointer; white-space: nowrap; }
+.check input { accent-color: var(--accent); }
+
+/* KPIs */
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; }
+.kpi { background: var(--surface); border: 1px solid var(--rule); border-radius: var(--radius); padding: 10px 12px 11px; display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.kpi .rot { display: flex; align-items: center; gap: 7px; font-size: 12.5px; color: var(--ink-2); font-weight: 600; }
+.kpi .rot .sw { width: 14px; height: 3px; border-radius: 2px; flex: none; }
+.kpi .val { font-family: var(--font-display); font-variation-settings: "wdth" 75; font-weight: 750; font-size: 30px; line-height: 1.05; font-variant-numeric: tabular-nums; }
+.kpi .val small { font-size: 15px; font-weight: 600; color: var(--ink-3); margin-left: 1px; }
+.kpi .sub { font-size: 12px; color: var(--ink-3); font-variant-numeric: tabular-nums; }
+.up { color: var(--ink); } .down { color: var(--ink); }
+.delta { font-family: var(--font-data); font-size: 11.5px; }
+
+/* Cartões de gráfico */
+.painel { background: var(--surface); border: 1px solid var(--rule); border-radius: var(--radius); padding: 14px 16px 12px; min-width: 0; display: flex; flex-direction: column; gap: 8px; }
+.painel header { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 4px 16px; }
+.painel h2 { margin: 0; font-size: 16px; font-weight: 750; font-variation-settings: "wdth" 85; text-wrap: balance; }
+.painel .nota { color: var(--ink-3); font-size: 12px; margin: 0; max-width: 72ch; }
+.grade { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 520px), 1fr)); gap: 14px; }
+.legenda { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 12.5px; color: var(--ink-2); }
+.legenda span { display: inline-flex; gap: 6px; align-items: center; }
+.legenda i { display: inline-block; width: 16px; height: 2px; border-radius: 1px; }
+.legenda i.pt { width: 7px; height: 7px; border-radius: 50%; opacity: .6; }
+.legenda i.ev { width: 0; height: 12px; border-left: 1.5px dashed var(--event); border-radius: 0; }
+.legenda i.res { width: 8px; height: 8px; transform: rotate(45deg); border-radius: 1px; background: var(--ink); }
+
+svg { display: block; overflow: visible; }
+svg text { fill: var(--ink-2); font-family: var(--font-body); font-size: 11.5px; }
+svg .eixo text { fill: var(--ink-3); font-family: var(--font-data); font-size: 10.5px; }
+svg .eixo path, svg .eixo line { stroke: var(--rule); }
+svg .gridline { stroke: var(--grid); stroke-width: 1; }
+svg .zero { stroke: var(--ink-3); stroke-width: 1; }
+.grafico { position: relative; touch-action: pan-y; }
+.brush .selection { fill: var(--accent); fill-opacity: .12; stroke: var(--accent); stroke-opacity: .6; }
+.brush .handle { fill: var(--accent); fill-opacity: .5; }
+
+.tooltip {
+  position: absolute; pointer-events: none; z-index: 5; background: var(--surface); border: 1px solid var(--rule);
+  border-radius: var(--radius); padding: 8px 10px; font-size: 12px; min-width: 160px; max-width: 280px;
+  box-shadow: 0 6px 22px rgb(0 0 0 / .12); display: flex; flex-direction: column; gap: 3px;
+}
+.tooltip .tt-t { font-weight: 700; font-size: 12.5px; }
+.tooltip .tt-s { color: var(--ink-3); font-size: 11.5px; }
+.tooltip .tt-r { display: flex; align-items: center; gap: 8px; }
+.tooltip .tt-r i { width: 12px; height: 2px; border-radius: 1px; flex: none; }
+.tooltip .tt-r b { font-family: var(--font-data); font-weight: 500; min-width: 38px; text-align: right; color: var(--ink); }
+.tooltip .tt-r span { color: var(--ink-2); }
+.tooltip hr { border: 0; border-top: 1px solid var(--rule); margin: 3px 0; width: 100%; }
+
+/* Tabelas */
+.tabela-wrap { overflow-x: auto; border-top: 1px solid var(--rule); }
+table { border-collapse: collapse; width: 100%; font-variant-numeric: tabular-nums; font-size: 13px; }
+th, td { padding: 6px 8px; text-align: right; border-bottom: 1px solid var(--grid); white-space: nowrap; }
+th { font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); font-weight: 700; position: sticky; top: 0; background: var(--surface); cursor: pointer; user-select: none; }
+th[aria-sort="ascending"]::after { content: " ↑"; } th[aria-sort="descending"]::after { content: " ↓"; }
+th.nao-ord { cursor: default; }
+td.txt, th.txt { text-align: left; }
+td.num { font-family: var(--font-data); font-size: 12.5px; }
+td .lider { font-weight: 600; color: var(--ink); text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 3px; }
+tr.off td { color: var(--ink-3); opacity: .55; }
+tr.foco td { background: var(--surface-2); }
+tr.cenario-extra td.txt:first-of-type { padding-left: 20px; }
+.tabela-acoes { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: space-between; }
+.btn { border: 1px solid var(--rule); background: var(--surface); border-radius: var(--radius); padding: 5px 10px; cursor: pointer; font-size: 12.5px; }
+.btn:hover { background: var(--surface-2); }
+.btn.primario { background: var(--ink); color: var(--surface); border-color: var(--ink); }
+.contagem { color: var(--ink-2); font-size: 12.5px; }
+.contagem b { font-family: var(--font-data); font-weight: 500; color: var(--ink); }
+.tag { display: inline-block; font-size: 10.5px; border: 1px solid var(--rule); border-radius: 3px; padding: 0 4px; color: var(--ink-3); margin-left: 6px; }
+.scroll-y { max-height: 560px; overflow: auto; }
+.rodape { color: var(--ink-3); font-size: 12px; border-top: 1px solid var(--rule); padding-top: 12px; display: flex; flex-direction: column; gap: 4px; }
+.vazio { padding: 40px 12px; text-align: center; color: var(--ink-3); }
+.toast { position: fixed; bottom: calc(16px + env(safe-area-inset-bottom, 0px)); left: 50%; transform: translateX(-50%); background: var(--ink); color: var(--surface); padding: 8px 14px; border-radius: var(--radius); font-size: 13px; z-index: 20; }
+@media (max-width: 640px) {
+  .masthead .meta { align-items: flex-start; text-align: left; }
+  .kpi .val { font-size: 26px; }
+}
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+<!-- artifact:head:end -->
+</head>
+<body>
+<!-- artifact:body:start -->
+<div class="wrap">
+  <div class="masthead">
+    <div>
+      <div class="eyebrow">Eleição presidencial · Brasil 2026</div>
+      <h1>Compilador de pesquisas <span>de intenção de voto</span></h1>
+    </div>
+    <div class="meta">
+      <div class="turnos" role="tablist" aria-label="Turno">
+        <button role="tab" id="tab-t1" aria-selected="true" data-turno="1">1º turno <small id="n-t1"></small></button>
+        <button role="tab" id="tab-t2" aria-selected="false" data-turno="2">2º turno <small id="n-t2"></small></button>
+      </div>
+      <span id="atualizacao"></span>
+    </div>
+  </div>
+
+  <section class="filtros" aria-label="Filtros">
+    <div class="grupo">
+      <div class="eyebrow">Período</div>
+      <div class="linha">
+        <div class="seg" id="presets"></div>
+      </div>
+      <div class="datas">
+        <input type="date" id="data-ini" aria-label="Data inicial">
+        <span>até</span>
+        <input type="date" id="data-fim" aria-label="Data final">
+      </div>
+    </div>
+    <div class="grupo" id="grupo-cenario">
+      <div class="eyebrow">Cenário</div>
+      <div class="seg" id="cenario">
+        <button data-v="principal" aria-pressed="true">Principal</button>
+        <button data-v="todos" aria-pressed="false">Todos</button>
+      </div>
+    </div>
+    <div class="grupo" id="grupo-confronto" hidden>
+      <div class="eyebrow">Confronto</div>
+      <select id="confronto" aria-label="Confronto de 2º turno"></select>
+    </div>
+    <div class="grupo">
+      <div class="eyebrow">Base</div>
+      <div class="seg" id="metrica">
+        <button data-v="totais" aria-pressed="true">Votos totais</button>
+        <button data-v="validos" aria-pressed="false">Votos válidos</button>
+      </div>
+    </div>
+    <div class="grupo">
+      <div class="eyebrow">Tendência</div>
+      <select id="banda" aria-label="Suavização da tendência">
+        <option value="5">Sensível (5 dias)</option>
+        <option value="10" selected>Média (10 dias)</option>
+        <option value="21">Suave (21 dias)</option>
+        <option value="0">Sem linha de tendência</option>
+      </select>
+    </div>
+    <div class="grupo">
+      <div class="eyebrow">Exibir</div>
+      <div class="linha">
+        <label class="check"><input type="checkbox" id="opt-pontos" checked> Pesquisas</label>
+        <label class="check"><input type="checkbox" id="opt-eventos" checked> Marcos</label>
+        <label class="check"><input type="checkbox" id="opt-resultado" checked> Resultado TSE</label>
+      </div>
+    </div>
+    <div class="grupo" style="flex-basis:100%">
+      <div class="eyebrow">Candidatos <button id="cand-todos">todos</button><button id="cand-dois">só os 2 primeiros</button></div>
+      <div class="linha" id="candidatos"></div>
+    </div>
+    <div class="grupo" style="flex-basis:100%">
+      <div class="eyebrow">Institutos <button id="inst-todos">todos</button><button id="inst-nenhum">nenhum</button>
+        <span style="text-transform:none;letter-spacing:0;font-weight:500">· destacar:</span>
+        <select id="destaque" aria-label="Destacar instituto no gráfico" style="font-size:12px;padding:1px 4px"></select>
+      </div>
+      <div class="linha" id="institutos"></div>
+    </div>
+  </section>
+
+  <section class="kpis" id="kpis" aria-label="Resumo"></section>
+
+  <section class="painel">
+    <header>
+      <h2 id="titulo-principal">Intenção de voto ao longo do tempo</h2>
+      <div class="legenda" id="legenda-principal"></div>
+    </header>
+    <div class="grafico" id="g-principal"></div>
+    <p class="nota">Arraste na faixa abaixo para dar zoom num período — a tabela e as análises acompanham o recorte. Clique num ponto para localizar a pesquisa na tabela.</p>
+    <div class="grafico" id="g-brush"></div>
+  </section>
+
+  <div class="grade">
+    <section class="painel">
+      <header><h2 id="titulo-margem">Diferença entre os dois primeiros</h2></header>
+      <p class="nota" id="nota-margem"></p>
+      <div class="grafico" id="g-margem"></div>
+    </section>
+    <section class="painel">
+      <header><h2>Última pesquisa de cada instituto</h2></header>
+      <p class="nota">Pesquisa mais recente de cada instituto dentro do recorte, ordenada pela diferença entre os dois primeiros.</p>
+      <div class="grafico" id="g-ultimas"></div>
+    </section>
+    <section class="painel">
+      <header><h2>Viés por instituto</h2></header>
+      <p class="nota" id="nota-vies"></p>
+      <div class="grafico" id="g-vies"></div>
+    </section>
+    <section class="painel" id="painel-acerto">
+      <header><h2>Quem acertou o 1º turno</h2></header>
+      <p class="nota">Última pesquisa de cada instituto feita a partir de 25/set, convertida em votos válidos e comparada ao resultado oficial do TSE (4/out). Erro médio = média do erro absoluto dos candidatos. Não depende dos filtros.</p>
+      <div class="tabela-wrap"><table id="t-acerto"></table></div>
+    </section>
+  </div>
+
+  <section class="painel" id="painel-tabela">
+    <header>
+      <h2>Pesquisas no recorte</h2>
+      <div class="contagem" id="contagem"></div>
+    </header>
+    <div class="tabela-acoes">
+      <div class="linha">
+        <button class="btn" id="sel-todas">Marcar todas</button>
+        <button class="btn" id="sel-nenhuma">Desmarcar todas</button>
+        <button class="btn" id="sel-inverter">Inverter</button>
+        <label class="check"><input type="checkbox" id="opt-so-marcadas"> Mostrar só as marcadas</label>
+      </div>
+      <div class="linha">
+        <button class="btn" id="copiar-csv">Copiar CSV</button>
+        <button class="btn" id="baixar-csv" hidden>Baixar CSV</button>
+      </div>
+    </div>
+    <p class="nota">Desmarque uma pesquisa para tirá-la do gráfico, das médias e das análises. Valores em % conforme a base escolhida; sublinhado = líder.</p>
+    <div class="tabela-wrap scroll-y"><table id="t-pesquisas"></table></div>
+  </section>
+
+  <footer class="rodape">
+    <div>Fonte dos dados: <a id="fonte" target="_blank" rel="noopener"></a>, que compila as pesquisas divulgadas pelos institutos com link para a publicação original (coluna “Fonte”). Votos válidos são calculados excluindo brancos, nulos e indecisos.</div>
+    <div>Tendência: média ponderada por kernel gaussiano sobre a data central de campo de cada pesquisa, com peso pela raiz do tamanho da amostra. No modo “Principal”, só o primeiro cenário estimulado de cada pesquisa entra no cálculo.</div>
+  </footer>
+</div>
+<div class="tooltip" id="tooltip" hidden></div>
+<!-- artifact:body:end -->
+<!-- artifact:scripts:start -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script src="data/pesquisas.js"></script>
+<script src="app.js"></script>
+<!-- artifact:scripts:end -->
+</body>
+</html>

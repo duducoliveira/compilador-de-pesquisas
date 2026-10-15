@@ -1,0 +1,31 @@
+name: Atualizar pesquisas
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"   # a cada 6 horas
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Baixar e normalizar pesquisas
+        run: python3 scripts/atualizar_dados.py
+      - name: Commit se houver pesquisa nova
+        run: |
+          # ignora a mudança só no carimbo de data/hora
+          if git diff --quiet -I '"atualizado_em"' -- data/; then
+            echo "Sem pesquisas novas."; exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git commit -m "Atualiza pesquisas ($(date -u +%Y-%m-%d))"
+          git push
