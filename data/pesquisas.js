@@ -1,5 +1,5 @@
 window.PESQUISAS = {
- "atualizado_em": "2026-10-15T19:35+00:00",
+ "atualizado_em": "2026-10-16T04:30+00:00",
  "fonte": {
   "nome": "Wikipédia — Opinion polling for the 2026 Brazilian presidential election",
   "url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Brazilian_presidential_election"
@@ -246,6 +246,27 @@ window.PESQUISAS = {
  "pesquisas": [
   {
    "turno": 2,
+   "instituto": "Datafolha",
+   "inicio": "2026-10-13",
+   "fim": "2026-10-15",
+   "periodo": "13–15 Oct",
+   "secao": "October (after 1st round)",
+   "candidatos": {
+    "Lula": 45.0,
+    "Flávio Bolsonaro": 47.0
+   },
+   "outros": null,
+   "brancos_nulos_indecisos": 8.0,
+   "margem": 2.0,
+   "amostra": 2520,
+   "link": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/15/datafolha-presidente-segundo-turno-15-outubro.ghtml?utm_source=twitter&utm_medium=social&utm_campaign=g1",
+   "pesquisa_id": "2-datafolha-2026-10-15-3446",
+   "cenario": 1,
+   "id": "2-datafolha-2026-10-15-3446-c1",
+   "total_cenarios": 1
+  },
+  {
+   "turno": 2,
    "instituto": "Indexa",
    "inicio": "2026-10-13",
    "fim": "2026-10-14",
@@ -260,9 +281,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://viva.com.br/politica/indexabroadcast-no-2-turno-flavio-bolsonaro-tem-44-ante-42-de-lula.html",
-   "pesquisa_id": "2-indexa-2026-10-14-3446",
+   "pesquisa_id": "2-indexa-2026-10-14-3455",
    "cenario": 1,
-   "id": "2-indexa-2026-10-14-3446-c1",
+   "id": "2-indexa-2026-10-14-3455-c1",
    "total_cenarios": 1
   },
   {
@@ -281,9 +302,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2154,
    "link": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/14/quaest-presidente-14-outubro.ghtml",
-   "pesquisa_id": "2-quaest-2026-10-13-3464",
+   "pesquisa_id": "2-quaest-2026-10-13-3473",
    "cenario": 1,
-   "id": "2-quaest-2026-10-13-3464-c1",
+   "id": "2-quaest-2026-10-13-3473-c1",
    "total_cenarios": 1
   },
   {
@@ -302,9 +323,9 @@ window.PESQUISAS = {
    "margem": 2.3,
    "amostra": 5000,
    "link": "https://viva.com.br/politica/palver-flavio-bolsonaro-tem-50-e-lula-49-em-empate-tecnico-no-2-turno.html",
-   "pesquisa_id": "2-palver-2026-10-13-3455",
+   "pesquisa_id": "2-palver-2026-10-13-3464",
    "cenario": 1,
-   "id": "2-palver-2026-10-13-3455-c1",
+   "id": "2-palver-2026-10-13-3464-c1",
    "total_cenarios": 1
   },
   {
@@ -323,9 +344,9 @@ window.PESQUISAS = {
    "margem": 1.8,
    "amostra": 3000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/poderdata-aya-flavio-tem-51-dos-votos-validos-no-2o-turno-lula-49/",
-   "pesquisa_id": "2-poderdata-2026-10-12-3473",
+   "pesquisa_id": "2-poderdata-2026-10-12-3482",
    "cenario": 1,
-   "id": "2-poderdata-2026-10-12-3473-c1",
+   "id": "2-poderdata-2026-10-12-3482-c1",
    "total_cenarios": 1
   },
   {
@@ -344,9 +365,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2000,
    "link": "https://noticias.uol.com.br/eleicoes/2026/10/13/btgnexus-pesquisa-presidencial-segundo-turno.ghtm",
-   "pesquisa_id": "2-nexus-2026-10-12-3482",
+   "pesquisa_id": "2-nexus-2026-10-12-3491",
    "cenario": 1,
-   "id": "2-nexus-2026-10-12-3482-c1",
+   "id": "2-nexus-2026-10-12-3491-c1",
    "total_cenarios": 1
   },
   {
@@ -365,9 +386,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2400,
    "link": "https://www.cnnbrasil.com.br/eleicoes/gerp-flavio-tem-55-dos-votos-validos-no-2o-turno-lula-45/?utm_source=social&utm_medium=twitter-canal&utm_campaign=politica-cnn-brasil&utm_content=link#goog_rewarded",
-   "pesquisa_id": "2-gerp-2026-10-12-3491",
+   "pesquisa_id": "2-gerp-2026-10-12-3500",
    "cenario": 1,
-   "id": "2-gerp-2026-10-12-3491-c1",
+   "id": "2-gerp-2026-10-12-3500-c1",
    "total_cenarios": 1
   },
   {
@@ -386,9 +407,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/futura-flavio-tem-518-dos-votos-validos-no-2o-turno-lula-482/",
-   "pesquisa_id": "2-futura-2026-10-10-3500",
+   "pesquisa_id": "2-futura-2026-10-10-3509",
    "cenario": 1,
-   "id": "2-futura-2026-10-10-3500-c1",
+   "id": "2-futura-2026-10-10-3509-c1",
    "total_cenarios": 1
   },
   {
@@ -407,9 +428,9 @@ window.PESQUISAS = {
    "margem": 2.6,
    "amostra": 1500,
    "link": "https://www.cnnbrasil.com.br/eleicoes/ipespe-flavio-tem-527-dos-votos-validos-no-2o-turno-lula-473/",
-   "pesquisa_id": "2-ipespe-2026-10-08-3512",
+   "pesquisa_id": "2-ipespe-2026-10-08-3521",
    "cenario": 1,
-   "id": "2-ipespe-2026-10-08-3512-c1",
+   "id": "2-ipespe-2026-10-08-3521-c1",
    "total_cenarios": 1
   },
   {
@@ -428,9 +449,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5026,
    "link": "https://www.cnnbrasil.com.br/eleicoes/atlas-flavio-tem-528-dos-votos-validos-no-2o-turno-lula-472/",
-   "pesquisa_id": "2-atlasintel-2026-10-08-3521",
+   "pesquisa_id": "2-atlasintel-2026-10-08-3530",
    "cenario": 1,
-   "id": "2-atlasintel-2026-10-08-3521-c1",
+   "id": "2-atlasintel-2026-10-08-3530-c1",
    "total_cenarios": 1
   },
   {
@@ -449,9 +470,9 @@ window.PESQUISAS = {
    "margem": 2.15,
    "amostra": 2100,
    "link": "https://www.cnnbrasil.com.br/eleicoes/vox-lula-tem-442-das-intencoes-de-voto-no-2o-turno-flavio-427/",
-   "pesquisa_id": "2-vox-brasil-2026-10-07-3548",
+   "pesquisa_id": "2-vox-brasil-2026-10-07-3557",
    "cenario": 1,
-   "id": "2-vox-brasil-2026-10-07-3548-c1",
+   "id": "2-vox-brasil-2026-10-07-3557-c1",
    "total_cenarios": 1
   },
   {
@@ -470,9 +491,9 @@ window.PESQUISAS = {
    "margem": 1.8,
    "amostra": 3000,
    "link": "https://www.poder360.com.br/poderdata/flavio-tem-53-contra-47-de-lula-no-2o-turno-diz-pesquisa-poderdata-aya/",
-   "pesquisa_id": "2-poderdata-2026-10-07-3539",
+   "pesquisa_id": "2-poderdata-2026-10-07-3548",
    "cenario": 1,
-   "id": "2-poderdata-2026-10-07-3539-c1",
+   "id": "2-poderdata-2026-10-07-3548-c1",
    "total_cenarios": 1
   },
   {
@@ -491,9 +512,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2520,
    "link": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/08/datafolha-presidente-8-outubro.ghtml",
-   "pesquisa_id": "2-datafolha-2026-10-07-3530",
+   "pesquisa_id": "2-datafolha-2026-10-07-3539",
    "cenario": 1,
-   "id": "2-datafolha-2026-10-07-3530-c1",
+   "id": "2-datafolha-2026-10-07-3539-c1",
    "total_cenarios": 1
   },
   {
@@ -537,9 +558,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 3702,
    "link": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/03/quaest-2o-turno-flavio-bolsonaro-44percent-lula-42percent.ghtml",
-   "pesquisa_id": "2-quaest-2026-10-03-3598",
+   "pesquisa_id": "2-quaest-2026-10-03-3607",
    "cenario": 1,
-   "id": "2-quaest-2026-10-03-3598-c1",
+   "id": "2-quaest-2026-10-03-3607-c1",
    "total_cenarios": 1
   },
   {
@@ -558,9 +579,9 @@ window.PESQUISAS = {
    "margem": 2.4,
    "amostra": 5000,
    "link": "https://exame.com/brasil/pesquisa-palver-para-presidente-flavio-bolsonaro-tem-47-e-lula-43-no-1o-turno/",
-   "pesquisa_id": "2-palver-2026-10-03-3632",
+   "pesquisa_id": "2-palver-2026-10-03-3641",
    "cenario": 5,
-   "id": "2-palver-2026-10-03-3632-c5",
+   "id": "2-palver-2026-10-03-3641-c5",
    "total_cenarios": 5
   },
   {
@@ -579,9 +600,9 @@ window.PESQUISAS = {
    "margem": 2.4,
    "amostra": 5000,
    "link": "https://exame.com/brasil/pesquisa-palver-para-presidente-flavio-bolsonaro-tem-47-e-lula-43-no-1o-turno/",
-   "pesquisa_id": "2-palver-2026-10-03-3632",
+   "pesquisa_id": "2-palver-2026-10-03-3641",
    "cenario": 4,
-   "id": "2-palver-2026-10-03-3632-c4",
+   "id": "2-palver-2026-10-03-3641-c4",
    "total_cenarios": 5
   },
   {
@@ -600,9 +621,9 @@ window.PESQUISAS = {
    "margem": 2.4,
    "amostra": 5000,
    "link": "https://exame.com/brasil/pesquisa-palver-para-presidente-flavio-bolsonaro-tem-47-e-lula-43-no-1o-turno/",
-   "pesquisa_id": "2-palver-2026-10-03-3632",
+   "pesquisa_id": "2-palver-2026-10-03-3641",
    "cenario": 3,
-   "id": "2-palver-2026-10-03-3632-c3",
+   "id": "2-palver-2026-10-03-3641-c3",
    "total_cenarios": 5
   },
   {
@@ -621,9 +642,9 @@ window.PESQUISAS = {
    "margem": 2.4,
    "amostra": 5000,
    "link": "https://exame.com/brasil/pesquisa-palver-para-presidente-flavio-bolsonaro-tem-47-e-lula-43-no-1o-turno/",
-   "pesquisa_id": "2-palver-2026-10-03-3632",
+   "pesquisa_id": "2-palver-2026-10-03-3641",
    "cenario": 2,
-   "id": "2-palver-2026-10-03-3632-c2",
+   "id": "2-palver-2026-10-03-3641-c2",
    "total_cenarios": 5
   },
   {
@@ -667,9 +688,9 @@ window.PESQUISAS = {
    "margem": 2.4,
    "amostra": 5000,
    "link": "https://exame.com/brasil/pesquisa-palver-para-presidente-flavio-bolsonaro-tem-47-e-lula-43-no-1o-turno/",
-   "pesquisa_id": "2-palver-2026-10-03-3632",
+   "pesquisa_id": "2-palver-2026-10-03-3641",
    "cenario": 1,
-   "id": "2-palver-2026-10-03-3632-c1",
+   "id": "2-palver-2026-10-03-3641-c1",
    "total_cenarios": 5
   },
   {
@@ -688,9 +709,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://docs.google.com/viewerng/viewer?url=https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Relatorio_Tracking_Nacional_1_Turno_Final_Votos_Validos-3-1.pdf",
-   "pesquisa_id": "2-futura-2026-10-03-3611",
+   "pesquisa_id": "2-futura-2026-10-03-3620",
    "cenario": 2,
-   "id": "2-futura-2026-10-03-3611-c2",
+   "id": "2-futura-2026-10-03-3620-c2",
    "total_cenarios": 2
   },
   {
@@ -734,9 +755,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://docs.google.com/viewerng/viewer?url=https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Relatorio_Tracking_Nacional_1_Turno_Final_Votos_Validos-3-1.pdf",
-   "pesquisa_id": "2-futura-2026-10-03-3611",
+   "pesquisa_id": "2-futura-2026-10-03-3620",
    "cenario": 1,
-   "id": "2-futura-2026-10-03-3611-c1",
+   "id": "2-futura-2026-10-03-3620-c1",
    "total_cenarios": 2
   },
   {
@@ -780,9 +801,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 4006,
    "link": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/03/datafolha-presidente-3-outubro.ghtml",
-   "pesquisa_id": "2-datafolha-2026-10-03-3585",
+   "pesquisa_id": "2-datafolha-2026-10-03-3594",
    "cenario": 1,
-   "id": "2-datafolha-2026-10-03-3585-c1",
+   "id": "2-datafolha-2026-10-03-3594-c1",
    "total_cenarios": 1
   },
   {
@@ -826,9 +847,9 @@ window.PESQUISAS = {
    "margem": 1.5,
    "amostra": 4000,
    "link": "https://www.poder360.com.br/poderdata/lula-e-flavio-tem-46-cada-um-no-2o-turno-diz-poderdata-aya/",
-   "pesquisa_id": "2-poderdata-2026-10-02-3677",
+   "pesquisa_id": "2-poderdata-2026-10-02-3686",
    "cenario": 1,
-   "id": "2-poderdata-2026-10-02-3677-c1",
+   "id": "2-poderdata-2026-10-02-3686-c1",
    "total_cenarios": 1
   },
   {
@@ -847,9 +868,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2007,
    "link": "https://www.cnnbrasil.com.br/eleicoes/cnt-mda-lula-tem-478-dos-votos-validos-no-1o-turno-flavio-421/",
-   "pesquisa_id": "2-mda-2026-10-02-3690",
+   "pesquisa_id": "2-mda-2026-10-02-3699",
    "cenario": 5,
-   "id": "2-mda-2026-10-02-3690-c5",
+   "id": "2-mda-2026-10-02-3699-c5",
    "total_cenarios": 5
   },
   {
@@ -868,9 +889,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2007,
    "link": "https://www.cnnbrasil.com.br/eleicoes/cnt-mda-lula-tem-478-dos-votos-validos-no-1o-turno-flavio-421/",
-   "pesquisa_id": "2-mda-2026-10-02-3690",
+   "pesquisa_id": "2-mda-2026-10-02-3699",
    "cenario": 4,
-   "id": "2-mda-2026-10-02-3690-c4",
+   "id": "2-mda-2026-10-02-3699-c4",
    "total_cenarios": 5
   },
   {
@@ -889,9 +910,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2007,
    "link": "https://www.cnnbrasil.com.br/eleicoes/cnt-mda-lula-tem-478-dos-votos-validos-no-1o-turno-flavio-421/",
-   "pesquisa_id": "2-mda-2026-10-02-3690",
+   "pesquisa_id": "2-mda-2026-10-02-3699",
    "cenario": 3,
-   "id": "2-mda-2026-10-02-3690-c3",
+   "id": "2-mda-2026-10-02-3699-c3",
    "total_cenarios": 5
   },
   {
@@ -910,9 +931,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2007,
    "link": "https://www.cnnbrasil.com.br/eleicoes/cnt-mda-lula-tem-478-dos-votos-validos-no-1o-turno-flavio-421/",
-   "pesquisa_id": "2-mda-2026-10-02-3690",
+   "pesquisa_id": "2-mda-2026-10-02-3699",
    "cenario": 2,
-   "id": "2-mda-2026-10-02-3690-c2",
+   "id": "2-mda-2026-10-02-3699-c2",
    "total_cenarios": 5
   },
   {
@@ -956,9 +977,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2007,
    "link": "https://www.cnnbrasil.com.br/eleicoes/cnt-mda-lula-tem-478-dos-votos-validos-no-1o-turno-flavio-421/",
-   "pesquisa_id": "2-mda-2026-10-02-3690",
+   "pesquisa_id": "2-mda-2026-10-02-3699",
    "cenario": 1,
-   "id": "2-mda-2026-10-02-3690-c1",
+   "id": "2-mda-2026-10-02-3699-c1",
    "total_cenarios": 5
   },
   {
@@ -1002,9 +1023,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 4945,
    "link": "https://docs.google.com/viewerng/viewer?url=https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Pesquisa-Atlas_Bloomberg-Nacional-261003.pdf",
-   "pesquisa_id": "2-atlasintel-2026-10-02-3735",
+   "pesquisa_id": "2-atlasintel-2026-10-02-3744",
    "cenario": 1,
-   "id": "2-atlasintel-2026-10-02-3735-c1",
+   "id": "2-atlasintel-2026-10-02-3744-c1",
    "total_cenarios": 1
   },
   {
@@ -1023,9 +1044,9 @@ window.PESQUISAS = {
    "margem": 2.15,
    "amostra": 2100,
    "link": "https://www.cnnbrasil.com.br/eleicoes/vox-flavio-registra-482-no-2o-turno-lula-452/",
-   "pesquisa_id": "2-vox-brasil-2026-10-01-3748",
+   "pesquisa_id": "2-vox-brasil-2026-10-01-3757",
    "cenario": 3,
-   "id": "2-vox-brasil-2026-10-01-3748-c3",
+   "id": "2-vox-brasil-2026-10-01-3757-c3",
    "total_cenarios": 3
   },
   {
@@ -1044,9 +1065,9 @@ window.PESQUISAS = {
    "margem": 2.15,
    "amostra": 2100,
    "link": "https://www.cnnbrasil.com.br/eleicoes/vox-flavio-registra-482-no-2o-turno-lula-452/",
-   "pesquisa_id": "2-vox-brasil-2026-10-01-3748",
+   "pesquisa_id": "2-vox-brasil-2026-10-01-3757",
    "cenario": 2,
-   "id": "2-vox-brasil-2026-10-01-3748-c2",
+   "id": "2-vox-brasil-2026-10-01-3757-c2",
    "total_cenarios": 3
   },
   {
@@ -1090,9 +1111,9 @@ window.PESQUISAS = {
    "margem": 2.15,
    "amostra": 2100,
    "link": "https://www.cnnbrasil.com.br/eleicoes/vox-flavio-registra-482-no-2o-turno-lula-452/",
-   "pesquisa_id": "2-vox-brasil-2026-10-01-3748",
+   "pesquisa_id": "2-vox-brasil-2026-10-01-3757",
    "cenario": 1,
-   "id": "2-vox-brasil-2026-10-01-3748-c1",
+   "id": "2-vox-brasil-2026-10-01-3757-c1",
    "total_cenarios": 3
   },
   {
@@ -1111,9 +1132,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/real-time-big-data-flavio-tem-46-no-2o-turno-lula-45/",
-   "pesquisa_id": "2-real-time-2026-09-30-3822",
+   "pesquisa_id": "2-real-time-2026-09-30-3831",
    "cenario": 5,
-   "id": "2-real-time-2026-09-30-3822-c5",
+   "id": "2-real-time-2026-09-30-3831-c5",
    "total_cenarios": 5
   },
   {
@@ -1132,9 +1153,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/real-time-big-data-flavio-tem-46-no-2o-turno-lula-45/",
-   "pesquisa_id": "2-real-time-2026-09-30-3822",
+   "pesquisa_id": "2-real-time-2026-09-30-3831",
    "cenario": 4,
-   "id": "2-real-time-2026-09-30-3822-c4",
+   "id": "2-real-time-2026-09-30-3831-c4",
    "total_cenarios": 5
   },
   {
@@ -1153,9 +1174,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/real-time-big-data-flavio-tem-46-no-2o-turno-lula-45/",
-   "pesquisa_id": "2-real-time-2026-09-30-3822",
+   "pesquisa_id": "2-real-time-2026-09-30-3831",
    "cenario": 3,
-   "id": "2-real-time-2026-09-30-3822-c3",
+   "id": "2-real-time-2026-09-30-3831-c3",
    "total_cenarios": 5
   },
   {
@@ -1174,9 +1195,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/real-time-big-data-flavio-tem-46-no-2o-turno-lula-45/",
-   "pesquisa_id": "2-real-time-2026-09-30-3822",
+   "pesquisa_id": "2-real-time-2026-09-30-3831",
    "cenario": 2,
-   "id": "2-real-time-2026-09-30-3822-c2",
+   "id": "2-real-time-2026-09-30-3831-c2",
    "total_cenarios": 5
   },
   {
@@ -1220,9 +1241,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/real-time-big-data-flavio-tem-46-no-2o-turno-lula-45/",
-   "pesquisa_id": "2-real-time-2026-09-30-3822",
+   "pesquisa_id": "2-real-time-2026-09-30-3831",
    "cenario": 1,
-   "id": "2-real-time-2026-09-30-3822-c1",
+   "id": "2-real-time-2026-09-30-3831-c1",
    "total_cenarios": 5
   },
   {
@@ -1241,9 +1262,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2506,
    "link": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/01/datafolha-presidente-1-outubro.ghtml",
-   "pesquisa_id": "2-datafolha-2026-09-30-3777",
+   "pesquisa_id": "2-datafolha-2026-09-30-3786",
    "cenario": 5,
-   "id": "2-datafolha-2026-09-30-3777-c5",
+   "id": "2-datafolha-2026-09-30-3786-c5",
    "total_cenarios": 5
   },
   {
@@ -1262,9 +1283,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2506,
    "link": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/01/datafolha-presidente-1-outubro.ghtml",
-   "pesquisa_id": "2-datafolha-2026-09-30-3777",
+   "pesquisa_id": "2-datafolha-2026-09-30-3786",
    "cenario": 4,
-   "id": "2-datafolha-2026-09-30-3777-c4",
+   "id": "2-datafolha-2026-09-30-3786-c4",
    "total_cenarios": 5
   },
   {
@@ -1283,9 +1304,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2506,
    "link": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/01/datafolha-presidente-1-outubro.ghtml",
-   "pesquisa_id": "2-datafolha-2026-09-30-3777",
+   "pesquisa_id": "2-datafolha-2026-09-30-3786",
    "cenario": 3,
-   "id": "2-datafolha-2026-09-30-3777-c3",
+   "id": "2-datafolha-2026-09-30-3786-c3",
    "total_cenarios": 5
   },
   {
@@ -1304,9 +1325,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2506,
    "link": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/01/datafolha-presidente-1-outubro.ghtml",
-   "pesquisa_id": "2-datafolha-2026-09-30-3777",
+   "pesquisa_id": "2-datafolha-2026-09-30-3786",
    "cenario": 2,
-   "id": "2-datafolha-2026-09-30-3777-c2",
+   "id": "2-datafolha-2026-09-30-3786-c2",
    "total_cenarios": 5
   },
   {
@@ -1350,9 +1371,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2506,
    "link": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/01/datafolha-presidente-1-outubro.ghtml",
-   "pesquisa_id": "2-datafolha-2026-09-30-3777",
+   "pesquisa_id": "2-datafolha-2026-09-30-3786",
    "cenario": 1,
-   "id": "2-datafolha-2026-09-30-3777-c1",
+   "id": "2-datafolha-2026-09-30-3786-c1",
    "total_cenarios": 5
   },
   {
@@ -1371,9 +1392,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/indexa-broadcast-no-2o-turno-lula-tem-43-flavio-42/",
-   "pesquisa_id": "2-indexa-2026-09-29-3867",
+   "pesquisa_id": "2-indexa-2026-09-29-3876",
    "cenario": 5,
-   "id": "2-indexa-2026-09-29-3867-c5",
+   "id": "2-indexa-2026-09-29-3876-c5",
    "total_cenarios": 5
   },
   {
@@ -1392,9 +1413,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/indexa-broadcast-no-2o-turno-lula-tem-43-flavio-42/",
-   "pesquisa_id": "2-indexa-2026-09-29-3867",
+   "pesquisa_id": "2-indexa-2026-09-29-3876",
    "cenario": 4,
-   "id": "2-indexa-2026-09-29-3867-c4",
+   "id": "2-indexa-2026-09-29-3876-c4",
    "total_cenarios": 5
   },
   {
@@ -1413,9 +1434,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/indexa-broadcast-no-2o-turno-lula-tem-43-flavio-42/",
-   "pesquisa_id": "2-indexa-2026-09-29-3867",
+   "pesquisa_id": "2-indexa-2026-09-29-3876",
    "cenario": 3,
-   "id": "2-indexa-2026-09-29-3867-c3",
+   "id": "2-indexa-2026-09-29-3876-c3",
    "total_cenarios": 5
   },
   {
@@ -1434,9 +1455,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/indexa-broadcast-no-2o-turno-lula-tem-43-flavio-42/",
-   "pesquisa_id": "2-indexa-2026-09-29-3867",
+   "pesquisa_id": "2-indexa-2026-09-29-3876",
    "cenario": 2,
-   "id": "2-indexa-2026-09-29-3867-c2",
+   "id": "2-indexa-2026-09-29-3876-c2",
    "total_cenarios": 5
   },
   {
@@ -1480,9 +1501,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/indexa-broadcast-no-2o-turno-lula-tem-43-flavio-42/",
-   "pesquisa_id": "2-indexa-2026-09-29-3867",
+   "pesquisa_id": "2-indexa-2026-09-29-3876",
    "cenario": 1,
-   "id": "2-indexa-2026-09-29-3867-c1",
+   "id": "2-indexa-2026-09-29-3876-c1",
    "total_cenarios": 5
   },
   {
@@ -1501,9 +1522,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/futura-flavio-tem-49-das-intencoes-de-voto-no-2o-turno-lula-435/",
-   "pesquisa_id": "2-futura-2026-09-29-3912",
+   "pesquisa_id": "2-futura-2026-09-29-3921",
    "cenario": 5,
-   "id": "2-futura-2026-09-29-3912-c5",
+   "id": "2-futura-2026-09-29-3921-c5",
    "total_cenarios": 5
   },
   {
@@ -1522,9 +1543,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/futura-flavio-tem-49-das-intencoes-de-voto-no-2o-turno-lula-435/",
-   "pesquisa_id": "2-futura-2026-09-29-3912",
+   "pesquisa_id": "2-futura-2026-09-29-3921",
    "cenario": 4,
-   "id": "2-futura-2026-09-29-3912-c4",
+   "id": "2-futura-2026-09-29-3921-c4",
    "total_cenarios": 5
   },
   {
@@ -1543,9 +1564,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/futura-flavio-tem-49-das-intencoes-de-voto-no-2o-turno-lula-435/",
-   "pesquisa_id": "2-futura-2026-09-29-3912",
+   "pesquisa_id": "2-futura-2026-09-29-3921",
    "cenario": 3,
-   "id": "2-futura-2026-09-29-3912-c3",
+   "id": "2-futura-2026-09-29-3921-c3",
    "total_cenarios": 5
   },
   {
@@ -1564,9 +1585,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/futura-flavio-tem-49-das-intencoes-de-voto-no-2o-turno-lula-435/",
-   "pesquisa_id": "2-futura-2026-09-29-3912",
+   "pesquisa_id": "2-futura-2026-09-29-3921",
    "cenario": 2,
-   "id": "2-futura-2026-09-29-3912-c2",
+   "id": "2-futura-2026-09-29-3921-c2",
    "total_cenarios": 5
   },
   {
@@ -1610,9 +1631,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/futura-flavio-tem-49-das-intencoes-de-voto-no-2o-turno-lula-435/",
-   "pesquisa_id": "2-futura-2026-09-29-3912",
+   "pesquisa_id": "2-futura-2026-09-29-3921",
    "cenario": 1,
-   "id": "2-futura-2026-09-29-3912-c1",
+   "id": "2-futura-2026-09-29-3921-c1",
    "total_cenarios": 5
   },
   {
@@ -1631,9 +1652,9 @@ window.PESQUISAS = {
    "margem": 2.15,
    "amostra": 2100,
    "link": "https://www.cnnbrasil.com.br/eleicoes/vox-flavio-tem-452-das-intencoes-de-voto-no-2o-turno-lula-447/",
-   "pesquisa_id": "2-vox-brasil-2026-09-28-3957",
+   "pesquisa_id": "2-vox-brasil-2026-09-28-3966",
    "cenario": 4,
-   "id": "2-vox-brasil-2026-09-28-3957-c4",
+   "id": "2-vox-brasil-2026-09-28-3966-c4",
    "total_cenarios": 4
   },
   {
@@ -1652,9 +1673,9 @@ window.PESQUISAS = {
    "margem": 2.15,
    "amostra": 2100,
    "link": "https://www.cnnbrasil.com.br/eleicoes/vox-flavio-tem-452-das-intencoes-de-voto-no-2o-turno-lula-447/",
-   "pesquisa_id": "2-vox-brasil-2026-09-28-3957",
+   "pesquisa_id": "2-vox-brasil-2026-09-28-3966",
    "cenario": 3,
-   "id": "2-vox-brasil-2026-09-28-3957-c3",
+   "id": "2-vox-brasil-2026-09-28-3966-c3",
    "total_cenarios": 4
   },
   {
@@ -1673,9 +1694,9 @@ window.PESQUISAS = {
    "margem": 2.15,
    "amostra": 2100,
    "link": "https://www.cnnbrasil.com.br/eleicoes/vox-flavio-tem-452-das-intencoes-de-voto-no-2o-turno-lula-447/",
-   "pesquisa_id": "2-vox-brasil-2026-09-28-3957",
+   "pesquisa_id": "2-vox-brasil-2026-09-28-3966",
    "cenario": 2,
-   "id": "2-vox-brasil-2026-09-28-3957-c2",
+   "id": "2-vox-brasil-2026-09-28-3966-c2",
    "total_cenarios": 4
   },
   {
@@ -1719,9 +1740,9 @@ window.PESQUISAS = {
    "margem": 2.15,
    "amostra": 2100,
    "link": "https://www.cnnbrasil.com.br/eleicoes/vox-flavio-tem-452-das-intencoes-de-voto-no-2o-turno-lula-447/",
-   "pesquisa_id": "2-vox-brasil-2026-09-28-3957",
+   "pesquisa_id": "2-vox-brasil-2026-09-28-3966",
    "cenario": 1,
-   "id": "2-vox-brasil-2026-09-28-3957-c1",
+   "id": "2-vox-brasil-2026-09-28-3966-c1",
    "total_cenarios": 4
   },
   {
@@ -1740,9 +1761,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.canalmeio.com.br/wp-content/uploads/2026/09/Pesquisa-Meio_Ideia-Setembro2.pdf",
-   "pesquisa_id": "2-ideia-2026-09-28-3994",
+   "pesquisa_id": "2-ideia-2026-09-28-4003",
    "cenario": 5,
-   "id": "2-ideia-2026-09-28-3994-c5",
+   "id": "2-ideia-2026-09-28-4003-c5",
    "total_cenarios": 5
   },
   {
@@ -1761,9 +1782,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.canalmeio.com.br/wp-content/uploads/2026/09/Pesquisa-Meio_Ideia-Setembro2.pdf",
-   "pesquisa_id": "2-ideia-2026-09-28-3994",
+   "pesquisa_id": "2-ideia-2026-09-28-4003",
    "cenario": 4,
-   "id": "2-ideia-2026-09-28-3994-c4",
+   "id": "2-ideia-2026-09-28-4003-c4",
    "total_cenarios": 5
   },
   {
@@ -1782,9 +1803,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.canalmeio.com.br/wp-content/uploads/2026/09/Pesquisa-Meio_Ideia-Setembro2.pdf",
-   "pesquisa_id": "2-ideia-2026-09-28-3994",
+   "pesquisa_id": "2-ideia-2026-09-28-4003",
    "cenario": 3,
-   "id": "2-ideia-2026-09-28-3994-c3",
+   "id": "2-ideia-2026-09-28-4003-c3",
    "total_cenarios": 5
   },
   {
@@ -1803,9 +1824,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.canalmeio.com.br/wp-content/uploads/2026/09/Pesquisa-Meio_Ideia-Setembro2.pdf",
-   "pesquisa_id": "2-ideia-2026-09-28-3994",
+   "pesquisa_id": "2-ideia-2026-09-28-4003",
    "cenario": 2,
-   "id": "2-ideia-2026-09-28-3994-c2",
+   "id": "2-ideia-2026-09-28-4003-c2",
    "total_cenarios": 5
   },
   {
@@ -1849,9 +1870,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.canalmeio.com.br/wp-content/uploads/2026/09/Pesquisa-Meio_Ideia-Setembro2.pdf",
-   "pesquisa_id": "2-ideia-2026-09-28-3994",
+   "pesquisa_id": "2-ideia-2026-09-28-4003",
    "cenario": 1,
-   "id": "2-ideia-2026-09-28-3994-c1",
+   "id": "2-ideia-2026-09-28-4003-c1",
    "total_cenarios": 5
   },
   {
@@ -1870,9 +1891,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5005,
    "link": "https://noticias.uol.com.br/eleicoes/2026/09/29/atlasbloomberg-lula-e-flavio-tem-empate-tecnico-no-2-turno.ghtm",
-   "pesquisa_id": "2-atlasintel-2026-09-28-4039",
+   "pesquisa_id": "2-atlasintel-2026-09-28-4048",
    "cenario": 5,
-   "id": "2-atlasintel-2026-09-28-4039-c5",
+   "id": "2-atlasintel-2026-09-28-4048-c5",
    "total_cenarios": 5
   },
   {
@@ -1891,9 +1912,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5005,
    "link": "https://noticias.uol.com.br/eleicoes/2026/09/29/atlasbloomberg-lula-e-flavio-tem-empate-tecnico-no-2-turno.ghtm",
-   "pesquisa_id": "2-atlasintel-2026-09-28-4039",
+   "pesquisa_id": "2-atlasintel-2026-09-28-4048",
    "cenario": 4,
-   "id": "2-atlasintel-2026-09-28-4039-c4",
+   "id": "2-atlasintel-2026-09-28-4048-c4",
    "total_cenarios": 5
   },
   {
@@ -1912,9 +1933,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5005,
    "link": "https://noticias.uol.com.br/eleicoes/2026/09/29/atlasbloomberg-lula-e-flavio-tem-empate-tecnico-no-2-turno.ghtm",
-   "pesquisa_id": "2-atlasintel-2026-09-28-4039",
+   "pesquisa_id": "2-atlasintel-2026-09-28-4048",
    "cenario": 3,
-   "id": "2-atlasintel-2026-09-28-4039-c3",
+   "id": "2-atlasintel-2026-09-28-4048-c3",
    "total_cenarios": 5
   },
   {
@@ -1933,9 +1954,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5005,
    "link": "https://noticias.uol.com.br/eleicoes/2026/09/29/atlasbloomberg-lula-e-flavio-tem-empate-tecnico-no-2-turno.ghtm",
-   "pesquisa_id": "2-atlasintel-2026-09-28-4039",
+   "pesquisa_id": "2-atlasintel-2026-09-28-4048",
    "cenario": 2,
-   "id": "2-atlasintel-2026-09-28-4039-c2",
+   "id": "2-atlasintel-2026-09-28-4048-c2",
    "total_cenarios": 5
   },
   {
@@ -1979,9 +2000,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5005,
    "link": "https://noticias.uol.com.br/eleicoes/2026/09/29/atlasbloomberg-lula-e-flavio-tem-empate-tecnico-no-2-turno.ghtm",
-   "pesquisa_id": "2-atlasintel-2026-09-28-4039",
+   "pesquisa_id": "2-atlasintel-2026-09-28-4048",
    "cenario": 1,
-   "id": "2-atlasintel-2026-09-28-4039-c1",
+   "id": "2-atlasintel-2026-09-28-4048-c1",
    "total_cenarios": 5
   },
   {
@@ -2000,9 +2021,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/28/quaest-presidente-1o-turno-28-setembro.ghtml",
-   "pesquisa_id": "2-quaest-2026-09-27-4129",
+   "pesquisa_id": "2-quaest-2026-09-27-4138",
    "cenario": 5,
-   "id": "2-quaest-2026-09-27-4129-c5",
+   "id": "2-quaest-2026-09-27-4138-c5",
    "total_cenarios": 5
   },
   {
@@ -2021,9 +2042,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/28/quaest-presidente-1o-turno-28-setembro.ghtml",
-   "pesquisa_id": "2-quaest-2026-09-27-4129",
+   "pesquisa_id": "2-quaest-2026-09-27-4138",
    "cenario": 4,
-   "id": "2-quaest-2026-09-27-4129-c4",
+   "id": "2-quaest-2026-09-27-4138-c4",
    "total_cenarios": 5
   },
   {
@@ -2042,9 +2063,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/28/quaest-presidente-1o-turno-28-setembro.ghtml",
-   "pesquisa_id": "2-quaest-2026-09-27-4129",
+   "pesquisa_id": "2-quaest-2026-09-27-4138",
    "cenario": 3,
-   "id": "2-quaest-2026-09-27-4129-c3",
+   "id": "2-quaest-2026-09-27-4138-c3",
    "total_cenarios": 5
   },
   {
@@ -2063,9 +2084,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/28/quaest-presidente-1o-turno-28-setembro.ghtml",
-   "pesquisa_id": "2-quaest-2026-09-27-4129",
+   "pesquisa_id": "2-quaest-2026-09-27-4138",
    "cenario": 2,
-   "id": "2-quaest-2026-09-27-4129-c2",
+   "id": "2-quaest-2026-09-27-4138-c2",
    "total_cenarios": 5
   },
   {
@@ -2109,9 +2130,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/28/quaest-presidente-1o-turno-28-setembro.ghtml",
-   "pesquisa_id": "2-quaest-2026-09-27-4129",
+   "pesquisa_id": "2-quaest-2026-09-27-4138",
    "cenario": 1,
-   "id": "2-quaest-2026-09-27-4129-c1",
+   "id": "2-quaest-2026-09-27-4138-c1",
    "total_cenarios": 5
   },
   {
@@ -2130,9 +2151,9 @@ window.PESQUISAS = {
    "margem": 2.4,
    "amostra": 5000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/palver-flavio-tem-47-das-intencoes-de-voto-no-2o-turno-lula-45/",
-   "pesquisa_id": "2-palver-2026-09-27-4174",
+   "pesquisa_id": "2-palver-2026-09-27-4183",
    "cenario": 5,
-   "id": "2-palver-2026-09-27-4174-c5",
+   "id": "2-palver-2026-09-27-4183-c5",
    "total_cenarios": 5
   },
   {
@@ -2151,9 +2172,9 @@ window.PESQUISAS = {
    "margem": 2.4,
    "amostra": 5000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/palver-flavio-tem-47-das-intencoes-de-voto-no-2o-turno-lula-45/",
-   "pesquisa_id": "2-palver-2026-09-27-4174",
+   "pesquisa_id": "2-palver-2026-09-27-4183",
    "cenario": 4,
-   "id": "2-palver-2026-09-27-4174-c4",
+   "id": "2-palver-2026-09-27-4183-c4",
    "total_cenarios": 5
   },
   {
@@ -2172,9 +2193,9 @@ window.PESQUISAS = {
    "margem": 2.4,
    "amostra": 5000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/palver-flavio-tem-47-das-intencoes-de-voto-no-2o-turno-lula-45/",
-   "pesquisa_id": "2-palver-2026-09-27-4174",
+   "pesquisa_id": "2-palver-2026-09-27-4183",
    "cenario": 3,
-   "id": "2-palver-2026-09-27-4174-c3",
+   "id": "2-palver-2026-09-27-4183-c3",
    "total_cenarios": 5
   },
   {
@@ -2193,9 +2214,9 @@ window.PESQUISAS = {
    "margem": 2.4,
    "amostra": 5000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/palver-flavio-tem-47-das-intencoes-de-voto-no-2o-turno-lula-45/",
-   "pesquisa_id": "2-palver-2026-09-27-4174",
+   "pesquisa_id": "2-palver-2026-09-27-4183",
    "cenario": 2,
-   "id": "2-palver-2026-09-27-4174-c2",
+   "id": "2-palver-2026-09-27-4183-c2",
    "total_cenarios": 5
   },
   {
@@ -2239,9 +2260,9 @@ window.PESQUISAS = {
    "margem": 2.4,
    "amostra": 5000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/palver-flavio-tem-47-das-intencoes-de-voto-no-2o-turno-lula-45/",
-   "pesquisa_id": "2-palver-2026-09-27-4174",
+   "pesquisa_id": "2-palver-2026-09-27-4183",
    "cenario": 1,
-   "id": "2-palver-2026-09-27-4174-c1",
+   "id": "2-palver-2026-09-27-4183-c1",
    "total_cenarios": 5
   },
   {
@@ -2260,9 +2281,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2000,
    "link": "https://content.btgpactual.com/research/files/file/pt-BR/2026-09-28T010233.441_BTG_Nexus___Elei__es_2026___Rodada_16___vers_o_executiva__28_set_2026__6506.pdf",
-   "pesquisa_id": "2-nexus-2026-09-27-4084",
+   "pesquisa_id": "2-nexus-2026-09-27-4093",
    "cenario": 5,
-   "id": "2-nexus-2026-09-27-4084-c5",
+   "id": "2-nexus-2026-09-27-4093-c5",
    "total_cenarios": 5
   },
   {
@@ -2281,9 +2302,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2000,
    "link": "https://content.btgpactual.com/research/files/file/pt-BR/2026-09-28T010233.441_BTG_Nexus___Elei__es_2026___Rodada_16___vers_o_executiva__28_set_2026__6506.pdf",
-   "pesquisa_id": "2-nexus-2026-09-27-4084",
+   "pesquisa_id": "2-nexus-2026-09-27-4093",
    "cenario": 4,
-   "id": "2-nexus-2026-09-27-4084-c4",
+   "id": "2-nexus-2026-09-27-4093-c4",
    "total_cenarios": 5
   },
   {
@@ -2302,9 +2323,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2000,
    "link": "https://content.btgpactual.com/research/files/file/pt-BR/2026-09-28T010233.441_BTG_Nexus___Elei__es_2026___Rodada_16___vers_o_executiva__28_set_2026__6506.pdf",
-   "pesquisa_id": "2-nexus-2026-09-27-4084",
+   "pesquisa_id": "2-nexus-2026-09-27-4093",
    "cenario": 3,
-   "id": "2-nexus-2026-09-27-4084-c3",
+   "id": "2-nexus-2026-09-27-4093-c3",
    "total_cenarios": 5
   },
   {
@@ -2323,9 +2344,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2000,
    "link": "https://content.btgpactual.com/research/files/file/pt-BR/2026-09-28T010233.441_BTG_Nexus___Elei__es_2026___Rodada_16___vers_o_executiva__28_set_2026__6506.pdf",
-   "pesquisa_id": "2-nexus-2026-09-27-4084",
+   "pesquisa_id": "2-nexus-2026-09-27-4093",
    "cenario": 2,
-   "id": "2-nexus-2026-09-27-4084-c2",
+   "id": "2-nexus-2026-09-27-4093-c2",
    "total_cenarios": 5
   },
   {
@@ -2369,9 +2390,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2000,
    "link": "https://content.btgpactual.com/research/files/file/pt-BR/2026-09-28T010233.441_BTG_Nexus___Elei__es_2026___Rodada_16___vers_o_executiva__28_set_2026__6506.pdf",
-   "pesquisa_id": "2-nexus-2026-09-27-4084",
+   "pesquisa_id": "2-nexus-2026-09-27-4093",
    "cenario": 1,
-   "id": "2-nexus-2026-09-27-4084-c1",
+   "id": "2-nexus-2026-09-27-4093-c1",
    "total_cenarios": 5
   },
   {
@@ -2390,9 +2411,9 @@ window.PESQUISAS = {
    "margem": 2.4,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/futura-flavio-tem-494-no-2o-turno-lula-437/",
-   "pesquisa_id": "2-futura-2026-09-24-4264",
+   "pesquisa_id": "2-futura-2026-09-24-4273",
    "cenario": 5,
-   "id": "2-futura-2026-09-24-4264-c5",
+   "id": "2-futura-2026-09-24-4273-c5",
    "total_cenarios": 5
   },
   {
@@ -2411,9 +2432,9 @@ window.PESQUISAS = {
    "margem": 2.4,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/futura-flavio-tem-494-no-2o-turno-lula-437/",
-   "pesquisa_id": "2-futura-2026-09-24-4264",
+   "pesquisa_id": "2-futura-2026-09-24-4273",
    "cenario": 4,
-   "id": "2-futura-2026-09-24-4264-c4",
+   "id": "2-futura-2026-09-24-4273-c4",
    "total_cenarios": 5
   },
   {
@@ -2432,9 +2453,9 @@ window.PESQUISAS = {
    "margem": 2.4,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/futura-flavio-tem-494-no-2o-turno-lula-437/",
-   "pesquisa_id": "2-futura-2026-09-24-4264",
+   "pesquisa_id": "2-futura-2026-09-24-4273",
    "cenario": 3,
-   "id": "2-futura-2026-09-24-4264-c3",
+   "id": "2-futura-2026-09-24-4273-c3",
    "total_cenarios": 5
   },
   {
@@ -2453,9 +2474,9 @@ window.PESQUISAS = {
    "margem": 2.4,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/futura-flavio-tem-494-no-2o-turno-lula-437/",
-   "pesquisa_id": "2-futura-2026-09-24-4264",
+   "pesquisa_id": "2-futura-2026-09-24-4273",
    "cenario": 2,
-   "id": "2-futura-2026-09-24-4264-c2",
+   "id": "2-futura-2026-09-24-4273-c2",
    "total_cenarios": 5
   },
   {
@@ -2499,9 +2520,9 @@ window.PESQUISAS = {
    "margem": 2.4,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/futura-flavio-tem-494-no-2o-turno-lula-437/",
-   "pesquisa_id": "2-futura-2026-09-24-4264",
+   "pesquisa_id": "2-futura-2026-09-24-4273",
    "cenario": 1,
-   "id": "2-futura-2026-09-24-4264-c1",
+   "id": "2-futura-2026-09-24-4273-c1",
    "total_cenarios": 5
   },
   {
@@ -2520,9 +2541,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2002,
    "link": "https://www.cnnbrasil.com.br/eleicoes/datafolha-lula-tem-47-no-2o-turno-flavio-45/",
-   "pesquisa_id": "2-datafolha-2026-09-24-4219",
+   "pesquisa_id": "2-datafolha-2026-09-24-4228",
    "cenario": 5,
-   "id": "2-datafolha-2026-09-24-4219-c5",
+   "id": "2-datafolha-2026-09-24-4228-c5",
    "total_cenarios": 5
   },
   {
@@ -2541,9 +2562,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2002,
    "link": "https://www.cnnbrasil.com.br/eleicoes/datafolha-lula-tem-47-no-2o-turno-flavio-45/",
-   "pesquisa_id": "2-datafolha-2026-09-24-4219",
+   "pesquisa_id": "2-datafolha-2026-09-24-4228",
    "cenario": 4,
-   "id": "2-datafolha-2026-09-24-4219-c4",
+   "id": "2-datafolha-2026-09-24-4228-c4",
    "total_cenarios": 5
   },
   {
@@ -2562,9 +2583,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2002,
    "link": "https://www.cnnbrasil.com.br/eleicoes/datafolha-lula-tem-47-no-2o-turno-flavio-45/",
-   "pesquisa_id": "2-datafolha-2026-09-24-4219",
+   "pesquisa_id": "2-datafolha-2026-09-24-4228",
    "cenario": 3,
-   "id": "2-datafolha-2026-09-24-4219-c3",
+   "id": "2-datafolha-2026-09-24-4228-c3",
    "total_cenarios": 5
   },
   {
@@ -2583,9 +2604,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2002,
    "link": "https://www.cnnbrasil.com.br/eleicoes/datafolha-lula-tem-47-no-2o-turno-flavio-45/",
-   "pesquisa_id": "2-datafolha-2026-09-24-4219",
+   "pesquisa_id": "2-datafolha-2026-09-24-4228",
    "cenario": 2,
-   "id": "2-datafolha-2026-09-24-4219-c2",
+   "id": "2-datafolha-2026-09-24-4228-c2",
    "total_cenarios": 5
   },
   {
@@ -2629,9 +2650,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2002,
    "link": "https://www.cnnbrasil.com.br/eleicoes/datafolha-lula-tem-47-no-2o-turno-flavio-45/",
-   "pesquisa_id": "2-datafolha-2026-09-24-4219",
+   "pesquisa_id": "2-datafolha-2026-09-24-4228",
    "cenario": 1,
-   "id": "2-datafolha-2026-09-24-4219-c1",
+   "id": "2-datafolha-2026-09-24-4228-c1",
    "total_cenarios": 5
   },
   {
@@ -2650,9 +2671,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/real-time-big-data-flavio-tem-45-no-2o-turno-lula-44/",
-   "pesquisa_id": "2-real-time-2026-09-23-4375",
+   "pesquisa_id": "2-real-time-2026-09-23-4384",
    "cenario": 5,
-   "id": "2-real-time-2026-09-23-4375-c5",
+   "id": "2-real-time-2026-09-23-4384-c5",
    "total_cenarios": 5
   },
   {
@@ -2671,9 +2692,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/real-time-big-data-flavio-tem-45-no-2o-turno-lula-44/",
-   "pesquisa_id": "2-real-time-2026-09-23-4375",
+   "pesquisa_id": "2-real-time-2026-09-23-4384",
    "cenario": 4,
-   "id": "2-real-time-2026-09-23-4375-c4",
+   "id": "2-real-time-2026-09-23-4384-c4",
    "total_cenarios": 5
   },
   {
@@ -2692,9 +2713,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/real-time-big-data-flavio-tem-45-no-2o-turno-lula-44/",
-   "pesquisa_id": "2-real-time-2026-09-23-4375",
+   "pesquisa_id": "2-real-time-2026-09-23-4384",
    "cenario": 3,
-   "id": "2-real-time-2026-09-23-4375-c3",
+   "id": "2-real-time-2026-09-23-4384-c3",
    "total_cenarios": 5
   },
   {
@@ -2713,9 +2734,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/real-time-big-data-flavio-tem-45-no-2o-turno-lula-44/",
-   "pesquisa_id": "2-real-time-2026-09-23-4375",
+   "pesquisa_id": "2-real-time-2026-09-23-4384",
    "cenario": 2,
-   "id": "2-real-time-2026-09-23-4375-c2",
+   "id": "2-real-time-2026-09-23-4384-c2",
    "total_cenarios": 5
   },
   {
@@ -2759,9 +2780,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/real-time-big-data-flavio-tem-45-no-2o-turno-lula-44/",
-   "pesquisa_id": "2-real-time-2026-09-23-4375",
+   "pesquisa_id": "2-real-time-2026-09-23-4384",
    "cenario": 1,
-   "id": "2-real-time-2026-09-23-4375-c1",
+   "id": "2-real-time-2026-09-23-4384-c1",
    "total_cenarios": 5
   },
   {
@@ -2780,9 +2801,9 @@ window.PESQUISAS = {
    "margem": 1.8,
    "amostra": 3000,
    "link": "https://www.poder360.com.br/poderdata/em-votos-validos-lula-tem-43-contra-42-de-flavio-no-1o-turno/",
-   "pesquisa_id": "2-poderdata-2026-09-23-4309",
+   "pesquisa_id": "2-poderdata-2026-09-23-4318",
    "cenario": 2,
-   "id": "2-poderdata-2026-09-23-4309-c2",
+   "id": "2-poderdata-2026-09-23-4318-c2",
    "total_cenarios": 2
   },
   {
@@ -2826,9 +2847,9 @@ window.PESQUISAS = {
    "margem": 1.8,
    "amostra": 3000,
    "link": "https://www.poder360.com.br/poderdata/em-votos-validos-lula-tem-43-contra-42-de-flavio-no-1o-turno/",
-   "pesquisa_id": "2-poderdata-2026-09-23-4309",
+   "pesquisa_id": "2-poderdata-2026-09-23-4318",
    "cenario": 1,
-   "id": "2-poderdata-2026-09-23-4309-c1",
+   "id": "2-poderdata-2026-09-23-4318-c1",
    "total_cenarios": 2
   },
   {
@@ -2847,9 +2868,9 @@ window.PESQUISAS = {
    "margem": 3.0,
    "amostra": 5000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/palver-flavio-tem-48-das-intencoes-de-voto-no-2o-turno-lula-45/",
-   "pesquisa_id": "2-palver-2026-09-23-4330",
+   "pesquisa_id": "2-palver-2026-09-23-4339",
    "cenario": 5,
-   "id": "2-palver-2026-09-23-4330-c5",
+   "id": "2-palver-2026-09-23-4339-c5",
    "total_cenarios": 5
   },
   {
@@ -2868,9 +2889,9 @@ window.PESQUISAS = {
    "margem": 3.0,
    "amostra": 5000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/palver-flavio-tem-48-das-intencoes-de-voto-no-2o-turno-lula-45/",
-   "pesquisa_id": "2-palver-2026-09-23-4330",
+   "pesquisa_id": "2-palver-2026-09-23-4339",
    "cenario": 4,
-   "id": "2-palver-2026-09-23-4330-c4",
+   "id": "2-palver-2026-09-23-4339-c4",
    "total_cenarios": 5
   },
   {
@@ -2889,9 +2910,9 @@ window.PESQUISAS = {
    "margem": 3.0,
    "amostra": 5000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/palver-flavio-tem-48-das-intencoes-de-voto-no-2o-turno-lula-45/",
-   "pesquisa_id": "2-palver-2026-09-23-4330",
+   "pesquisa_id": "2-palver-2026-09-23-4339",
    "cenario": 3,
-   "id": "2-palver-2026-09-23-4330-c3",
+   "id": "2-palver-2026-09-23-4339-c3",
    "total_cenarios": 5
   },
   {
@@ -2910,9 +2931,9 @@ window.PESQUISAS = {
    "margem": 3.0,
    "amostra": 5000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/palver-flavio-tem-48-das-intencoes-de-voto-no-2o-turno-lula-45/",
-   "pesquisa_id": "2-palver-2026-09-23-4330",
+   "pesquisa_id": "2-palver-2026-09-23-4339",
    "cenario": 2,
-   "id": "2-palver-2026-09-23-4330-c2",
+   "id": "2-palver-2026-09-23-4339-c2",
    "total_cenarios": 5
   },
   {
@@ -2956,9 +2977,9 @@ window.PESQUISAS = {
    "margem": 3.0,
    "amostra": 5000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/palver-flavio-tem-48-das-intencoes-de-voto-no-2o-turno-lula-45/",
-   "pesquisa_id": "2-palver-2026-09-23-4330",
+   "pesquisa_id": "2-palver-2026-09-23-4339",
    "cenario": 1,
-   "id": "2-palver-2026-09-23-4330-c1",
+   "id": "2-palver-2026-09-23-4339-c1",
    "total_cenarios": 5
   },
   {
@@ -2977,9 +2998,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5015,
    "link": "https://www.cnnbrasil.com.br/eleicoes/atlas-bloomberg-lula-tem-477-no-2o-turno-flavio-474/",
-   "pesquisa_id": "2-atlasintel-2026-09-22-4420",
+   "pesquisa_id": "2-atlasintel-2026-09-22-4429",
    "cenario": 5,
-   "id": "2-atlasintel-2026-09-22-4420-c5",
+   "id": "2-atlasintel-2026-09-22-4429-c5",
    "total_cenarios": 5
   },
   {
@@ -2998,9 +3019,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5015,
    "link": "https://www.cnnbrasil.com.br/eleicoes/atlas-bloomberg-lula-tem-477-no-2o-turno-flavio-474/",
-   "pesquisa_id": "2-atlasintel-2026-09-22-4420",
+   "pesquisa_id": "2-atlasintel-2026-09-22-4429",
    "cenario": 4,
-   "id": "2-atlasintel-2026-09-22-4420-c4",
+   "id": "2-atlasintel-2026-09-22-4429-c4",
    "total_cenarios": 5
   },
   {
@@ -3019,9 +3040,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5015,
    "link": "https://www.cnnbrasil.com.br/eleicoes/atlas-bloomberg-lula-tem-477-no-2o-turno-flavio-474/",
-   "pesquisa_id": "2-atlasintel-2026-09-22-4420",
+   "pesquisa_id": "2-atlasintel-2026-09-22-4429",
    "cenario": 3,
-   "id": "2-atlasintel-2026-09-22-4420-c3",
+   "id": "2-atlasintel-2026-09-22-4429-c3",
    "total_cenarios": 5
   },
   {
@@ -3040,9 +3061,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5015,
    "link": "https://www.cnnbrasil.com.br/eleicoes/atlas-bloomberg-lula-tem-477-no-2o-turno-flavio-474/",
-   "pesquisa_id": "2-atlasintel-2026-09-22-4420",
+   "pesquisa_id": "2-atlasintel-2026-09-22-4429",
    "cenario": 2,
-   "id": "2-atlasintel-2026-09-22-4420-c2",
+   "id": "2-atlasintel-2026-09-22-4429-c2",
    "total_cenarios": 5
   },
   {
@@ -3086,9 +3107,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5015,
    "link": "https://www.cnnbrasil.com.br/eleicoes/atlas-bloomberg-lula-tem-477-no-2o-turno-flavio-474/",
-   "pesquisa_id": "2-atlasintel-2026-09-22-4420",
+   "pesquisa_id": "2-atlasintel-2026-09-22-4429",
    "cenario": 1,
-   "id": "2-atlasintel-2026-09-22-4420-c1",
+   "id": "2-atlasintel-2026-09-22-4429-c1",
    "total_cenarios": 5
   },
   {
@@ -3107,9 +3128,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/21/quaest-presidente-1o-turno-21-setembro.ghtml",
-   "pesquisa_id": "2-quaest-2026-09-20-4510",
+   "pesquisa_id": "2-quaest-2026-09-20-4519",
    "cenario": 5,
-   "id": "2-quaest-2026-09-20-4510-c5",
+   "id": "2-quaest-2026-09-20-4519-c5",
    "total_cenarios": 5
   },
   {
@@ -3128,9 +3149,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/21/quaest-presidente-1o-turno-21-setembro.ghtml",
-   "pesquisa_id": "2-quaest-2026-09-20-4510",
+   "pesquisa_id": "2-quaest-2026-09-20-4519",
    "cenario": 4,
-   "id": "2-quaest-2026-09-20-4510-c4",
+   "id": "2-quaest-2026-09-20-4519-c4",
    "total_cenarios": 5
   },
   {
@@ -3149,9 +3170,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/21/quaest-presidente-1o-turno-21-setembro.ghtml",
-   "pesquisa_id": "2-quaest-2026-09-20-4510",
+   "pesquisa_id": "2-quaest-2026-09-20-4519",
    "cenario": 3,
-   "id": "2-quaest-2026-09-20-4510-c3",
+   "id": "2-quaest-2026-09-20-4519-c3",
    "total_cenarios": 5
   },
   {
@@ -3170,9 +3191,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/21/quaest-presidente-1o-turno-21-setembro.ghtml",
-   "pesquisa_id": "2-quaest-2026-09-20-4510",
+   "pesquisa_id": "2-quaest-2026-09-20-4519",
    "cenario": 2,
-   "id": "2-quaest-2026-09-20-4510-c2",
+   "id": "2-quaest-2026-09-20-4519-c2",
    "total_cenarios": 5
   },
   {
@@ -3216,9 +3237,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/21/quaest-presidente-1o-turno-21-setembro.ghtml",
-   "pesquisa_id": "2-quaest-2026-09-20-4510",
+   "pesquisa_id": "2-quaest-2026-09-20-4519",
    "cenario": 1,
-   "id": "2-quaest-2026-09-20-4510-c1",
+   "id": "2-quaest-2026-09-20-4519-c1",
    "total_cenarios": 5
   },
   {
@@ -3237,9 +3258,9 @@ window.PESQUISAS = {
    "margem": 3.0,
    "amostra": 5000,
    "link": "https://www.jota.info/eleicoes/eleicoes-2026/palver-mostra-flavio-bolsonaro-numericamente-a-frente-de-lula-no-1o-turno-em-empate-tecnico",
-   "pesquisa_id": "2-palver-2026-09-20-4555",
+   "pesquisa_id": "2-palver-2026-09-20-4564",
    "cenario": 5,
-   "id": "2-palver-2026-09-20-4555-c5",
+   "id": "2-palver-2026-09-20-4564-c5",
    "total_cenarios": 5
   },
   {
@@ -3258,9 +3279,9 @@ window.PESQUISAS = {
    "margem": 3.0,
    "amostra": 5000,
    "link": "https://www.jota.info/eleicoes/eleicoes-2026/palver-mostra-flavio-bolsonaro-numericamente-a-frente-de-lula-no-1o-turno-em-empate-tecnico",
-   "pesquisa_id": "2-palver-2026-09-20-4555",
+   "pesquisa_id": "2-palver-2026-09-20-4564",
    "cenario": 4,
-   "id": "2-palver-2026-09-20-4555-c4",
+   "id": "2-palver-2026-09-20-4564-c4",
    "total_cenarios": 5
   },
   {
@@ -3279,9 +3300,9 @@ window.PESQUISAS = {
    "margem": 3.0,
    "amostra": 5000,
    "link": "https://www.jota.info/eleicoes/eleicoes-2026/palver-mostra-flavio-bolsonaro-numericamente-a-frente-de-lula-no-1o-turno-em-empate-tecnico",
-   "pesquisa_id": "2-palver-2026-09-20-4555",
+   "pesquisa_id": "2-palver-2026-09-20-4564",
    "cenario": 3,
-   "id": "2-palver-2026-09-20-4555-c3",
+   "id": "2-palver-2026-09-20-4564-c3",
    "total_cenarios": 5
   },
   {
@@ -3300,9 +3321,9 @@ window.PESQUISAS = {
    "margem": 3.0,
    "amostra": 5000,
    "link": "https://www.jota.info/eleicoes/eleicoes-2026/palver-mostra-flavio-bolsonaro-numericamente-a-frente-de-lula-no-1o-turno-em-empate-tecnico",
-   "pesquisa_id": "2-palver-2026-09-20-4555",
+   "pesquisa_id": "2-palver-2026-09-20-4564",
    "cenario": 2,
-   "id": "2-palver-2026-09-20-4555-c2",
+   "id": "2-palver-2026-09-20-4564-c2",
    "total_cenarios": 5
   },
   {
@@ -3346,9 +3367,9 @@ window.PESQUISAS = {
    "margem": 3.0,
    "amostra": 5000,
    "link": "https://www.jota.info/eleicoes/eleicoes-2026/palver-mostra-flavio-bolsonaro-numericamente-a-frente-de-lula-no-1o-turno-em-empate-tecnico",
-   "pesquisa_id": "2-palver-2026-09-20-4555",
+   "pesquisa_id": "2-palver-2026-09-20-4564",
    "cenario": 1,
-   "id": "2-palver-2026-09-20-4555-c1",
+   "id": "2-palver-2026-09-20-4564-c1",
    "total_cenarios": 5
   },
   {
@@ -3367,9 +3388,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2006,
    "link": "https://www.cnnbrasil.com.br/eleicoes/nexus-btg-2o-turno-lula-empata-com-caiado-e-tem-empate-tecnico-com-flavio/",
-   "pesquisa_id": "2-nexus-2026-09-20-4465",
+   "pesquisa_id": "2-nexus-2026-09-20-4474",
    "cenario": 5,
-   "id": "2-nexus-2026-09-20-4465-c5",
+   "id": "2-nexus-2026-09-20-4474-c5",
    "total_cenarios": 5
   },
   {
@@ -3388,9 +3409,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2006,
    "link": "https://www.cnnbrasil.com.br/eleicoes/nexus-btg-2o-turno-lula-empata-com-caiado-e-tem-empate-tecnico-com-flavio/",
-   "pesquisa_id": "2-nexus-2026-09-20-4465",
+   "pesquisa_id": "2-nexus-2026-09-20-4474",
    "cenario": 4,
-   "id": "2-nexus-2026-09-20-4465-c4",
+   "id": "2-nexus-2026-09-20-4474-c4",
    "total_cenarios": 5
   },
   {
@@ -3409,9 +3430,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2006,
    "link": "https://www.cnnbrasil.com.br/eleicoes/nexus-btg-2o-turno-lula-empata-com-caiado-e-tem-empate-tecnico-com-flavio/",
-   "pesquisa_id": "2-nexus-2026-09-20-4465",
+   "pesquisa_id": "2-nexus-2026-09-20-4474",
    "cenario": 3,
-   "id": "2-nexus-2026-09-20-4465-c3",
+   "id": "2-nexus-2026-09-20-4474-c3",
    "total_cenarios": 5
   },
   {
@@ -3430,9 +3451,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2006,
    "link": "https://www.cnnbrasil.com.br/eleicoes/nexus-btg-2o-turno-lula-empata-com-caiado-e-tem-empate-tecnico-com-flavio/",
-   "pesquisa_id": "2-nexus-2026-09-20-4465",
+   "pesquisa_id": "2-nexus-2026-09-20-4474",
    "cenario": 2,
-   "id": "2-nexus-2026-09-20-4465-c2",
+   "id": "2-nexus-2026-09-20-4474-c2",
    "total_cenarios": 5
   },
   {
@@ -3476,9 +3497,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2006,
    "link": "https://www.cnnbrasil.com.br/eleicoes/nexus-btg-2o-turno-lula-empata-com-caiado-e-tem-empate-tecnico-com-flavio/",
-   "pesquisa_id": "2-nexus-2026-09-20-4465",
+   "pesquisa_id": "2-nexus-2026-09-20-4474",
    "cenario": 1,
-   "id": "2-nexus-2026-09-20-4465-c1",
+   "id": "2-nexus-2026-09-20-4474-c1",
    "total_cenarios": 5
   },
   {
@@ -3497,9 +3518,9 @@ window.PESQUISAS = {
    "margem": 1.8,
    "amostra": 3000,
    "link": "https://www.poder360.com.br/poderdata/poderdata-aya-lula-tem-37-contra-36-de-flavio-no-1o-turno/",
-   "pesquisa_id": "2-poderdata-2026-09-16-4645",
+   "pesquisa_id": "2-poderdata-2026-09-16-4654",
    "cenario": 2,
-   "id": "2-poderdata-2026-09-16-4645-c2",
+   "id": "2-poderdata-2026-09-16-4654-c2",
    "total_cenarios": 2
   },
   {
@@ -3543,9 +3564,9 @@ window.PESQUISAS = {
    "margem": 1.8,
    "amostra": 3000,
    "link": "https://www.poder360.com.br/poderdata/poderdata-aya-lula-tem-37-contra-36-de-flavio-no-1o-turno/",
-   "pesquisa_id": "2-poderdata-2026-09-16-4645",
+   "pesquisa_id": "2-poderdata-2026-09-16-4654",
    "cenario": 1,
-   "id": "2-poderdata-2026-09-16-4645-c1",
+   "id": "2-poderdata-2026-09-16-4654-c1",
    "total_cenarios": 2
   },
   {
@@ -3564,9 +3585,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2002,
    "link": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/17/datafolha-segundo-turno-presidente-17-setembro.ghtml",
-   "pesquisa_id": "2-datafolha-2026-09-16-4600",
+   "pesquisa_id": "2-datafolha-2026-09-16-4609",
    "cenario": 5,
-   "id": "2-datafolha-2026-09-16-4600-c5",
+   "id": "2-datafolha-2026-09-16-4609-c5",
    "total_cenarios": 5
   },
   {
@@ -3585,9 +3606,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2002,
    "link": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/17/datafolha-segundo-turno-presidente-17-setembro.ghtml",
-   "pesquisa_id": "2-datafolha-2026-09-16-4600",
+   "pesquisa_id": "2-datafolha-2026-09-16-4609",
    "cenario": 4,
-   "id": "2-datafolha-2026-09-16-4600-c4",
+   "id": "2-datafolha-2026-09-16-4609-c4",
    "total_cenarios": 5
   },
   {
@@ -3606,9 +3627,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2002,
    "link": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/17/datafolha-segundo-turno-presidente-17-setembro.ghtml",
-   "pesquisa_id": "2-datafolha-2026-09-16-4600",
+   "pesquisa_id": "2-datafolha-2026-09-16-4609",
    "cenario": 3,
-   "id": "2-datafolha-2026-09-16-4600-c3",
+   "id": "2-datafolha-2026-09-16-4609-c3",
    "total_cenarios": 5
   },
   {
@@ -3627,9 +3648,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2002,
    "link": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/17/datafolha-segundo-turno-presidente-17-setembro.ghtml",
-   "pesquisa_id": "2-datafolha-2026-09-16-4600",
+   "pesquisa_id": "2-datafolha-2026-09-16-4609",
    "cenario": 2,
-   "id": "2-datafolha-2026-09-16-4600-c2",
+   "id": "2-datafolha-2026-09-16-4609-c2",
    "total_cenarios": 5
   },
   {
@@ -3673,9 +3694,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2002,
    "link": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/17/datafolha-segundo-turno-presidente-17-setembro.ghtml",
-   "pesquisa_id": "2-datafolha-2026-09-16-4600",
+   "pesquisa_id": "2-datafolha-2026-09-16-4609",
    "cenario": 1,
-   "id": "2-datafolha-2026-09-16-4600-c1",
+   "id": "2-datafolha-2026-09-16-4609-c1",
    "total_cenarios": 5
   },
   {
@@ -3694,9 +3715,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5018,
    "link": "https://www.cnnbrasil.com.br/eleicoes/flavio-tem-472-no-2o-turno-lula-468-diz-atlas/",
-   "pesquisa_id": "2-atlasintel-2026-09-16-4666",
+   "pesquisa_id": "2-atlasintel-2026-09-16-4675",
    "cenario": 5,
-   "id": "2-atlasintel-2026-09-16-4666-c5",
+   "id": "2-atlasintel-2026-09-16-4675-c5",
    "total_cenarios": 5
   },
   {
@@ -3715,9 +3736,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5018,
    "link": "https://www.cnnbrasil.com.br/eleicoes/flavio-tem-472-no-2o-turno-lula-468-diz-atlas/",
-   "pesquisa_id": "2-atlasintel-2026-09-16-4666",
+   "pesquisa_id": "2-atlasintel-2026-09-16-4675",
    "cenario": 4,
-   "id": "2-atlasintel-2026-09-16-4666-c4",
+   "id": "2-atlasintel-2026-09-16-4675-c4",
    "total_cenarios": 5
   },
   {
@@ -3736,9 +3757,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5018,
    "link": "https://www.cnnbrasil.com.br/eleicoes/flavio-tem-472-no-2o-turno-lula-468-diz-atlas/",
-   "pesquisa_id": "2-atlasintel-2026-09-16-4666",
+   "pesquisa_id": "2-atlasintel-2026-09-16-4675",
    "cenario": 3,
-   "id": "2-atlasintel-2026-09-16-4666-c3",
+   "id": "2-atlasintel-2026-09-16-4675-c3",
    "total_cenarios": 5
   },
   {
@@ -3757,9 +3778,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5018,
    "link": "https://www.cnnbrasil.com.br/eleicoes/flavio-tem-472-no-2o-turno-lula-468-diz-atlas/",
-   "pesquisa_id": "2-atlasintel-2026-09-16-4666",
+   "pesquisa_id": "2-atlasintel-2026-09-16-4675",
    "cenario": 2,
-   "id": "2-atlasintel-2026-09-16-4666-c2",
+   "id": "2-atlasintel-2026-09-16-4675-c2",
    "total_cenarios": 5
   },
   {
@@ -3803,9 +3824,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5018,
    "link": "https://www.cnnbrasil.com.br/eleicoes/flavio-tem-472-no-2o-turno-lula-468-diz-atlas/",
-   "pesquisa_id": "2-atlasintel-2026-09-16-4666",
+   "pesquisa_id": "2-atlasintel-2026-09-16-4675",
    "cenario": 1,
-   "id": "2-atlasintel-2026-09-16-4666-c1",
+   "id": "2-atlasintel-2026-09-16-4675-c1",
    "total_cenarios": 5
   },
   {
@@ -3824,9 +3845,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/futura-flavio-tem-481-no-2o-turno-lula-437/",
-   "pesquisa_id": "2-futura-2026-09-15-4711",
+   "pesquisa_id": "2-futura-2026-09-15-4720",
    "cenario": 5,
-   "id": "2-futura-2026-09-15-4711-c5",
+   "id": "2-futura-2026-09-15-4720-c5",
    "total_cenarios": 5
   },
   {
@@ -3845,9 +3866,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/futura-flavio-tem-481-no-2o-turno-lula-437/",
-   "pesquisa_id": "2-futura-2026-09-15-4711",
+   "pesquisa_id": "2-futura-2026-09-15-4720",
    "cenario": 4,
-   "id": "2-futura-2026-09-15-4711-c4",
+   "id": "2-futura-2026-09-15-4720-c4",
    "total_cenarios": 5
   },
   {
@@ -3866,9 +3887,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/futura-flavio-tem-481-no-2o-turno-lula-437/",
-   "pesquisa_id": "2-futura-2026-09-15-4711",
+   "pesquisa_id": "2-futura-2026-09-15-4720",
    "cenario": 3,
-   "id": "2-futura-2026-09-15-4711-c3",
+   "id": "2-futura-2026-09-15-4720-c3",
    "total_cenarios": 5
   },
   {
@@ -3887,9 +3908,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/futura-flavio-tem-481-no-2o-turno-lula-437/",
-   "pesquisa_id": "2-futura-2026-09-15-4711",
+   "pesquisa_id": "2-futura-2026-09-15-4720",
    "cenario": 2,
-   "id": "2-futura-2026-09-15-4711-c2",
+   "id": "2-futura-2026-09-15-4720-c2",
    "total_cenarios": 5
   },
   {
@@ -3933,9 +3954,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/futura-flavio-tem-481-no-2o-turno-lula-437/",
-   "pesquisa_id": "2-futura-2026-09-15-4711",
+   "pesquisa_id": "2-futura-2026-09-15-4720",
    "cenario": 1,
-   "id": "2-futura-2026-09-15-4711-c1",
+   "id": "2-futura-2026-09-15-4720-c1",
    "total_cenarios": 5
   },
   {
@@ -3954,9 +3975,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-42-contra-40-de-lula-no-2o-turno-diz-quaest/",
-   "pesquisa_id": "2-quaest-2026-09-13-4801",
+   "pesquisa_id": "2-quaest-2026-09-13-4810",
    "cenario": 5,
-   "id": "2-quaest-2026-09-13-4801-c5",
+   "id": "2-quaest-2026-09-13-4810-c5",
    "total_cenarios": 5
   },
   {
@@ -3975,9 +3996,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-42-contra-40-de-lula-no-2o-turno-diz-quaest/",
-   "pesquisa_id": "2-quaest-2026-09-13-4801",
+   "pesquisa_id": "2-quaest-2026-09-13-4810",
    "cenario": 4,
-   "id": "2-quaest-2026-09-13-4801-c4",
+   "id": "2-quaest-2026-09-13-4810-c4",
    "total_cenarios": 5
   },
   {
@@ -3996,9 +4017,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-42-contra-40-de-lula-no-2o-turno-diz-quaest/",
-   "pesquisa_id": "2-quaest-2026-09-13-4801",
+   "pesquisa_id": "2-quaest-2026-09-13-4810",
    "cenario": 3,
-   "id": "2-quaest-2026-09-13-4801-c3",
+   "id": "2-quaest-2026-09-13-4810-c3",
    "total_cenarios": 5
   },
   {
@@ -4017,9 +4038,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-42-contra-40-de-lula-no-2o-turno-diz-quaest/",
-   "pesquisa_id": "2-quaest-2026-09-13-4801",
+   "pesquisa_id": "2-quaest-2026-09-13-4810",
    "cenario": 2,
-   "id": "2-quaest-2026-09-13-4801-c2",
+   "id": "2-quaest-2026-09-13-4810-c2",
    "total_cenarios": 5
   },
   {
@@ -4063,9 +4084,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-42-contra-40-de-lula-no-2o-turno-diz-quaest/",
-   "pesquisa_id": "2-quaest-2026-09-13-4801",
+   "pesquisa_id": "2-quaest-2026-09-13-4810",
    "cenario": 1,
-   "id": "2-quaest-2026-09-13-4801-c1",
+   "id": "2-quaest-2026-09-13-4810-c1",
    "total_cenarios": 5
   },
   {
@@ -4084,9 +4105,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2003,
    "link": "https://www.cnnbrasil.com.br/eleicoes/nexus-btg-lula-empata-com-flavio-e-cury-no-2-turno/",
-   "pesquisa_id": "2-nexus-2026-09-13-4756",
+   "pesquisa_id": "2-nexus-2026-09-13-4765",
    "cenario": 5,
-   "id": "2-nexus-2026-09-13-4756-c5",
+   "id": "2-nexus-2026-09-13-4765-c5",
    "total_cenarios": 5
   },
   {
@@ -4105,9 +4126,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2003,
    "link": "https://www.cnnbrasil.com.br/eleicoes/nexus-btg-lula-empata-com-flavio-e-cury-no-2-turno/",
-   "pesquisa_id": "2-nexus-2026-09-13-4756",
+   "pesquisa_id": "2-nexus-2026-09-13-4765",
    "cenario": 4,
-   "id": "2-nexus-2026-09-13-4756-c4",
+   "id": "2-nexus-2026-09-13-4765-c4",
    "total_cenarios": 5
   },
   {
@@ -4126,9 +4147,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2003,
    "link": "https://www.cnnbrasil.com.br/eleicoes/nexus-btg-lula-empata-com-flavio-e-cury-no-2-turno/",
-   "pesquisa_id": "2-nexus-2026-09-13-4756",
+   "pesquisa_id": "2-nexus-2026-09-13-4765",
    "cenario": 3,
-   "id": "2-nexus-2026-09-13-4756-c3",
+   "id": "2-nexus-2026-09-13-4765-c3",
    "total_cenarios": 5
   },
   {
@@ -4147,9 +4168,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2003,
    "link": "https://www.cnnbrasil.com.br/eleicoes/nexus-btg-lula-empata-com-flavio-e-cury-no-2-turno/",
-   "pesquisa_id": "2-nexus-2026-09-13-4756",
+   "pesquisa_id": "2-nexus-2026-09-13-4765",
    "cenario": 2,
-   "id": "2-nexus-2026-09-13-4756-c2",
+   "id": "2-nexus-2026-09-13-4765-c2",
    "total_cenarios": 5
   },
   {
@@ -4193,9 +4214,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2003,
    "link": "https://www.cnnbrasil.com.br/eleicoes/nexus-btg-lula-empata-com-flavio-e-cury-no-2-turno/",
-   "pesquisa_id": "2-nexus-2026-09-13-4756",
+   "pesquisa_id": "2-nexus-2026-09-13-4765",
    "cenario": 1,
-   "id": "2-nexus-2026-09-13-4756-c1",
+   "id": "2-nexus-2026-09-13-4765-c1",
    "total_cenarios": 5
   },
   {
@@ -4214,9 +4235,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2002,
    "link": "https://www.cnnbrasil.com.br/eleicoes/cnt-mda-lula-tem-473-e-flavio-40-no-2o-turno/",
-   "pesquisa_id": "2-mda-2026-09-13-4891",
+   "pesquisa_id": "2-mda-2026-09-13-4900",
    "cenario": 5,
-   "id": "2-mda-2026-09-13-4891-c5",
+   "id": "2-mda-2026-09-13-4900-c5",
    "total_cenarios": 5
   },
   {
@@ -4235,9 +4256,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2002,
    "link": "https://www.cnnbrasil.com.br/eleicoes/cnt-mda-lula-tem-473-e-flavio-40-no-2o-turno/",
-   "pesquisa_id": "2-mda-2026-09-13-4891",
+   "pesquisa_id": "2-mda-2026-09-13-4900",
    "cenario": 4,
-   "id": "2-mda-2026-09-13-4891-c4",
+   "id": "2-mda-2026-09-13-4900-c4",
    "total_cenarios": 5
   },
   {
@@ -4256,9 +4277,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2002,
    "link": "https://www.cnnbrasil.com.br/eleicoes/cnt-mda-lula-tem-473-e-flavio-40-no-2o-turno/",
-   "pesquisa_id": "2-mda-2026-09-13-4891",
+   "pesquisa_id": "2-mda-2026-09-13-4900",
    "cenario": 3,
-   "id": "2-mda-2026-09-13-4891-c3",
+   "id": "2-mda-2026-09-13-4900-c3",
    "total_cenarios": 5
   },
   {
@@ -4277,9 +4298,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2002,
    "link": "https://www.cnnbrasil.com.br/eleicoes/cnt-mda-lula-tem-473-e-flavio-40-no-2o-turno/",
-   "pesquisa_id": "2-mda-2026-09-13-4891",
+   "pesquisa_id": "2-mda-2026-09-13-4900",
    "cenario": 2,
-   "id": "2-mda-2026-09-13-4891-c2",
+   "id": "2-mda-2026-09-13-4900-c2",
    "total_cenarios": 5
   },
   {
@@ -4323,9 +4344,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2002,
    "link": "https://www.cnnbrasil.com.br/eleicoes/cnt-mda-lula-tem-473-e-flavio-40-no-2o-turno/",
-   "pesquisa_id": "2-mda-2026-09-13-4891",
+   "pesquisa_id": "2-mda-2026-09-13-4900",
    "cenario": 1,
-   "id": "2-mda-2026-09-13-4891-c1",
+   "id": "2-mda-2026-09-13-4900-c1",
    "total_cenarios": 5
   },
   {
@@ -4344,9 +4365,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.jota.info/eleicoes/eleicoes-2026/lula-recua-no-1o-turno-e-perde-vantagem-sobre-flavio-no-2o-mostra-indexa-broadcast",
-   "pesquisa_id": "2-indexa-2026-09-13-4846",
+   "pesquisa_id": "2-indexa-2026-09-13-4855",
    "cenario": 5,
-   "id": "2-indexa-2026-09-13-4846-c5",
+   "id": "2-indexa-2026-09-13-4855-c5",
    "total_cenarios": 5
   },
   {
@@ -4365,9 +4386,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.jota.info/eleicoes/eleicoes-2026/lula-recua-no-1o-turno-e-perde-vantagem-sobre-flavio-no-2o-mostra-indexa-broadcast",
-   "pesquisa_id": "2-indexa-2026-09-13-4846",
+   "pesquisa_id": "2-indexa-2026-09-13-4855",
    "cenario": 4,
-   "id": "2-indexa-2026-09-13-4846-c4",
+   "id": "2-indexa-2026-09-13-4855-c4",
    "total_cenarios": 5
   },
   {
@@ -4386,9 +4407,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.jota.info/eleicoes/eleicoes-2026/lula-recua-no-1o-turno-e-perde-vantagem-sobre-flavio-no-2o-mostra-indexa-broadcast",
-   "pesquisa_id": "2-indexa-2026-09-13-4846",
+   "pesquisa_id": "2-indexa-2026-09-13-4855",
    "cenario": 3,
-   "id": "2-indexa-2026-09-13-4846-c3",
+   "id": "2-indexa-2026-09-13-4855-c3",
    "total_cenarios": 5
   },
   {
@@ -4407,9 +4428,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.jota.info/eleicoes/eleicoes-2026/lula-recua-no-1o-turno-e-perde-vantagem-sobre-flavio-no-2o-mostra-indexa-broadcast",
-   "pesquisa_id": "2-indexa-2026-09-13-4846",
+   "pesquisa_id": "2-indexa-2026-09-13-4855",
    "cenario": 2,
-   "id": "2-indexa-2026-09-13-4846-c2",
+   "id": "2-indexa-2026-09-13-4855-c2",
    "total_cenarios": 5
   },
   {
@@ -4453,9 +4474,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.jota.info/eleicoes/eleicoes-2026/lula-recua-no-1o-turno-e-perde-vantagem-sobre-flavio-no-2o-mostra-indexa-broadcast",
-   "pesquisa_id": "2-indexa-2026-09-13-4846",
+   "pesquisa_id": "2-indexa-2026-09-13-4855",
    "cenario": 1,
-   "id": "2-indexa-2026-09-13-4846-c1",
+   "id": "2-indexa-2026-09-13-4855-c1",
    "total_cenarios": 5
   },
   {
@@ -4474,9 +4495,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/futura-flavio-tem-454-contra-45-de-lula-no-2o-turno/",
-   "pesquisa_id": "2-futura-2026-09-10-4981",
+   "pesquisa_id": "2-futura-2026-09-10-4990",
    "cenario": 4,
-   "id": "2-futura-2026-09-10-4981-c4",
+   "id": "2-futura-2026-09-10-4990-c4",
    "total_cenarios": 4
   },
   {
@@ -4495,9 +4516,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/futura-flavio-tem-454-contra-45-de-lula-no-2o-turno/",
-   "pesquisa_id": "2-futura-2026-09-10-4981",
+   "pesquisa_id": "2-futura-2026-09-10-4990",
    "cenario": 3,
-   "id": "2-futura-2026-09-10-4981-c3",
+   "id": "2-futura-2026-09-10-4990-c3",
    "total_cenarios": 4
   },
   {
@@ -4516,9 +4537,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/futura-flavio-tem-454-contra-45-de-lula-no-2o-turno/",
-   "pesquisa_id": "2-futura-2026-09-10-4981",
+   "pesquisa_id": "2-futura-2026-09-10-4990",
    "cenario": 2,
-   "id": "2-futura-2026-09-10-4981-c2",
+   "id": "2-futura-2026-09-10-4990-c2",
    "total_cenarios": 4
   },
   {
@@ -4562,9 +4583,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/futura-flavio-tem-454-contra-45-de-lula-no-2o-turno/",
-   "pesquisa_id": "2-futura-2026-09-10-4981",
+   "pesquisa_id": "2-futura-2026-09-10-4990",
    "cenario": 1,
-   "id": "2-futura-2026-09-10-4981-c1",
+   "id": "2-futura-2026-09-10-4990-c1",
    "total_cenarios": 4
   },
   {
@@ -4583,9 +4604,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2002,
    "link": "https://www.cnnbrasil.com.br/eleicoes/datafolha-lula-tem-46-no-2o-turno-flavio-44/",
-   "pesquisa_id": "2-datafolha-2026-09-10-4936",
+   "pesquisa_id": "2-datafolha-2026-09-10-4945",
    "cenario": 5,
-   "id": "2-datafolha-2026-09-10-4936-c5",
+   "id": "2-datafolha-2026-09-10-4945-c5",
    "total_cenarios": 5
   },
   {
@@ -4604,9 +4625,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2002,
    "link": "https://www.cnnbrasil.com.br/eleicoes/datafolha-lula-tem-46-no-2o-turno-flavio-44/",
-   "pesquisa_id": "2-datafolha-2026-09-10-4936",
+   "pesquisa_id": "2-datafolha-2026-09-10-4945",
    "cenario": 4,
-   "id": "2-datafolha-2026-09-10-4936-c4",
+   "id": "2-datafolha-2026-09-10-4945-c4",
    "total_cenarios": 5
   },
   {
@@ -4625,9 +4646,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2002,
    "link": "https://www.cnnbrasil.com.br/eleicoes/datafolha-lula-tem-46-no-2o-turno-flavio-44/",
-   "pesquisa_id": "2-datafolha-2026-09-10-4936",
+   "pesquisa_id": "2-datafolha-2026-09-10-4945",
    "cenario": 3,
-   "id": "2-datafolha-2026-09-10-4936-c3",
+   "id": "2-datafolha-2026-09-10-4945-c3",
    "total_cenarios": 5
   },
   {
@@ -4646,9 +4667,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2002,
    "link": "https://www.cnnbrasil.com.br/eleicoes/datafolha-lula-tem-46-no-2o-turno-flavio-44/",
-   "pesquisa_id": "2-datafolha-2026-09-10-4936",
+   "pesquisa_id": "2-datafolha-2026-09-10-4945",
    "cenario": 2,
-   "id": "2-datafolha-2026-09-10-4936-c2",
+   "id": "2-datafolha-2026-09-10-4945-c2",
    "total_cenarios": 5
   },
   {
@@ -4692,9 +4713,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2002,
    "link": "https://www.cnnbrasil.com.br/eleicoes/datafolha-lula-tem-46-no-2o-turno-flavio-44/",
-   "pesquisa_id": "2-datafolha-2026-09-10-4936",
+   "pesquisa_id": "2-datafolha-2026-09-10-4945",
    "cenario": 1,
-   "id": "2-datafolha-2026-09-10-4936-c1",
+   "id": "2-datafolha-2026-09-10-4945-c1",
    "total_cenarios": 5
   },
   {
@@ -4713,9 +4734,9 @@ window.PESQUISAS = {
    "margem": 1.8,
    "amostra": 3000,
    "link": "https://www.poder360.com.br/poderdata/flavio-tem-47-e-lula-45-no-2o-turno-diz-poderdata-aya/",
-   "pesquisa_id": "2-poderdata-2026-09-09-5018",
+   "pesquisa_id": "2-poderdata-2026-09-09-5027",
    "cenario": 2,
-   "id": "2-poderdata-2026-09-09-5018-c2",
+   "id": "2-poderdata-2026-09-09-5027-c2",
    "total_cenarios": 2
   },
   {
@@ -4759,9 +4780,9 @@ window.PESQUISAS = {
    "margem": 1.8,
    "amostra": 3000,
    "link": "https://www.poder360.com.br/poderdata/flavio-tem-47-e-lula-45-no-2o-turno-diz-poderdata-aya/",
-   "pesquisa_id": "2-poderdata-2026-09-09-5018",
+   "pesquisa_id": "2-poderdata-2026-09-09-5027",
    "cenario": 1,
-   "id": "2-poderdata-2026-09-09-5018-c1",
+   "id": "2-poderdata-2026-09-09-5027-c1",
    "total_cenarios": 2
   },
   {
@@ -4780,9 +4801,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/atlasintel-bloomberg-flavio-tem-464-no-2o-turno-lula-462/",
-   "pesquisa_id": "2-atlasintel-2026-09-09-5039",
+   "pesquisa_id": "2-atlasintel-2026-09-09-5048",
    "cenario": 5,
-   "id": "2-atlasintel-2026-09-09-5039-c5",
+   "id": "2-atlasintel-2026-09-09-5048-c5",
    "total_cenarios": 5
   },
   {
@@ -4801,9 +4822,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/atlasintel-bloomberg-flavio-tem-464-no-2o-turno-lula-462/",
-   "pesquisa_id": "2-atlasintel-2026-09-09-5039",
+   "pesquisa_id": "2-atlasintel-2026-09-09-5048",
    "cenario": 4,
-   "id": "2-atlasintel-2026-09-09-5039-c4",
+   "id": "2-atlasintel-2026-09-09-5048-c4",
    "total_cenarios": 5
   },
   {
@@ -4822,9 +4843,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/atlasintel-bloomberg-flavio-tem-464-no-2o-turno-lula-462/",
-   "pesquisa_id": "2-atlasintel-2026-09-09-5039",
+   "pesquisa_id": "2-atlasintel-2026-09-09-5048",
    "cenario": 3,
-   "id": "2-atlasintel-2026-09-09-5039-c3",
+   "id": "2-atlasintel-2026-09-09-5048-c3",
    "total_cenarios": 5
   },
   {
@@ -4843,9 +4864,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/atlasintel-bloomberg-flavio-tem-464-no-2o-turno-lula-462/",
-   "pesquisa_id": "2-atlasintel-2026-09-09-5039",
+   "pesquisa_id": "2-atlasintel-2026-09-09-5048",
    "cenario": 2,
-   "id": "2-atlasintel-2026-09-09-5039-c2",
+   "id": "2-atlasintel-2026-09-09-5048-c2",
    "total_cenarios": 5
   },
   {
@@ -4889,9 +4910,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/atlasintel-bloomberg-flavio-tem-464-no-2o-turno-lula-462/",
-   "pesquisa_id": "2-atlasintel-2026-09-09-5039",
+   "pesquisa_id": "2-atlasintel-2026-09-09-5048",
    "cenario": 1,
-   "id": "2-atlasintel-2026-09-09-5039-c1",
+   "id": "2-atlasintel-2026-09-09-5048-c1",
    "total_cenarios": 5
   },
   {
@@ -4910,9 +4931,9 @@ window.PESQUISAS = {
    "margem": 3.0,
    "amostra": 5000,
    "link": "https://docs.google.com/viewerng/viewer?url=https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/Pesquisa-Eleitoral-Palver-Onda-2-1.pdf",
-   "pesquisa_id": "2-palver-2026-09-07-5084",
+   "pesquisa_id": "2-palver-2026-09-07-5093",
    "cenario": 5,
-   "id": "2-palver-2026-09-07-5084-c5",
+   "id": "2-palver-2026-09-07-5093-c5",
    "total_cenarios": 5
   },
   {
@@ -4931,9 +4952,9 @@ window.PESQUISAS = {
    "margem": 3.0,
    "amostra": 5000,
    "link": "https://docs.google.com/viewerng/viewer?url=https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/Pesquisa-Eleitoral-Palver-Onda-2-1.pdf",
-   "pesquisa_id": "2-palver-2026-09-07-5084",
+   "pesquisa_id": "2-palver-2026-09-07-5093",
    "cenario": 4,
-   "id": "2-palver-2026-09-07-5084-c4",
+   "id": "2-palver-2026-09-07-5093-c4",
    "total_cenarios": 5
   },
   {
@@ -4952,9 +4973,9 @@ window.PESQUISAS = {
    "margem": 3.0,
    "amostra": 5000,
    "link": "https://docs.google.com/viewerng/viewer?url=https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/Pesquisa-Eleitoral-Palver-Onda-2-1.pdf",
-   "pesquisa_id": "2-palver-2026-09-07-5084",
+   "pesquisa_id": "2-palver-2026-09-07-5093",
    "cenario": 3,
-   "id": "2-palver-2026-09-07-5084-c3",
+   "id": "2-palver-2026-09-07-5093-c3",
    "total_cenarios": 5
   },
   {
@@ -4973,9 +4994,9 @@ window.PESQUISAS = {
    "margem": 3.0,
    "amostra": 5000,
    "link": "https://docs.google.com/viewerng/viewer?url=https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/Pesquisa-Eleitoral-Palver-Onda-2-1.pdf",
-   "pesquisa_id": "2-palver-2026-09-07-5084",
+   "pesquisa_id": "2-palver-2026-09-07-5093",
    "cenario": 2,
-   "id": "2-palver-2026-09-07-5084-c2",
+   "id": "2-palver-2026-09-07-5093-c2",
    "total_cenarios": 5
   },
   {
@@ -5019,9 +5040,9 @@ window.PESQUISAS = {
    "margem": 3.0,
    "amostra": 5000,
    "link": "https://docs.google.com/viewerng/viewer?url=https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/Pesquisa-Eleitoral-Palver-Onda-2-1.pdf",
-   "pesquisa_id": "2-palver-2026-09-07-5084",
+   "pesquisa_id": "2-palver-2026-09-07-5093",
    "cenario": 1,
-   "id": "2-palver-2026-09-07-5084-c1",
+   "id": "2-palver-2026-09-07-5093-c1",
    "total_cenarios": 5
   },
   {
@@ -5040,9 +5061,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2002,
    "link": "https://www.cnnbrasil.com.br/eleicoes/nexus-btg-lula-tem-empate-tecnico-com-flavio-caiado-e-cury-no-2o-turno/",
-   "pesquisa_id": "2-nexus-2026-09-07-5174",
+   "pesquisa_id": "2-nexus-2026-09-07-5183",
    "cenario": 5,
-   "id": "2-nexus-2026-09-07-5174-c5",
+   "id": "2-nexus-2026-09-07-5183-c5",
    "total_cenarios": 5
   },
   {
@@ -5061,9 +5082,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2002,
    "link": "https://www.cnnbrasil.com.br/eleicoes/nexus-btg-lula-tem-empate-tecnico-com-flavio-caiado-e-cury-no-2o-turno/",
-   "pesquisa_id": "2-nexus-2026-09-07-5174",
+   "pesquisa_id": "2-nexus-2026-09-07-5183",
    "cenario": 4,
-   "id": "2-nexus-2026-09-07-5174-c4",
+   "id": "2-nexus-2026-09-07-5183-c4",
    "total_cenarios": 5
   },
   {
@@ -5082,9 +5103,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2002,
    "link": "https://www.cnnbrasil.com.br/eleicoes/nexus-btg-lula-tem-empate-tecnico-com-flavio-caiado-e-cury-no-2o-turno/",
-   "pesquisa_id": "2-nexus-2026-09-07-5174",
+   "pesquisa_id": "2-nexus-2026-09-07-5183",
    "cenario": 3,
-   "id": "2-nexus-2026-09-07-5174-c3",
+   "id": "2-nexus-2026-09-07-5183-c3",
    "total_cenarios": 5
   },
   {
@@ -5103,9 +5124,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2002,
    "link": "https://www.cnnbrasil.com.br/eleicoes/nexus-btg-lula-tem-empate-tecnico-com-flavio-caiado-e-cury-no-2o-turno/",
-   "pesquisa_id": "2-nexus-2026-09-07-5174",
+   "pesquisa_id": "2-nexus-2026-09-07-5183",
    "cenario": 2,
-   "id": "2-nexus-2026-09-07-5174-c2",
+   "id": "2-nexus-2026-09-07-5183-c2",
    "total_cenarios": 5
   },
   {
@@ -5149,9 +5170,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2002,
    "link": "https://www.cnnbrasil.com.br/eleicoes/nexus-btg-lula-tem-empate-tecnico-com-flavio-caiado-e-cury-no-2o-turno/",
-   "pesquisa_id": "2-nexus-2026-09-07-5174",
+   "pesquisa_id": "2-nexus-2026-09-07-5183",
    "cenario": 1,
-   "id": "2-nexus-2026-09-07-5174-c1",
+   "id": "2-nexus-2026-09-07-5183-c1",
    "total_cenarios": 5
   },
   {
@@ -5170,9 +5191,9 @@ window.PESQUISAS = {
    "margem": 2.5,
    "amostra": 1500,
    "link": "https://www.canalmeio.com.br/wp-content/uploads/2026/09/Pesquisa-Meio_Ideia-Setembro.pdf",
-   "pesquisa_id": "2-ideia-2026-09-07-5129",
+   "pesquisa_id": "2-ideia-2026-09-07-5138",
    "cenario": 5,
-   "id": "2-ideia-2026-09-07-5129-c5",
+   "id": "2-ideia-2026-09-07-5138-c5",
    "total_cenarios": 5
   },
   {
@@ -5191,9 +5212,9 @@ window.PESQUISAS = {
    "margem": 2.5,
    "amostra": 1500,
    "link": "https://www.canalmeio.com.br/wp-content/uploads/2026/09/Pesquisa-Meio_Ideia-Setembro.pdf",
-   "pesquisa_id": "2-ideia-2026-09-07-5129",
+   "pesquisa_id": "2-ideia-2026-09-07-5138",
    "cenario": 4,
-   "id": "2-ideia-2026-09-07-5129-c4",
+   "id": "2-ideia-2026-09-07-5138-c4",
    "total_cenarios": 5
   },
   {
@@ -5212,9 +5233,9 @@ window.PESQUISAS = {
    "margem": 2.5,
    "amostra": 1500,
    "link": "https://www.canalmeio.com.br/wp-content/uploads/2026/09/Pesquisa-Meio_Ideia-Setembro.pdf",
-   "pesquisa_id": "2-ideia-2026-09-07-5129",
+   "pesquisa_id": "2-ideia-2026-09-07-5138",
    "cenario": 3,
-   "id": "2-ideia-2026-09-07-5129-c3",
+   "id": "2-ideia-2026-09-07-5138-c3",
    "total_cenarios": 5
   },
   {
@@ -5233,9 +5254,9 @@ window.PESQUISAS = {
    "margem": 2.5,
    "amostra": 1500,
    "link": "https://www.canalmeio.com.br/wp-content/uploads/2026/09/Pesquisa-Meio_Ideia-Setembro.pdf",
-   "pesquisa_id": "2-ideia-2026-09-07-5129",
+   "pesquisa_id": "2-ideia-2026-09-07-5138",
    "cenario": 2,
-   "id": "2-ideia-2026-09-07-5129-c2",
+   "id": "2-ideia-2026-09-07-5138-c2",
    "total_cenarios": 5
   },
   {
@@ -5279,9 +5300,9 @@ window.PESQUISAS = {
    "margem": 2.5,
    "amostra": 1500,
    "link": "https://www.canalmeio.com.br/wp-content/uploads/2026/09/Pesquisa-Meio_Ideia-Setembro.pdf",
-   "pesquisa_id": "2-ideia-2026-09-07-5129",
+   "pesquisa_id": "2-ideia-2026-09-07-5138",
    "cenario": 1,
-   "id": "2-ideia-2026-09-07-5129-c1",
+   "id": "2-ideia-2026-09-07-5138-c1",
    "total_cenarios": 5
   },
   {
@@ -5300,9 +5321,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.cnnbrasil.com.br/eleicoes/quaest-segundo-turno-setembro/",
-   "pesquisa_id": "2-quaest-2026-09-06-5219",
+   "pesquisa_id": "2-quaest-2026-09-06-5228",
    "cenario": 5,
-   "id": "2-quaest-2026-09-06-5219-c5",
+   "id": "2-quaest-2026-09-06-5228-c5",
    "total_cenarios": 5
   },
   {
@@ -5321,9 +5342,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.cnnbrasil.com.br/eleicoes/quaest-segundo-turno-setembro/",
-   "pesquisa_id": "2-quaest-2026-09-06-5219",
+   "pesquisa_id": "2-quaest-2026-09-06-5228",
    "cenario": 4,
-   "id": "2-quaest-2026-09-06-5219-c4",
+   "id": "2-quaest-2026-09-06-5228-c4",
    "total_cenarios": 5
   },
   {
@@ -5342,9 +5363,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.cnnbrasil.com.br/eleicoes/quaest-segundo-turno-setembro/",
-   "pesquisa_id": "2-quaest-2026-09-06-5219",
+   "pesquisa_id": "2-quaest-2026-09-06-5228",
    "cenario": 3,
-   "id": "2-quaest-2026-09-06-5219-c3",
+   "id": "2-quaest-2026-09-06-5228-c3",
    "total_cenarios": 5
   },
   {
@@ -5363,9 +5384,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.cnnbrasil.com.br/eleicoes/quaest-segundo-turno-setembro/",
-   "pesquisa_id": "2-quaest-2026-09-06-5219",
+   "pesquisa_id": "2-quaest-2026-09-06-5228",
    "cenario": 2,
-   "id": "2-quaest-2026-09-06-5219-c2",
+   "id": "2-quaest-2026-09-06-5228-c2",
    "total_cenarios": 5
   },
   {
@@ -5409,9 +5430,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.cnnbrasil.com.br/eleicoes/quaest-segundo-turno-setembro/",
-   "pesquisa_id": "2-quaest-2026-09-06-5219",
+   "pesquisa_id": "2-quaest-2026-09-06-5228",
    "cenario": 1,
-   "id": "2-quaest-2026-09-06-5219-c1",
+   "id": "2-quaest-2026-09-06-5228-c1",
    "total_cenarios": 5
   },
   {
@@ -5430,9 +5451,9 @@ window.PESQUISAS = {
    "margem": 1.8,
    "amostra": 3000,
    "link": "https://www.poder360.com.br/poderdata/flavio-tem-45-e-lula-registra-44-no-2o-turno-diz-poderdata-aya/",
-   "pesquisa_id": "2-poderdata-2026-09-02-5301",
+   "pesquisa_id": "2-poderdata-2026-09-02-5310",
    "cenario": 4,
-   "id": "2-poderdata-2026-09-02-5301-c4",
+   "id": "2-poderdata-2026-09-02-5310-c4",
    "total_cenarios": 4
   },
   {
@@ -5451,9 +5472,9 @@ window.PESQUISAS = {
    "margem": 1.8,
    "amostra": 3000,
    "link": "https://www.poder360.com.br/poderdata/flavio-tem-45-e-lula-registra-44-no-2o-turno-diz-poderdata-aya/",
-   "pesquisa_id": "2-poderdata-2026-09-02-5301",
+   "pesquisa_id": "2-poderdata-2026-09-02-5310",
    "cenario": 3,
-   "id": "2-poderdata-2026-09-02-5301-c3",
+   "id": "2-poderdata-2026-09-02-5310-c3",
    "total_cenarios": 4
   },
   {
@@ -5472,9 +5493,9 @@ window.PESQUISAS = {
    "margem": 1.8,
    "amostra": 3000,
    "link": "https://www.poder360.com.br/poderdata/flavio-tem-45-e-lula-registra-44-no-2o-turno-diz-poderdata-aya/",
-   "pesquisa_id": "2-poderdata-2026-09-02-5301",
+   "pesquisa_id": "2-poderdata-2026-09-02-5310",
    "cenario": 2,
-   "id": "2-poderdata-2026-09-02-5301-c2",
+   "id": "2-poderdata-2026-09-02-5310-c2",
    "total_cenarios": 4
   },
   {
@@ -5518,9 +5539,9 @@ window.PESQUISAS = {
    "margem": 1.8,
    "amostra": 3000,
    "link": "https://www.poder360.com.br/poderdata/flavio-tem-45-e-lula-registra-44-no-2o-turno-diz-poderdata-aya/",
-   "pesquisa_id": "2-poderdata-2026-09-02-5301",
+   "pesquisa_id": "2-poderdata-2026-09-02-5310",
    "cenario": 1,
-   "id": "2-poderdata-2026-09-02-5301-c1",
+   "id": "2-poderdata-2026-09-02-5310-c1",
    "total_cenarios": 4
   },
   {
@@ -5539,9 +5560,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2002,
    "link": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/03/datafolha-2o-turno-presidente-3-setembro.ghtml",
-   "pesquisa_id": "2-datafolha-2026-09-02-5264",
+   "pesquisa_id": "2-datafolha-2026-09-02-5273",
    "cenario": 4,
-   "id": "2-datafolha-2026-09-02-5264-c4",
+   "id": "2-datafolha-2026-09-02-5273-c4",
    "total_cenarios": 4
   },
   {
@@ -5560,9 +5581,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2002,
    "link": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/03/datafolha-2o-turno-presidente-3-setembro.ghtml",
-   "pesquisa_id": "2-datafolha-2026-09-02-5264",
+   "pesquisa_id": "2-datafolha-2026-09-02-5273",
    "cenario": 3,
-   "id": "2-datafolha-2026-09-02-5264-c3",
+   "id": "2-datafolha-2026-09-02-5273-c3",
    "total_cenarios": 4
   },
   {
@@ -5581,9 +5602,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2002,
    "link": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/03/datafolha-2o-turno-presidente-3-setembro.ghtml",
-   "pesquisa_id": "2-datafolha-2026-09-02-5264",
+   "pesquisa_id": "2-datafolha-2026-09-02-5273",
    "cenario": 2,
-   "id": "2-datafolha-2026-09-02-5264-c2",
+   "id": "2-datafolha-2026-09-02-5273-c2",
    "total_cenarios": 4
   },
   {
@@ -5627,9 +5648,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2002,
    "link": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/03/datafolha-2o-turno-presidente-3-setembro.ghtml",
-   "pesquisa_id": "2-datafolha-2026-09-02-5264",
+   "pesquisa_id": "2-datafolha-2026-09-02-5273",
    "cenario": 1,
-   "id": "2-datafolha-2026-09-02-5264-c1",
+   "id": "2-datafolha-2026-09-02-5273-c1",
    "total_cenarios": 4
   },
   {
@@ -5648,9 +5669,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2005,
    "link": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/02/quaest-presidente-2-setembro.ghtml",
-   "pesquisa_id": "2-quaest-2026-09-01-5341",
+   "pesquisa_id": "2-quaest-2026-09-01-5350",
    "cenario": 5,
-   "id": "2-quaest-2026-09-01-5341-c5",
+   "id": "2-quaest-2026-09-01-5350-c5",
    "total_cenarios": 5
   },
   {
@@ -5669,9 +5690,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2005,
    "link": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/02/quaest-presidente-2-setembro.ghtml",
-   "pesquisa_id": "2-quaest-2026-09-01-5341",
+   "pesquisa_id": "2-quaest-2026-09-01-5350",
    "cenario": 4,
-   "id": "2-quaest-2026-09-01-5341-c4",
+   "id": "2-quaest-2026-09-01-5350-c4",
    "total_cenarios": 5
   },
   {
@@ -5690,9 +5711,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2005,
    "link": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/02/quaest-presidente-2-setembro.ghtml",
-   "pesquisa_id": "2-quaest-2026-09-01-5341",
+   "pesquisa_id": "2-quaest-2026-09-01-5350",
    "cenario": 3,
-   "id": "2-quaest-2026-09-01-5341-c3",
+   "id": "2-quaest-2026-09-01-5350-c3",
    "total_cenarios": 5
   },
   {
@@ -5711,9 +5732,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2005,
    "link": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/02/quaest-presidente-2-setembro.ghtml",
-   "pesquisa_id": "2-quaest-2026-09-01-5341",
+   "pesquisa_id": "2-quaest-2026-09-01-5350",
    "cenario": 2,
-   "id": "2-quaest-2026-09-01-5341-c2",
+   "id": "2-quaest-2026-09-01-5350-c2",
    "total_cenarios": 5
   },
   {
@@ -5757,9 +5778,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2005,
    "link": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/02/quaest-presidente-2-setembro.ghtml",
-   "pesquisa_id": "2-quaest-2026-09-01-5341",
+   "pesquisa_id": "2-quaest-2026-09-01-5350",
    "cenario": 1,
-   "id": "2-quaest-2026-09-01-5341-c1",
+   "id": "2-quaest-2026-09-01-5350-c1",
    "total_cenarios": 5
   },
   {
@@ -5778,9 +5799,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/futura-lula-tem-456-contra-452-de-flavio-no-2o-turno/",
-   "pesquisa_id": "2-futura-2026-09-01-5386",
+   "pesquisa_id": "2-futura-2026-09-01-5395",
    "cenario": 4,
-   "id": "2-futura-2026-09-01-5386-c4",
+   "id": "2-futura-2026-09-01-5395-c4",
    "total_cenarios": 4
   },
   {
@@ -5799,9 +5820,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/futura-lula-tem-456-contra-452-de-flavio-no-2o-turno/",
-   "pesquisa_id": "2-futura-2026-09-01-5386",
+   "pesquisa_id": "2-futura-2026-09-01-5395",
    "cenario": 3,
-   "id": "2-futura-2026-09-01-5386-c3",
+   "id": "2-futura-2026-09-01-5395-c3",
    "total_cenarios": 4
   },
   {
@@ -5820,9 +5841,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/futura-lula-tem-456-contra-452-de-flavio-no-2o-turno/",
-   "pesquisa_id": "2-futura-2026-09-01-5386",
+   "pesquisa_id": "2-futura-2026-09-01-5395",
    "cenario": 2,
-   "id": "2-futura-2026-09-01-5386-c2",
+   "id": "2-futura-2026-09-01-5395-c2",
    "total_cenarios": 4
   },
   {
@@ -5866,9 +5887,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/futura-lula-tem-456-contra-452-de-flavio-no-2o-turno/",
-   "pesquisa_id": "2-futura-2026-09-01-5386",
+   "pesquisa_id": "2-futura-2026-09-01-5395",
    "cenario": 1,
-   "id": "2-futura-2026-09-01-5386-c1",
+   "id": "2-futura-2026-09-01-5395-c1",
    "total_cenarios": 4
   },
   {
@@ -5887,9 +5908,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2000,
    "link": "https://www.poder360.com.br/poder-eleicoes-2026/lula-e-flavio-bolsonaro-empatam-com-44-no-2o-turno-diz-pesquisa/",
-   "pesquisa_id": "2-real-time-2026-08-31-5423",
+   "pesquisa_id": "2-real-time-2026-08-31-5432",
    "cenario": 4,
-   "id": "2-real-time-2026-08-31-5423-c4",
+   "id": "2-real-time-2026-08-31-5432-c4",
    "total_cenarios": 4
   },
   {
@@ -5908,9 +5929,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2000,
    "link": "https://www.poder360.com.br/poder-eleicoes-2026/lula-e-flavio-bolsonaro-empatam-com-44-no-2o-turno-diz-pesquisa/",
-   "pesquisa_id": "2-real-time-2026-08-31-5423",
+   "pesquisa_id": "2-real-time-2026-08-31-5432",
    "cenario": 3,
-   "id": "2-real-time-2026-08-31-5423-c3",
+   "id": "2-real-time-2026-08-31-5432-c3",
    "total_cenarios": 4
   },
   {
@@ -5929,9 +5950,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2000,
    "link": "https://www.poder360.com.br/poder-eleicoes-2026/lula-e-flavio-bolsonaro-empatam-com-44-no-2o-turno-diz-pesquisa/",
-   "pesquisa_id": "2-real-time-2026-08-31-5423",
+   "pesquisa_id": "2-real-time-2026-08-31-5432",
    "cenario": 2,
-   "id": "2-real-time-2026-08-31-5423-c2",
+   "id": "2-real-time-2026-08-31-5432-c2",
    "total_cenarios": 4
   },
   {
@@ -5975,9 +5996,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2000,
    "link": "https://www.poder360.com.br/poder-eleicoes-2026/lula-e-flavio-bolsonaro-empatam-com-44-no-2o-turno-diz-pesquisa/",
-   "pesquisa_id": "2-real-time-2026-08-31-5423",
+   "pesquisa_id": "2-real-time-2026-08-31-5432",
    "cenario": 1,
-   "id": "2-real-time-2026-08-31-5423-c1",
+   "id": "2-real-time-2026-08-31-5432-c1",
    "total_cenarios": 4
   },
   {
@@ -5996,9 +6017,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2005,
    "link": "https://noticias.uol.com.br/eleicoes/2026/08/31/pesquisa-presidencial-btgnexus-31-agosto.ghtm",
-   "pesquisa_id": "2-nexus-2026-08-30-5460",
+   "pesquisa_id": "2-nexus-2026-08-30-5469",
    "cenario": 4,
-   "id": "2-nexus-2026-08-30-5460-c4",
+   "id": "2-nexus-2026-08-30-5469-c4",
    "total_cenarios": 4
   },
   {
@@ -6017,9 +6038,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2005,
    "link": "https://noticias.uol.com.br/eleicoes/2026/08/31/pesquisa-presidencial-btgnexus-31-agosto.ghtm",
-   "pesquisa_id": "2-nexus-2026-08-30-5460",
+   "pesquisa_id": "2-nexus-2026-08-30-5469",
    "cenario": 3,
-   "id": "2-nexus-2026-08-30-5460-c3",
+   "id": "2-nexus-2026-08-30-5469-c3",
    "total_cenarios": 4
   },
   {
@@ -6038,9 +6059,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2005,
    "link": "https://noticias.uol.com.br/eleicoes/2026/08/31/pesquisa-presidencial-btgnexus-31-agosto.ghtm",
-   "pesquisa_id": "2-nexus-2026-08-30-5460",
+   "pesquisa_id": "2-nexus-2026-08-30-5469",
    "cenario": 2,
-   "id": "2-nexus-2026-08-30-5460-c2",
+   "id": "2-nexus-2026-08-30-5469-c2",
    "total_cenarios": 4
   },
   {
@@ -6084,9 +6105,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2005,
    "link": "https://noticias.uol.com.br/eleicoes/2026/08/31/pesquisa-presidencial-btgnexus-31-agosto.ghtm",
-   "pesquisa_id": "2-nexus-2026-08-30-5460",
+   "pesquisa_id": "2-nexus-2026-08-30-5469",
    "cenario": 1,
-   "id": "2-nexus-2026-08-30-5460-c1",
+   "id": "2-nexus-2026-08-30-5469-c1",
    "total_cenarios": 4
   },
   {
@@ -6105,9 +6126,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5014,
    "link": "https://veja.abril.com.br/politica/atlasintel-pesquisa-mostra-disputa-presidencial-apos-primeiros-debates-e-sabatinas/",
-   "pesquisa_id": "2-atlasintel-2026-08-30-5497",
+   "pesquisa_id": "2-atlasintel-2026-08-30-5506",
    "cenario": 4,
-   "id": "2-atlasintel-2026-08-30-5497-c4",
+   "id": "2-atlasintel-2026-08-30-5506-c4",
    "total_cenarios": 4
   },
   {
@@ -6126,9 +6147,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5014,
    "link": "https://veja.abril.com.br/politica/atlasintel-pesquisa-mostra-disputa-presidencial-apos-primeiros-debates-e-sabatinas/",
-   "pesquisa_id": "2-atlasintel-2026-08-30-5497",
+   "pesquisa_id": "2-atlasintel-2026-08-30-5506",
    "cenario": 3,
-   "id": "2-atlasintel-2026-08-30-5497-c3",
+   "id": "2-atlasintel-2026-08-30-5506-c3",
    "total_cenarios": 4
   },
   {
@@ -6147,9 +6168,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5014,
    "link": "https://veja.abril.com.br/politica/atlasintel-pesquisa-mostra-disputa-presidencial-apos-primeiros-debates-e-sabatinas/",
-   "pesquisa_id": "2-atlasintel-2026-08-30-5497",
+   "pesquisa_id": "2-atlasintel-2026-08-30-5506",
    "cenario": 2,
-   "id": "2-atlasintel-2026-08-30-5497-c2",
+   "id": "2-atlasintel-2026-08-30-5506-c2",
    "total_cenarios": 4
   },
   {
@@ -6193,9 +6214,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5014,
    "link": "https://veja.abril.com.br/politica/atlasintel-pesquisa-mostra-disputa-presidencial-apos-primeiros-debates-e-sabatinas/",
-   "pesquisa_id": "2-atlasintel-2026-08-30-5497",
+   "pesquisa_id": "2-atlasintel-2026-08-30-5506",
    "cenario": 1,
-   "id": "2-atlasintel-2026-08-30-5497-c1",
+   "id": "2-atlasintel-2026-08-30-5506-c1",
    "total_cenarios": 4
   },
   {
@@ -6214,9 +6235,9 @@ window.PESQUISAS = {
    "margem": 2.15,
    "amostra": 2100,
    "link": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-e-lula-empatam-no-2o-turno-diz-pesquisa-3/",
-   "pesquisa_id": "2-vox-brasil-2026-08-27-5534",
+   "pesquisa_id": "2-vox-brasil-2026-08-27-5543",
    "cenario": 3,
-   "id": "2-vox-brasil-2026-08-27-5534-c3",
+   "id": "2-vox-brasil-2026-08-27-5543-c3",
    "total_cenarios": 3
   },
   {
@@ -6235,9 +6256,9 @@ window.PESQUISAS = {
    "margem": 2.15,
    "amostra": 2100,
    "link": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-e-lula-empatam-no-2o-turno-diz-pesquisa-3/",
-   "pesquisa_id": "2-vox-brasil-2026-08-27-5534",
+   "pesquisa_id": "2-vox-brasil-2026-08-27-5543",
    "cenario": 2,
-   "id": "2-vox-brasil-2026-08-27-5534-c2",
+   "id": "2-vox-brasil-2026-08-27-5543-c2",
    "total_cenarios": 3
   },
   {
@@ -6281,9 +6302,9 @@ window.PESQUISAS = {
    "margem": 2.15,
    "amostra": 2100,
    "link": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-e-lula-empatam-no-2o-turno-diz-pesquisa-3/",
-   "pesquisa_id": "2-vox-brasil-2026-08-27-5534",
+   "pesquisa_id": "2-vox-brasil-2026-08-27-5543",
    "cenario": 1,
-   "id": "2-vox-brasil-2026-08-27-5534-c1",
+   "id": "2-vox-brasil-2026-08-27-5543-c1",
    "total_cenarios": 3
   },
   {
@@ -6302,9 +6323,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2400,
    "link": "https://www.poder360.com.br/poderdata/lula-tem-45-contra-44-de-flavio-no-2o-turno-diz-poderdata-aya/",
-   "pesquisa_id": "2-poderdata-2026-08-26-5563",
+   "pesquisa_id": "2-poderdata-2026-08-26-5572",
    "cenario": 4,
-   "id": "2-poderdata-2026-08-26-5563-c4",
+   "id": "2-poderdata-2026-08-26-5572-c4",
    "total_cenarios": 4
   },
   {
@@ -6323,9 +6344,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2400,
    "link": "https://www.poder360.com.br/poderdata/lula-tem-45-contra-44-de-flavio-no-2o-turno-diz-poderdata-aya/",
-   "pesquisa_id": "2-poderdata-2026-08-26-5563",
+   "pesquisa_id": "2-poderdata-2026-08-26-5572",
    "cenario": 3,
-   "id": "2-poderdata-2026-08-26-5563-c3",
+   "id": "2-poderdata-2026-08-26-5572-c3",
    "total_cenarios": 4
   },
   {
@@ -6344,9 +6365,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2400,
    "link": "https://www.poder360.com.br/poderdata/lula-tem-45-contra-44-de-flavio-no-2o-turno-diz-poderdata-aya/",
-   "pesquisa_id": "2-poderdata-2026-08-26-5563",
+   "pesquisa_id": "2-poderdata-2026-08-26-5572",
    "cenario": 2,
-   "id": "2-poderdata-2026-08-26-5563-c2",
+   "id": "2-poderdata-2026-08-26-5572-c2",
    "total_cenarios": 4
   },
   {
@@ -6390,9 +6411,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2400,
    "link": "https://www.poder360.com.br/poderdata/lula-tem-45-contra-44-de-flavio-no-2o-turno-diz-poderdata-aya/",
-   "pesquisa_id": "2-poderdata-2026-08-26-5563",
+   "pesquisa_id": "2-poderdata-2026-08-26-5572",
    "cenario": 1,
-   "id": "2-poderdata-2026-08-26-5563-c1",
+   "id": "2-poderdata-2026-08-26-5572-c1",
    "total_cenarios": 4
   },
   {
@@ -6411,9 +6432,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2006,
    "link": "https://www.poder360.com.br/poder-eleicoes-2026/lula-tem-46-contra-45-de-flavio-no-2o-turno-diz-btg-nexus/",
-   "pesquisa_id": "2-nexus-2026-08-23-5600",
+   "pesquisa_id": "2-nexus-2026-08-23-5609",
    "cenario": 4,
-   "id": "2-nexus-2026-08-23-5600-c4",
+   "id": "2-nexus-2026-08-23-5609-c4",
    "total_cenarios": 4
   },
   {
@@ -6432,9 +6453,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2006,
    "link": "https://www.poder360.com.br/poder-eleicoes-2026/lula-tem-46-contra-45-de-flavio-no-2o-turno-diz-btg-nexus/",
-   "pesquisa_id": "2-nexus-2026-08-23-5600",
+   "pesquisa_id": "2-nexus-2026-08-23-5609",
    "cenario": 3,
-   "id": "2-nexus-2026-08-23-5600-c3",
+   "id": "2-nexus-2026-08-23-5609-c3",
    "total_cenarios": 4
   },
   {
@@ -6453,9 +6474,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2006,
    "link": "https://www.poder360.com.br/poder-eleicoes-2026/lula-tem-46-contra-45-de-flavio-no-2o-turno-diz-btg-nexus/",
-   "pesquisa_id": "2-nexus-2026-08-23-5600",
+   "pesquisa_id": "2-nexus-2026-08-23-5609",
    "cenario": 2,
-   "id": "2-nexus-2026-08-23-5600-c2",
+   "id": "2-nexus-2026-08-23-5609-c2",
    "total_cenarios": 4
   },
   {
@@ -6499,9 +6520,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2006,
    "link": "https://www.poder360.com.br/poder-eleicoes-2026/lula-tem-46-contra-45-de-flavio-no-2o-turno-diz-btg-nexus/",
-   "pesquisa_id": "2-nexus-2026-08-23-5600",
+   "pesquisa_id": "2-nexus-2026-08-23-5609",
    "cenario": 1,
-   "id": "2-nexus-2026-08-23-5600-c1",
+   "id": "2-nexus-2026-08-23-5609-c1",
    "total_cenarios": 4
   },
   {
@@ -6520,9 +6541,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/indexa-lula-tem-46-no-2o-turno-flavio-41/",
-   "pesquisa_id": "2-indexa-2026-08-23-5637",
+   "pesquisa_id": "2-indexa-2026-08-23-5646",
    "cenario": 4,
-   "id": "2-indexa-2026-08-23-5637-c4",
+   "id": "2-indexa-2026-08-23-5646-c4",
    "total_cenarios": 4
   },
   {
@@ -6541,9 +6562,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/indexa-lula-tem-46-no-2o-turno-flavio-41/",
-   "pesquisa_id": "2-indexa-2026-08-23-5637",
+   "pesquisa_id": "2-indexa-2026-08-23-5646",
    "cenario": 3,
-   "id": "2-indexa-2026-08-23-5637-c3",
+   "id": "2-indexa-2026-08-23-5646-c3",
    "total_cenarios": 4
   },
   {
@@ -6562,9 +6583,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/indexa-lula-tem-46-no-2o-turno-flavio-41/",
-   "pesquisa_id": "2-indexa-2026-08-23-5637",
+   "pesquisa_id": "2-indexa-2026-08-23-5646",
    "cenario": 2,
-   "id": "2-indexa-2026-08-23-5637-c2",
+   "id": "2-indexa-2026-08-23-5646-c2",
    "total_cenarios": 4
   },
   {
@@ -6608,9 +6629,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/indexa-lula-tem-46-no-2o-turno-flavio-41/",
-   "pesquisa_id": "2-indexa-2026-08-23-5637",
+   "pesquisa_id": "2-indexa-2026-08-23-5646",
    "cenario": 1,
-   "id": "2-indexa-2026-08-23-5637-c1",
+   "id": "2-indexa-2026-08-23-5646-c1",
    "total_cenarios": 4
   },
   {
@@ -6629,9 +6650,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2058,
    "link": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/08/21/datafolha-primeiro-turno-21-agosto.ghtml",
-   "pesquisa_id": "2-datafolha-2026-08-20-5674",
+   "pesquisa_id": "2-datafolha-2026-08-20-5683",
    "cenario": 4,
-   "id": "2-datafolha-2026-08-20-5674-c4",
+   "id": "2-datafolha-2026-08-20-5683-c4",
    "total_cenarios": 4
   },
   {
@@ -6650,9 +6671,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2058,
    "link": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/08/21/datafolha-primeiro-turno-21-agosto.ghtml",
-   "pesquisa_id": "2-datafolha-2026-08-20-5674",
+   "pesquisa_id": "2-datafolha-2026-08-20-5683",
    "cenario": 3,
-   "id": "2-datafolha-2026-08-20-5674-c3",
+   "id": "2-datafolha-2026-08-20-5683-c3",
    "total_cenarios": 4
   },
   {
@@ -6671,9 +6692,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2058,
    "link": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/08/21/datafolha-primeiro-turno-21-agosto.ghtml",
-   "pesquisa_id": "2-datafolha-2026-08-20-5674",
+   "pesquisa_id": "2-datafolha-2026-08-20-5683",
    "cenario": 2,
-   "id": "2-datafolha-2026-08-20-5674-c2",
+   "id": "2-datafolha-2026-08-20-5683-c2",
    "total_cenarios": 4
   },
   {
@@ -6717,9 +6738,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2058,
    "link": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/08/21/datafolha-primeiro-turno-21-agosto.ghtml",
-   "pesquisa_id": "2-datafolha-2026-08-20-5674",
+   "pesquisa_id": "2-datafolha-2026-08-20-5683",
    "cenario": 1,
-   "id": "2-datafolha-2026-08-20-5674-c1",
+   "id": "2-datafolha-2026-08-20-5683-c1",
    "total_cenarios": 4
   },
   {
@@ -6738,9 +6759,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2003,
    "link": "https://www.cnnbrasil.com.br/eleicoes/nexus-btg-lula-empata-com-flavio-e-caiado-no-2o-turno-3/",
-   "pesquisa_id": "2-nexus-2026-08-16-5711",
+   "pesquisa_id": "2-nexus-2026-08-16-5720",
    "cenario": 4,
-   "id": "2-nexus-2026-08-16-5711-c4",
+   "id": "2-nexus-2026-08-16-5720-c4",
    "total_cenarios": 4
   },
   {
@@ -6759,9 +6780,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2003,
    "link": "https://www.cnnbrasil.com.br/eleicoes/nexus-btg-lula-empata-com-flavio-e-caiado-no-2o-turno-3/",
-   "pesquisa_id": "2-nexus-2026-08-16-5711",
+   "pesquisa_id": "2-nexus-2026-08-16-5720",
    "cenario": 3,
-   "id": "2-nexus-2026-08-16-5711-c3",
+   "id": "2-nexus-2026-08-16-5720-c3",
    "total_cenarios": 4
   },
   {
@@ -6780,9 +6801,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2003,
    "link": "https://www.cnnbrasil.com.br/eleicoes/nexus-btg-lula-empata-com-flavio-e-caiado-no-2o-turno-3/",
-   "pesquisa_id": "2-nexus-2026-08-16-5711",
+   "pesquisa_id": "2-nexus-2026-08-16-5720",
    "cenario": 2,
-   "id": "2-nexus-2026-08-16-5711-c2",
+   "id": "2-nexus-2026-08-16-5720-c2",
    "total_cenarios": 4
   },
   {
@@ -6826,9 +6847,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2003,
    "link": "https://www.cnnbrasil.com.br/eleicoes/nexus-btg-lula-empata-com-flavio-e-caiado-no-2o-turno-3/",
-   "pesquisa_id": "2-nexus-2026-08-16-5711",
+   "pesquisa_id": "2-nexus-2026-08-16-5720",
    "cenario": 1,
-   "id": "2-nexus-2026-08-16-5711-c1",
+   "id": "2-nexus-2026-08-16-5720-c1",
    "total_cenarios": 4
   },
   {
@@ -6847,9 +6868,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/08/14/quaest-presidente-1o-turno-14-agosto.ghtml",
-   "pesquisa_id": "2-quaest-2026-08-13-5779",
+   "pesquisa_id": "2-quaest-2026-08-13-5788",
    "cenario": 4,
-   "id": "2-quaest-2026-08-13-5779-c4",
+   "id": "2-quaest-2026-08-13-5788-c4",
    "total_cenarios": 4
   },
   {
@@ -6868,9 +6889,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/08/14/quaest-presidente-1o-turno-14-agosto.ghtml",
-   "pesquisa_id": "2-quaest-2026-08-13-5779",
+   "pesquisa_id": "2-quaest-2026-08-13-5788",
    "cenario": 3,
-   "id": "2-quaest-2026-08-13-5779-c3",
+   "id": "2-quaest-2026-08-13-5788-c3",
    "total_cenarios": 4
   },
   {
@@ -6889,9 +6910,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/08/14/quaest-presidente-1o-turno-14-agosto.ghtml",
-   "pesquisa_id": "2-quaest-2026-08-13-5779",
+   "pesquisa_id": "2-quaest-2026-08-13-5788",
    "cenario": 2,
-   "id": "2-quaest-2026-08-13-5779-c2",
+   "id": "2-quaest-2026-08-13-5788-c2",
    "total_cenarios": 4
   },
   {
@@ -6935,9 +6956,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/08/14/quaest-presidente-1o-turno-14-agosto.ghtml",
-   "pesquisa_id": "2-quaest-2026-08-13-5779",
+   "pesquisa_id": "2-quaest-2026-08-13-5788",
    "cenario": 1,
-   "id": "2-quaest-2026-08-13-5779-c1",
+   "id": "2-quaest-2026-08-13-5788-c1",
    "total_cenarios": 4
   },
   {
@@ -6956,9 +6977,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2400,
    "link": "https://www.poder360.com.br/poderdata/lula-tem-46-contra-45-de-flavio-no-2o-turno-diz-poderdata-aya/",
-   "pesquisa_id": "2-poderdata-2026-08-12-5816",
+   "pesquisa_id": "2-poderdata-2026-08-12-5825",
    "cenario": 4,
-   "id": "2-poderdata-2026-08-12-5816-c4",
+   "id": "2-poderdata-2026-08-12-5825-c4",
    "total_cenarios": 4
   },
   {
@@ -6977,9 +6998,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2400,
    "link": "https://www.poder360.com.br/poderdata/lula-tem-46-contra-45-de-flavio-no-2o-turno-diz-poderdata-aya/",
-   "pesquisa_id": "2-poderdata-2026-08-12-5816",
+   "pesquisa_id": "2-poderdata-2026-08-12-5825",
    "cenario": 3,
-   "id": "2-poderdata-2026-08-12-5816-c3",
+   "id": "2-poderdata-2026-08-12-5825-c3",
    "total_cenarios": 4
   },
   {
@@ -6998,9 +7019,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2400,
    "link": "https://www.poder360.com.br/poderdata/lula-tem-46-contra-45-de-flavio-no-2o-turno-diz-poderdata-aya/",
-   "pesquisa_id": "2-poderdata-2026-08-12-5816",
+   "pesquisa_id": "2-poderdata-2026-08-12-5825",
    "cenario": 2,
-   "id": "2-poderdata-2026-08-12-5816-c2",
+   "id": "2-poderdata-2026-08-12-5825-c2",
    "total_cenarios": 4
   },
   {
@@ -7044,9 +7065,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2400,
    "link": "https://www.poder360.com.br/poderdata/lula-tem-46-contra-45-de-flavio-no-2o-turno-diz-poderdata-aya/",
-   "pesquisa_id": "2-poderdata-2026-08-12-5816",
+   "pesquisa_id": "2-poderdata-2026-08-12-5825",
    "cenario": 1,
-   "id": "2-poderdata-2026-08-12-5816-c1",
+   "id": "2-poderdata-2026-08-12-5825-c1",
    "total_cenarios": 4
   },
   {
@@ -7065,9 +7086,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2001,
    "link": "https://www.cnnbrasil.com.br/eleicoes/nexus-btg-lula-empata-com-flavio-e-caiado-no-2o-turno-2/",
-   "pesquisa_id": "2-nexus-2026-08-09-5853",
+   "pesquisa_id": "2-nexus-2026-08-09-5862",
    "cenario": 4,
-   "id": "2-nexus-2026-08-09-5853-c4",
+   "id": "2-nexus-2026-08-09-5862-c4",
    "total_cenarios": 4
   },
   {
@@ -7086,9 +7107,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2001,
    "link": "https://www.cnnbrasil.com.br/eleicoes/nexus-btg-lula-empata-com-flavio-e-caiado-no-2o-turno-2/",
-   "pesquisa_id": "2-nexus-2026-08-09-5853",
+   "pesquisa_id": "2-nexus-2026-08-09-5862",
    "cenario": 3,
-   "id": "2-nexus-2026-08-09-5853-c3",
+   "id": "2-nexus-2026-08-09-5862-c3",
    "total_cenarios": 4
   },
   {
@@ -7107,9 +7128,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2001,
    "link": "https://www.cnnbrasil.com.br/eleicoes/nexus-btg-lula-empata-com-flavio-e-caiado-no-2o-turno-2/",
-   "pesquisa_id": "2-nexus-2026-08-09-5853",
+   "pesquisa_id": "2-nexus-2026-08-09-5862",
    "cenario": 2,
-   "id": "2-nexus-2026-08-09-5853-c2",
+   "id": "2-nexus-2026-08-09-5862-c2",
    "total_cenarios": 4
   },
   {
@@ -7153,9 +7174,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2001,
    "link": "https://www.cnnbrasil.com.br/eleicoes/nexus-btg-lula-empata-com-flavio-e-caiado-no-2o-turno-2/",
-   "pesquisa_id": "2-nexus-2026-08-09-5853",
+   "pesquisa_id": "2-nexus-2026-08-09-5862",
    "cenario": 1,
-   "id": "2-nexus-2026-08-09-5853-c1",
+   "id": "2-nexus-2026-08-09-5862-c1",
    "total_cenarios": 4
   },
   {
@@ -7174,9 +7195,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2002,
    "link": "https://www.cartacapital.com.br/politica/cnt-mda-lula-tem-13-pontos-de-vantagem-sobre-flavio-bolsonaro-no-1o-turno/",
-   "pesquisa_id": "2-mda-2026-08-09-5890",
+   "pesquisa_id": "2-mda-2026-08-09-5899",
    "cenario": 5,
-   "id": "2-mda-2026-08-09-5890-c5",
+   "id": "2-mda-2026-08-09-5899-c5",
    "total_cenarios": 5
   },
   {
@@ -7195,9 +7216,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2002,
    "link": "https://www.cartacapital.com.br/politica/cnt-mda-lula-tem-13-pontos-de-vantagem-sobre-flavio-bolsonaro-no-1o-turno/",
-   "pesquisa_id": "2-mda-2026-08-09-5890",
+   "pesquisa_id": "2-mda-2026-08-09-5899",
    "cenario": 4,
-   "id": "2-mda-2026-08-09-5890-c4",
+   "id": "2-mda-2026-08-09-5899-c4",
    "total_cenarios": 5
   },
   {
@@ -7216,9 +7237,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2002,
    "link": "https://www.cartacapital.com.br/politica/cnt-mda-lula-tem-13-pontos-de-vantagem-sobre-flavio-bolsonaro-no-1o-turno/",
-   "pesquisa_id": "2-mda-2026-08-09-5890",
+   "pesquisa_id": "2-mda-2026-08-09-5899",
    "cenario": 3,
-   "id": "2-mda-2026-08-09-5890-c3",
+   "id": "2-mda-2026-08-09-5899-c3",
    "total_cenarios": 5
   },
   {
@@ -7237,9 +7258,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2002,
    "link": "https://www.cartacapital.com.br/politica/cnt-mda-lula-tem-13-pontos-de-vantagem-sobre-flavio-bolsonaro-no-1o-turno/",
-   "pesquisa_id": "2-mda-2026-08-09-5890",
+   "pesquisa_id": "2-mda-2026-08-09-5899",
    "cenario": 2,
-   "id": "2-mda-2026-08-09-5890-c2",
+   "id": "2-mda-2026-08-09-5899-c2",
    "total_cenarios": 5
   },
   {
@@ -7283,9 +7304,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2002,
    "link": "https://www.cartacapital.com.br/politica/cnt-mda-lula-tem-13-pontos-de-vantagem-sobre-flavio-bolsonaro-no-1o-turno/",
-   "pesquisa_id": "2-mda-2026-08-09-5890",
+   "pesquisa_id": "2-mda-2026-08-09-5899",
    "cenario": 1,
-   "id": "2-mda-2026-08-09-5890-c1",
+   "id": "2-mda-2026-08-09-5899-c1",
    "total_cenarios": 5
   },
   {
@@ -7304,9 +7325,9 @@ window.PESQUISAS = {
    "margem": 3.0,
    "amostra": 5000,
    "link": "https://exame.com/brasil/lula-tem-44-contra-40-de-flavio-em-primeiro-turno-e-renan-santos-aparece-com-10-diz-palver/",
-   "pesquisa_id": "2-palver-2026-08-07-5972",
+   "pesquisa_id": "2-palver-2026-08-07-5981",
    "cenario": 4,
-   "id": "2-palver-2026-08-07-5972-c4",
+   "id": "2-palver-2026-08-07-5981-c4",
    "total_cenarios": 4
   },
   {
@@ -7325,9 +7346,9 @@ window.PESQUISAS = {
    "margem": 3.0,
    "amostra": 5000,
    "link": "https://exame.com/brasil/lula-tem-44-contra-40-de-flavio-em-primeiro-turno-e-renan-santos-aparece-com-10-diz-palver/",
-   "pesquisa_id": "2-palver-2026-08-07-5972",
+   "pesquisa_id": "2-palver-2026-08-07-5981",
    "cenario": 3,
-   "id": "2-palver-2026-08-07-5972-c3",
+   "id": "2-palver-2026-08-07-5981-c3",
    "total_cenarios": 4
   },
   {
@@ -7370,9 +7391,9 @@ window.PESQUISAS = {
    "margem": 3.0,
    "amostra": 5000,
    "link": "https://exame.com/brasil/lula-tem-44-contra-40-de-flavio-em-primeiro-turno-e-renan-santos-aparece-com-10-diz-palver/",
-   "pesquisa_id": "2-palver-2026-08-07-5972",
+   "pesquisa_id": "2-palver-2026-08-07-5981",
    "cenario": 2,
-   "id": "2-palver-2026-08-07-5972-c2",
+   "id": "2-palver-2026-08-07-5981-c2",
    "total_cenarios": 4
   },
   {
@@ -7416,9 +7437,9 @@ window.PESQUISAS = {
    "margem": 3.0,
    "amostra": 5000,
    "link": "https://exame.com/brasil/lula-tem-44-contra-40-de-flavio-em-primeiro-turno-e-renan-santos-aparece-com-10-diz-palver/",
-   "pesquisa_id": "2-palver-2026-08-07-5972",
+   "pesquisa_id": "2-palver-2026-08-07-5981",
    "cenario": 1,
-   "id": "2-palver-2026-08-07-5972-c1",
+   "id": "2-palver-2026-08-07-5981-c1",
    "total_cenarios": 4
   },
   {
@@ -7437,9 +7458,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/futura-inteligencia-presidente-agosto-2026/",
-   "pesquisa_id": "2-futura-2026-08-07-5935",
+   "pesquisa_id": "2-futura-2026-08-07-5944",
    "cenario": 4,
-   "id": "2-futura-2026-08-07-5935-c4",
+   "id": "2-futura-2026-08-07-5944-c4",
    "total_cenarios": 4
   },
   {
@@ -7458,9 +7479,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/futura-inteligencia-presidente-agosto-2026/",
-   "pesquisa_id": "2-futura-2026-08-07-5935",
+   "pesquisa_id": "2-futura-2026-08-07-5944",
    "cenario": 3,
-   "id": "2-futura-2026-08-07-5935-c3",
+   "id": "2-futura-2026-08-07-5944-c3",
    "total_cenarios": 4
   },
   {
@@ -7504,9 +7525,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/futura-inteligencia-presidente-agosto-2026/",
-   "pesquisa_id": "2-futura-2026-08-07-5935",
+   "pesquisa_id": "2-futura-2026-08-07-5944",
    "cenario": 2,
-   "id": "2-futura-2026-08-07-5935-c2",
+   "id": "2-futura-2026-08-07-5944-c2",
    "total_cenarios": 4
   },
   {
@@ -7550,9 +7571,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/futura-inteligencia-presidente-agosto-2026/",
-   "pesquisa_id": "2-futura-2026-08-07-5935",
+   "pesquisa_id": "2-futura-2026-08-07-5944",
    "cenario": 1,
-   "id": "2-futura-2026-08-07-5935-c1",
+   "id": "2-futura-2026-08-07-5944-c1",
    "total_cenarios": 4
   },
   {
@@ -7571,9 +7592,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.cnnbrasil.com.br/eleicoes/quaest-lula-tem-44-e-flavio-39-das-intencoes-de-voto-no-2o-turno/",
-   "pesquisa_id": "2-quaest-2026-08-03-6009",
+   "pesquisa_id": "2-quaest-2026-08-03-6018",
    "cenario": 4,
-   "id": "2-quaest-2026-08-03-6009-c4",
+   "id": "2-quaest-2026-08-03-6018-c4",
    "total_cenarios": 4
   },
   {
@@ -7592,9 +7613,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.cnnbrasil.com.br/eleicoes/quaest-lula-tem-44-e-flavio-39-das-intencoes-de-voto-no-2o-turno/",
-   "pesquisa_id": "2-quaest-2026-08-03-6009",
+   "pesquisa_id": "2-quaest-2026-08-03-6018",
    "cenario": 3,
-   "id": "2-quaest-2026-08-03-6009-c3",
+   "id": "2-quaest-2026-08-03-6018-c3",
    "total_cenarios": 4
   },
   {
@@ -7613,9 +7634,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.cnnbrasil.com.br/eleicoes/quaest-lula-tem-44-e-flavio-39-das-intencoes-de-voto-no-2o-turno/",
-   "pesquisa_id": "2-quaest-2026-08-03-6009",
+   "pesquisa_id": "2-quaest-2026-08-03-6018",
    "cenario": 2,
-   "id": "2-quaest-2026-08-03-6009-c2",
+   "id": "2-quaest-2026-08-03-6018-c2",
    "total_cenarios": 4
   },
   {
@@ -7659,9 +7680,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.cnnbrasil.com.br/eleicoes/quaest-lula-tem-44-e-flavio-39-das-intencoes-de-voto-no-2o-turno/",
-   "pesquisa_id": "2-quaest-2026-08-03-6009",
+   "pesquisa_id": "2-quaest-2026-08-03-6018",
    "cenario": 1,
-   "id": "2-quaest-2026-08-03-6009-c1",
+   "id": "2-quaest-2026-08-03-6018-c1",
    "total_cenarios": 4
   },
   {
@@ -7680,9 +7701,9 @@ window.PESQUISAS = {
    "margem": 2.5,
    "amostra": 1500,
    "link": "https://www.canalmeio.com.br/wp-content/uploads/2026/08/Pesquisa-Meio_Ideia-Agosto-1.pdf",
-   "pesquisa_id": "2-ideia-2026-08-03-6046",
+   "pesquisa_id": "2-ideia-2026-08-03-6055",
    "cenario": 4,
-   "id": "2-ideia-2026-08-03-6046-c4",
+   "id": "2-ideia-2026-08-03-6055-c4",
    "total_cenarios": 4
   },
   {
@@ -7701,9 +7722,9 @@ window.PESQUISAS = {
    "margem": 2.5,
    "amostra": 1500,
    "link": "https://www.canalmeio.com.br/wp-content/uploads/2026/08/Pesquisa-Meio_Ideia-Agosto-1.pdf",
-   "pesquisa_id": "2-ideia-2026-08-03-6046",
+   "pesquisa_id": "2-ideia-2026-08-03-6055",
    "cenario": 3,
-   "id": "2-ideia-2026-08-03-6046-c3",
+   "id": "2-ideia-2026-08-03-6055-c3",
    "total_cenarios": 4
   },
   {
@@ -7722,9 +7743,9 @@ window.PESQUISAS = {
    "margem": 2.5,
    "amostra": 1500,
    "link": "https://www.canalmeio.com.br/wp-content/uploads/2026/08/Pesquisa-Meio_Ideia-Agosto-1.pdf",
-   "pesquisa_id": "2-ideia-2026-08-03-6046",
+   "pesquisa_id": "2-ideia-2026-08-03-6055",
    "cenario": 2,
-   "id": "2-ideia-2026-08-03-6046-c2",
+   "id": "2-ideia-2026-08-03-6055-c2",
    "total_cenarios": 4
   },
   {
@@ -7768,9 +7789,9 @@ window.PESQUISAS = {
    "margem": 2.5,
    "amostra": 1500,
    "link": "https://www.canalmeio.com.br/wp-content/uploads/2026/08/Pesquisa-Meio_Ideia-Agosto-1.pdf",
-   "pesquisa_id": "2-ideia-2026-08-03-6046",
+   "pesquisa_id": "2-ideia-2026-08-03-6055",
    "cenario": 1,
-   "id": "2-ideia-2026-08-03-6046-c1",
+   "id": "2-ideia-2026-08-03-6055-c1",
    "total_cenarios": 4
   },
   {
@@ -7789,9 +7810,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2002,
    "link": "https://www.poder360.com.br/poder-eleicoes-2026/lula-e-flavio-estao-tecnicamente-empatados-no-2o-turno-diz-nexus/",
-   "pesquisa_id": "2-nexus-2026-08-02-6083",
+   "pesquisa_id": "2-nexus-2026-08-02-6092",
    "cenario": 4,
-   "id": "2-nexus-2026-08-02-6083-c4",
+   "id": "2-nexus-2026-08-02-6092-c4",
    "total_cenarios": 4
   },
   {
@@ -7810,9 +7831,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2002,
    "link": "https://www.poder360.com.br/poder-eleicoes-2026/lula-e-flavio-estao-tecnicamente-empatados-no-2o-turno-diz-nexus/",
-   "pesquisa_id": "2-nexus-2026-08-02-6083",
+   "pesquisa_id": "2-nexus-2026-08-02-6092",
    "cenario": 3,
-   "id": "2-nexus-2026-08-02-6083-c3",
+   "id": "2-nexus-2026-08-02-6092-c3",
    "total_cenarios": 4
   },
   {
@@ -7831,9 +7852,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2002,
    "link": "https://www.poder360.com.br/poder-eleicoes-2026/lula-e-flavio-estao-tecnicamente-empatados-no-2o-turno-diz-nexus/",
-   "pesquisa_id": "2-nexus-2026-08-02-6083",
+   "pesquisa_id": "2-nexus-2026-08-02-6092",
    "cenario": 2,
-   "id": "2-nexus-2026-08-02-6083-c2",
+   "id": "2-nexus-2026-08-02-6092-c2",
    "total_cenarios": 4
   },
   {
@@ -7877,9 +7898,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2002,
    "link": "https://www.poder360.com.br/poder-eleicoes-2026/lula-e-flavio-estao-tecnicamente-empatados-no-2o-turno-diz-nexus/",
-   "pesquisa_id": "2-nexus-2026-08-02-6083",
+   "pesquisa_id": "2-nexus-2026-08-02-6092",
    "cenario": 1,
-   "id": "2-nexus-2026-08-02-6083-c1",
+   "id": "2-nexus-2026-08-02-6092-c1",
    "total_cenarios": 4
   },
   {
@@ -7898,9 +7919,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2400,
    "link": "https://www.poder360.com.br/poderdata/leia-os-resultados-da-pesquisa-poderdata-aya-para-presidente/",
-   "pesquisa_id": "2-poderdata-2026-07-29-6120",
+   "pesquisa_id": "2-poderdata-2026-07-29-6129",
    "cenario": 4,
-   "id": "2-poderdata-2026-07-29-6120-c4",
+   "id": "2-poderdata-2026-07-29-6129-c4",
    "total_cenarios": 4
   },
   {
@@ -7919,9 +7940,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2400,
    "link": "https://www.poder360.com.br/poderdata/leia-os-resultados-da-pesquisa-poderdata-aya-para-presidente/",
-   "pesquisa_id": "2-poderdata-2026-07-29-6120",
+   "pesquisa_id": "2-poderdata-2026-07-29-6129",
    "cenario": 3,
-   "id": "2-poderdata-2026-07-29-6120-c3",
+   "id": "2-poderdata-2026-07-29-6129-c3",
    "total_cenarios": 4
   },
   {
@@ -7940,9 +7961,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2400,
    "link": "https://www.poder360.com.br/poderdata/leia-os-resultados-da-pesquisa-poderdata-aya-para-presidente/",
-   "pesquisa_id": "2-poderdata-2026-07-29-6120",
+   "pesquisa_id": "2-poderdata-2026-07-29-6129",
    "cenario": 2,
-   "id": "2-poderdata-2026-07-29-6120-c2",
+   "id": "2-poderdata-2026-07-29-6129-c2",
    "total_cenarios": 4
   },
   {
@@ -7986,9 +8007,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2400,
    "link": "https://www.poder360.com.br/poderdata/leia-os-resultados-da-pesquisa-poderdata-aya-para-presidente/",
-   "pesquisa_id": "2-poderdata-2026-07-29-6120",
+   "pesquisa_id": "2-poderdata-2026-07-29-6129",
    "cenario": 1,
-   "id": "2-poderdata-2026-07-29-6120-c1",
+   "id": "2-poderdata-2026-07-29-6129-c1",
    "total_cenarios": 4
   },
   {
@@ -8007,9 +8028,9 @@ window.PESQUISAS = {
    "margem": 2.15,
    "amostra": 2100,
    "link": "https://www.cnnbrasil.com.br/eleicoes/vox-brasil-lula-vence-flavio-e-zema-mas-empata-com-caiado-no-2o-turno/",
-   "pesquisa_id": "2-vox-brasil-2026-07-28-6157",
+   "pesquisa_id": "2-vox-brasil-2026-07-28-6166",
    "cenario": 3,
-   "id": "2-vox-brasil-2026-07-28-6157-c3",
+   "id": "2-vox-brasil-2026-07-28-6166-c3",
    "total_cenarios": 3
   },
   {
@@ -8028,9 +8049,9 @@ window.PESQUISAS = {
    "margem": 2.15,
    "amostra": 2100,
    "link": "https://www.cnnbrasil.com.br/eleicoes/vox-brasil-lula-vence-flavio-e-zema-mas-empata-com-caiado-no-2o-turno/",
-   "pesquisa_id": "2-vox-brasil-2026-07-28-6157",
+   "pesquisa_id": "2-vox-brasil-2026-07-28-6166",
    "cenario": 2,
-   "id": "2-vox-brasil-2026-07-28-6157-c2",
+   "id": "2-vox-brasil-2026-07-28-6166-c2",
    "total_cenarios": 3
   },
   {
@@ -8074,9 +8095,9 @@ window.PESQUISAS = {
    "margem": 2.15,
    "amostra": 2100,
    "link": "https://www.cnnbrasil.com.br/eleicoes/vox-brasil-lula-vence-flavio-e-zema-mas-empata-com-caiado-no-2o-turno/",
-   "pesquisa_id": "2-vox-brasil-2026-07-28-6157",
+   "pesquisa_id": "2-vox-brasil-2026-07-28-6166",
    "cenario": 1,
-   "id": "2-vox-brasil-2026-07-28-6157-c1",
+   "id": "2-vox-brasil-2026-07-28-6166-c1",
    "total_cenarios": 3
   },
   {
@@ -8095,9 +8116,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5021,
    "link": "https://www.cnnbrasil.com.br/eleicoes/atlas-bloomberg-lula-lidera-todos-os-cenarios-de-2o-turno/",
-   "pesquisa_id": "2-atlasintel-2026-07-27-6186",
+   "pesquisa_id": "2-atlasintel-2026-07-27-6195",
    "cenario": 4,
-   "id": "2-atlasintel-2026-07-27-6186-c4",
+   "id": "2-atlasintel-2026-07-27-6195-c4",
    "total_cenarios": 4
   },
   {
@@ -8116,9 +8137,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5021,
    "link": "https://www.cnnbrasil.com.br/eleicoes/atlas-bloomberg-lula-lidera-todos-os-cenarios-de-2o-turno/",
-   "pesquisa_id": "2-atlasintel-2026-07-27-6186",
+   "pesquisa_id": "2-atlasintel-2026-07-27-6195",
    "cenario": 3,
-   "id": "2-atlasintel-2026-07-27-6186-c3",
+   "id": "2-atlasintel-2026-07-27-6195-c3",
    "total_cenarios": 4
   },
   {
@@ -8161,9 +8182,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5021,
    "link": "https://www.cnnbrasil.com.br/eleicoes/atlas-bloomberg-lula-lidera-todos-os-cenarios-de-2o-turno/",
-   "pesquisa_id": "2-atlasintel-2026-07-27-6186",
+   "pesquisa_id": "2-atlasintel-2026-07-27-6195",
    "cenario": 2,
-   "id": "2-atlasintel-2026-07-27-6186-c2",
+   "id": "2-atlasintel-2026-07-27-6195-c2",
    "total_cenarios": 4
   },
   {
@@ -8207,9 +8228,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5021,
    "link": "https://www.cnnbrasil.com.br/eleicoes/atlas-bloomberg-lula-lidera-todos-os-cenarios-de-2o-turno/",
-   "pesquisa_id": "2-atlasintel-2026-07-27-6186",
+   "pesquisa_id": "2-atlasintel-2026-07-27-6195",
    "cenario": 1,
-   "id": "2-atlasintel-2026-07-27-6186-c1",
+   "id": "2-atlasintel-2026-07-27-6195-c1",
    "total_cenarios": 4
   },
   {
@@ -8228,9 +8249,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.poder360.com.br/poder-eleicoes-2026/lula-tem-47-contra-43-de-flavio-no-2o-turno-diz-btg-nexus/",
-   "pesquisa_id": "2-nexus-2026-07-26-6223",
+   "pesquisa_id": "2-nexus-2026-07-26-6232",
    "cenario": 4,
-   "id": "2-nexus-2026-07-26-6223-c4",
+   "id": "2-nexus-2026-07-26-6232-c4",
    "total_cenarios": 4
   },
   {
@@ -8249,9 +8270,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.poder360.com.br/poder-eleicoes-2026/lula-tem-47-contra-43-de-flavio-no-2o-turno-diz-btg-nexus/",
-   "pesquisa_id": "2-nexus-2026-07-26-6223",
+   "pesquisa_id": "2-nexus-2026-07-26-6232",
    "cenario": 3,
-   "id": "2-nexus-2026-07-26-6223-c3",
+   "id": "2-nexus-2026-07-26-6232-c3",
    "total_cenarios": 4
   },
   {
@@ -8270,9 +8291,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.poder360.com.br/poder-eleicoes-2026/lula-tem-47-contra-43-de-flavio-no-2o-turno-diz-btg-nexus/",
-   "pesquisa_id": "2-nexus-2026-07-26-6223",
+   "pesquisa_id": "2-nexus-2026-07-26-6232",
    "cenario": 2,
-   "id": "2-nexus-2026-07-26-6223-c2",
+   "id": "2-nexus-2026-07-26-6232-c2",
    "total_cenarios": 4
   },
   {
@@ -8316,9 +8337,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.poder360.com.br/poder-eleicoes-2026/lula-tem-47-contra-43-de-flavio-no-2o-turno-diz-btg-nexus/",
-   "pesquisa_id": "2-nexus-2026-07-26-6223",
+   "pesquisa_id": "2-nexus-2026-07-26-6232",
    "cenario": 1,
-   "id": "2-nexus-2026-07-26-6223-c1",
+   "id": "2-nexus-2026-07-26-6232-c1",
    "total_cenarios": 4
   },
   {
@@ -8337,9 +8358,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www1.folha.uol.com.br/poder/2026/07/datafolha-lula-tem-48-e-flavio-bolsonaro-43-no-segundo-turno.shtml",
-   "pesquisa_id": "2-datafolha-2026-07-23-6260",
+   "pesquisa_id": "2-datafolha-2026-07-23-6269",
    "cenario": 3,
-   "id": "2-datafolha-2026-07-23-6260-c3",
+   "id": "2-datafolha-2026-07-23-6269-c3",
    "total_cenarios": 3
   },
   {
@@ -8358,9 +8379,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www1.folha.uol.com.br/poder/2026/07/datafolha-lula-tem-48-e-flavio-bolsonaro-43-no-segundo-turno.shtml",
-   "pesquisa_id": "2-datafolha-2026-07-23-6260",
+   "pesquisa_id": "2-datafolha-2026-07-23-6269",
    "cenario": 2,
-   "id": "2-datafolha-2026-07-23-6260-c2",
+   "id": "2-datafolha-2026-07-23-6269-c2",
    "total_cenarios": 3
   },
   {
@@ -8404,9 +8425,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www1.folha.uol.com.br/poder/2026/07/datafolha-lula-tem-48-e-flavio-bolsonaro-43-no-segundo-turno.shtml",
-   "pesquisa_id": "2-datafolha-2026-07-23-6260",
+   "pesquisa_id": "2-datafolha-2026-07-23-6269",
    "cenario": 1,
-   "id": "2-datafolha-2026-07-23-6260-c1",
+   "id": "2-datafolha-2026-07-23-6269-c1",
    "total_cenarios": 3
   },
   {
@@ -8425,9 +8446,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2000,
    "link": "https://www.poder360.com.br/poder-eleicoes-2026/lula-tem-45-contra-42-de-flavio-no-2o-turno-diz-pesquisa/",
-   "pesquisa_id": "2-real-time-2026-07-20-6289",
+   "pesquisa_id": "2-real-time-2026-07-20-6298",
    "cenario": 4,
-   "id": "2-real-time-2026-07-20-6289-c4",
+   "id": "2-real-time-2026-07-20-6298-c4",
    "total_cenarios": 4
   },
   {
@@ -8446,9 +8467,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2000,
    "link": "https://www.poder360.com.br/poder-eleicoes-2026/lula-tem-45-contra-42-de-flavio-no-2o-turno-diz-pesquisa/",
-   "pesquisa_id": "2-real-time-2026-07-20-6289",
+   "pesquisa_id": "2-real-time-2026-07-20-6298",
    "cenario": 3,
-   "id": "2-real-time-2026-07-20-6289-c3",
+   "id": "2-real-time-2026-07-20-6298-c3",
    "total_cenarios": 4
   },
   {
@@ -8467,9 +8488,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2000,
    "link": "https://www.poder360.com.br/poder-eleicoes-2026/lula-tem-45-contra-42-de-flavio-no-2o-turno-diz-pesquisa/",
-   "pesquisa_id": "2-real-time-2026-07-20-6289",
+   "pesquisa_id": "2-real-time-2026-07-20-6298",
    "cenario": 2,
-   "id": "2-real-time-2026-07-20-6289-c2",
+   "id": "2-real-time-2026-07-20-6298-c2",
    "total_cenarios": 4
   },
   {
@@ -8513,9 +8534,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2000,
    "link": "https://www.poder360.com.br/poder-eleicoes-2026/lula-tem-45-contra-42-de-flavio-no-2o-turno-diz-pesquisa/",
-   "pesquisa_id": "2-real-time-2026-07-20-6289",
+   "pesquisa_id": "2-real-time-2026-07-20-6298",
    "cenario": 1,
-   "id": "2-real-time-2026-07-20-6289-c1",
+   "id": "2-real-time-2026-07-20-6298-c1",
    "total_cenarios": 4
   },
   {
@@ -8534,9 +8555,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.cartacapital.com.br/cartaexpressa/leia-na-integra-a-nova-pesquisa-indexa-sobre-a-eleicao-para-presidente/",
-   "pesquisa_id": "2-indexa-2026-07-19-6326",
+   "pesquisa_id": "2-indexa-2026-07-19-6335",
    "cenario": 4,
-   "id": "2-indexa-2026-07-19-6326-c4",
+   "id": "2-indexa-2026-07-19-6335-c4",
    "total_cenarios": 4
   },
   {
@@ -8555,9 +8576,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.cartacapital.com.br/cartaexpressa/leia-na-integra-a-nova-pesquisa-indexa-sobre-a-eleicao-para-presidente/",
-   "pesquisa_id": "2-indexa-2026-07-19-6326",
+   "pesquisa_id": "2-indexa-2026-07-19-6335",
    "cenario": 3,
-   "id": "2-indexa-2026-07-19-6326-c3",
+   "id": "2-indexa-2026-07-19-6335-c3",
    "total_cenarios": 4
   },
   {
@@ -8576,9 +8597,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.cartacapital.com.br/cartaexpressa/leia-na-integra-a-nova-pesquisa-indexa-sobre-a-eleicao-para-presidente/",
-   "pesquisa_id": "2-indexa-2026-07-19-6326",
+   "pesquisa_id": "2-indexa-2026-07-19-6335",
    "cenario": 2,
-   "id": "2-indexa-2026-07-19-6326-c2",
+   "id": "2-indexa-2026-07-19-6335-c2",
    "total_cenarios": 4
   },
   {
@@ -8622,9 +8643,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.cartacapital.com.br/cartaexpressa/leia-na-integra-a-nova-pesquisa-indexa-sobre-a-eleicao-para-presidente/",
-   "pesquisa_id": "2-indexa-2026-07-19-6326",
+   "pesquisa_id": "2-indexa-2026-07-19-6335",
    "cenario": 1,
-   "id": "2-indexa-2026-07-19-6326-c1",
+   "id": "2-indexa-2026-07-19-6335-c1",
    "total_cenarios": 4
   },
   {
@@ -8643,9 +8664,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2400,
    "link": "https://www.poder360.com.br/poderdata/lula-tem-45-contra-43-de-flavio-no-2o-turno-diz-poderdata-aya/",
-   "pesquisa_id": "2-poderdata-2026-07-15-6363",
+   "pesquisa_id": "2-poderdata-2026-07-15-6372",
    "cenario": 4,
-   "id": "2-poderdata-2026-07-15-6363-c4",
+   "id": "2-poderdata-2026-07-15-6372-c4",
    "total_cenarios": 4
   },
   {
@@ -8664,9 +8685,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2400,
    "link": "https://www.poder360.com.br/poderdata/lula-tem-45-contra-43-de-flavio-no-2o-turno-diz-poderdata-aya/",
-   "pesquisa_id": "2-poderdata-2026-07-15-6363",
+   "pesquisa_id": "2-poderdata-2026-07-15-6372",
    "cenario": 3,
-   "id": "2-poderdata-2026-07-15-6363-c3",
+   "id": "2-poderdata-2026-07-15-6372-c3",
    "total_cenarios": 4
   },
   {
@@ -8685,9 +8706,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2400,
    "link": "https://www.poder360.com.br/poderdata/lula-tem-45-contra-43-de-flavio-no-2o-turno-diz-poderdata-aya/",
-   "pesquisa_id": "2-poderdata-2026-07-15-6363",
+   "pesquisa_id": "2-poderdata-2026-07-15-6372",
    "cenario": 2,
-   "id": "2-poderdata-2026-07-15-6363-c2",
+   "id": "2-poderdata-2026-07-15-6372-c2",
    "total_cenarios": 4
   },
   {
@@ -8731,9 +8752,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2400,
    "link": "https://www.poder360.com.br/poderdata/lula-tem-45-contra-43-de-flavio-no-2o-turno-diz-poderdata-aya/",
-   "pesquisa_id": "2-poderdata-2026-07-15-6363",
+   "pesquisa_id": "2-poderdata-2026-07-15-6372",
    "cenario": 1,
-   "id": "2-poderdata-2026-07-15-6363-c1",
+   "id": "2-poderdata-2026-07-15-6372-c1",
    "total_cenarios": 4
   },
   {
@@ -8752,9 +8773,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.cnnbrasil.com.br/eleicoes/quaest-lula-tem-45-no-2o-turno-contra-37-de-flavio/",
-   "pesquisa_id": "2-quaest-2026-07-13-6400",
+   "pesquisa_id": "2-quaest-2026-07-13-6409",
    "cenario": 4,
-   "id": "2-quaest-2026-07-13-6400-c4",
+   "id": "2-quaest-2026-07-13-6409-c4",
    "total_cenarios": 4
   },
   {
@@ -8773,9 +8794,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.cnnbrasil.com.br/eleicoes/quaest-lula-tem-45-no-2o-turno-contra-37-de-flavio/",
-   "pesquisa_id": "2-quaest-2026-07-13-6400",
+   "pesquisa_id": "2-quaest-2026-07-13-6409",
    "cenario": 3,
-   "id": "2-quaest-2026-07-13-6400-c3",
+   "id": "2-quaest-2026-07-13-6409-c3",
    "total_cenarios": 4
   },
   {
@@ -8794,9 +8815,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.cnnbrasil.com.br/eleicoes/quaest-lula-tem-45-no-2o-turno-contra-37-de-flavio/",
-   "pesquisa_id": "2-quaest-2026-07-13-6400",
+   "pesquisa_id": "2-quaest-2026-07-13-6409",
    "cenario": 2,
-   "id": "2-quaest-2026-07-13-6400-c2",
+   "id": "2-quaest-2026-07-13-6409-c2",
    "total_cenarios": 4
   },
   {
@@ -8840,9 +8861,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.cnnbrasil.com.br/eleicoes/quaest-lula-tem-45-no-2o-turno-contra-37-de-flavio/",
-   "pesquisa_id": "2-quaest-2026-07-13-6400",
+   "pesquisa_id": "2-quaest-2026-07-13-6409",
    "cenario": 1,
-   "id": "2-quaest-2026-07-13-6400-c1",
+   "id": "2-quaest-2026-07-13-6409-c1",
    "total_cenarios": 4
   },
   {
@@ -8861,9 +8882,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2003,
    "link": "https://www.poder360.com.br/poder-eleicoes-2026/lula-e-flavio-bolsonaro-empatam-no-2o-turno-diz-nexus/",
-   "pesquisa_id": "2-nexus-2026-07-12-6437",
+   "pesquisa_id": "2-nexus-2026-07-12-6446",
    "cenario": 4,
-   "id": "2-nexus-2026-07-12-6437-c4",
+   "id": "2-nexus-2026-07-12-6446-c4",
    "total_cenarios": 4
   },
   {
@@ -8882,9 +8903,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2003,
    "link": "https://www.poder360.com.br/poder-eleicoes-2026/lula-e-flavio-bolsonaro-empatam-no-2o-turno-diz-nexus/",
-   "pesquisa_id": "2-nexus-2026-07-12-6437",
+   "pesquisa_id": "2-nexus-2026-07-12-6446",
    "cenario": 3,
-   "id": "2-nexus-2026-07-12-6437-c3",
+   "id": "2-nexus-2026-07-12-6446-c3",
    "total_cenarios": 4
   },
   {
@@ -8903,9 +8924,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2003,
    "link": "https://www.poder360.com.br/poder-eleicoes-2026/lula-e-flavio-bolsonaro-empatam-no-2o-turno-diz-nexus/",
-   "pesquisa_id": "2-nexus-2026-07-12-6437",
+   "pesquisa_id": "2-nexus-2026-07-12-6446",
    "cenario": 2,
-   "id": "2-nexus-2026-07-12-6437-c2",
+   "id": "2-nexus-2026-07-12-6446-c2",
    "total_cenarios": 4
   },
   {
@@ -8949,9 +8970,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2003,
    "link": "https://www.poder360.com.br/poder-eleicoes-2026/lula-e-flavio-bolsonaro-empatam-no-2o-turno-diz-nexus/",
-   "pesquisa_id": "2-nexus-2026-07-12-6437",
+   "pesquisa_id": "2-nexus-2026-07-12-6446",
    "cenario": 1,
-   "id": "2-nexus-2026-07-12-6437-c1",
+   "id": "2-nexus-2026-07-12-6446-c1",
    "total_cenarios": 4
   },
   {
@@ -8993,9 +9014,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.poder360.com.br/poder-eleicoes/lula-e-flavio-empatam-no-2o-turno-diz-futura-apex/",
-   "pesquisa_id": "2-futura-2026-07-11-6474",
+   "pesquisa_id": "2-futura-2026-07-11-6483",
    "cenario": 4,
-   "id": "2-futura-2026-07-11-6474-c4",
+   "id": "2-futura-2026-07-11-6483-c4",
    "total_cenarios": 4
   },
   {
@@ -9037,9 +9058,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.poder360.com.br/poder-eleicoes/lula-e-flavio-empatam-no-2o-turno-diz-futura-apex/",
-   "pesquisa_id": "2-futura-2026-07-11-6474",
+   "pesquisa_id": "2-futura-2026-07-11-6483",
    "cenario": 3,
-   "id": "2-futura-2026-07-11-6474-c3",
+   "id": "2-futura-2026-07-11-6483-c3",
    "total_cenarios": 4
   },
   {
@@ -9082,9 +9103,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.poder360.com.br/poder-eleicoes/lula-e-flavio-empatam-no-2o-turno-diz-futura-apex/",
-   "pesquisa_id": "2-futura-2026-07-11-6474",
+   "pesquisa_id": "2-futura-2026-07-11-6483",
    "cenario": 2,
-   "id": "2-futura-2026-07-11-6474-c2",
+   "id": "2-futura-2026-07-11-6483-c2",
    "total_cenarios": 4
   },
   {
@@ -9128,9 +9149,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.poder360.com.br/poder-eleicoes/lula-e-flavio-empatam-no-2o-turno-diz-futura-apex/",
-   "pesquisa_id": "2-futura-2026-07-11-6474",
+   "pesquisa_id": "2-futura-2026-07-11-6483",
    "cenario": 1,
-   "id": "2-futura-2026-07-11-6474-c1",
+   "id": "2-futura-2026-07-11-6483-c1",
    "total_cenarios": 4
   },
   {
@@ -9149,9 +9170,9 @@ window.PESQUISAS = {
    "margem": 2.5,
    "amostra": 1500,
    "link": "https://www.poder360.com.br/poder-eleicoes/lula-e-flavio-estao-tecnicamente-empatados-no-2o-turno-diz-pesquisa/",
-   "pesquisa_id": "2-ideia-2026-07-06-6511",
+   "pesquisa_id": "2-ideia-2026-07-06-6520",
    "cenario": 4,
-   "id": "2-ideia-2026-07-06-6511-c4",
+   "id": "2-ideia-2026-07-06-6520-c4",
    "total_cenarios": 4
   },
   {
@@ -9170,9 +9191,9 @@ window.PESQUISAS = {
    "margem": 2.5,
    "amostra": 1500,
    "link": "https://www.poder360.com.br/poder-eleicoes/lula-e-flavio-estao-tecnicamente-empatados-no-2o-turno-diz-pesquisa/",
-   "pesquisa_id": "2-ideia-2026-07-06-6511",
+   "pesquisa_id": "2-ideia-2026-07-06-6520",
    "cenario": 3,
-   "id": "2-ideia-2026-07-06-6511-c3",
+   "id": "2-ideia-2026-07-06-6520-c3",
    "total_cenarios": 4
   },
   {
@@ -9191,9 +9212,9 @@ window.PESQUISAS = {
    "margem": 2.5,
    "amostra": 1500,
    "link": "https://www.poder360.com.br/poder-eleicoes/lula-e-flavio-estao-tecnicamente-empatados-no-2o-turno-diz-pesquisa/",
-   "pesquisa_id": "2-ideia-2026-07-06-6511",
+   "pesquisa_id": "2-ideia-2026-07-06-6520",
    "cenario": 2,
-   "id": "2-ideia-2026-07-06-6511-c2",
+   "id": "2-ideia-2026-07-06-6520-c2",
    "total_cenarios": 4
   },
   {
@@ -9237,9 +9258,9 @@ window.PESQUISAS = {
    "margem": 2.5,
    "amostra": 1500,
    "link": "https://www.poder360.com.br/poder-eleicoes/lula-e-flavio-estao-tecnicamente-empatados-no-2o-turno-diz-pesquisa/",
-   "pesquisa_id": "2-ideia-2026-07-06-6511",
+   "pesquisa_id": "2-ideia-2026-07-06-6520",
    "cenario": 1,
-   "id": "2-ideia-2026-07-06-6511-c1",
+   "id": "2-ideia-2026-07-06-6520-c1",
    "total_cenarios": 4
   },
   {
@@ -9258,9 +9279,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 4999,
    "link": "https://www.cnnbrasil.com.br/eleicoes/atlas-bloomberg-lula-tem-488-dos-votos-no-2o-turno-flavio-423/",
-   "pesquisa_id": "2-atlasintel-2026-06-30-6548",
+   "pesquisa_id": "2-atlasintel-2026-06-30-6557",
    "cenario": 4,
-   "id": "2-atlasintel-2026-06-30-6548-c4",
+   "id": "2-atlasintel-2026-06-30-6557-c4",
    "total_cenarios": 4
   },
   {
@@ -9279,9 +9300,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 4999,
    "link": "https://www.cnnbrasil.com.br/eleicoes/atlas-bloomberg-lula-tem-488-dos-votos-no-2o-turno-flavio-423/",
-   "pesquisa_id": "2-atlasintel-2026-06-30-6548",
+   "pesquisa_id": "2-atlasintel-2026-06-30-6557",
    "cenario": 3,
-   "id": "2-atlasintel-2026-06-30-6548-c3",
+   "id": "2-atlasintel-2026-06-30-6557-c3",
    "total_cenarios": 4
   },
   {
@@ -9324,9 +9345,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 4999,
    "link": "https://www.cnnbrasil.com.br/eleicoes/atlas-bloomberg-lula-tem-488-dos-votos-no-2o-turno-flavio-423/",
-   "pesquisa_id": "2-atlasintel-2026-06-30-6548",
+   "pesquisa_id": "2-atlasintel-2026-06-30-6557",
    "cenario": 2,
-   "id": "2-atlasintel-2026-06-30-6548-c2",
+   "id": "2-atlasintel-2026-06-30-6557-c2",
    "total_cenarios": 4
   },
   {
@@ -9370,9 +9391,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 4999,
    "link": "https://www.cnnbrasil.com.br/eleicoes/atlas-bloomberg-lula-tem-488-dos-votos-no-2o-turno-flavio-423/",
-   "pesquisa_id": "2-atlasintel-2026-06-30-6548",
+   "pesquisa_id": "2-atlasintel-2026-06-30-6557",
    "cenario": 1,
-   "id": "2-atlasintel-2026-06-30-6548-c1",
+   "id": "2-atlasintel-2026-06-30-6557-c1",
    "total_cenarios": 4
   },
   {
@@ -9391,9 +9412,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2009,
    "link": "https://www.cnnbrasil.com.br/eleicoes/nexus-lula-e-flavio-tem-empate-tecnico-no-2o-turno-com-47-e-44/",
-   "pesquisa_id": "2-nexus-2026-06-28-6585",
+   "pesquisa_id": "2-nexus-2026-06-28-6594",
    "cenario": 4,
-   "id": "2-nexus-2026-06-28-6585-c4",
+   "id": "2-nexus-2026-06-28-6594-c4",
    "total_cenarios": 4
   },
   {
@@ -9412,9 +9433,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2009,
    "link": "https://www.cnnbrasil.com.br/eleicoes/nexus-lula-e-flavio-tem-empate-tecnico-no-2o-turno-com-47-e-44/",
-   "pesquisa_id": "2-nexus-2026-06-28-6585",
+   "pesquisa_id": "2-nexus-2026-06-28-6594",
    "cenario": 3,
-   "id": "2-nexus-2026-06-28-6585-c3",
+   "id": "2-nexus-2026-06-28-6594-c3",
    "total_cenarios": 4
   },
   {
@@ -9457,9 +9478,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2009,
    "link": "https://www.cnnbrasil.com.br/eleicoes/nexus-lula-e-flavio-tem-empate-tecnico-no-2o-turno-com-47-e-44/",
-   "pesquisa_id": "2-nexus-2026-06-28-6585",
+   "pesquisa_id": "2-nexus-2026-06-28-6594",
    "cenario": 2,
-   "id": "2-nexus-2026-06-28-6585-c2",
+   "id": "2-nexus-2026-06-28-6594-c2",
    "total_cenarios": 4
   },
   {
@@ -9503,9 +9524,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2009,
    "link": "https://www.cnnbrasil.com.br/eleicoes/nexus-lula-e-flavio-tem-empate-tecnico-no-2o-turno-com-47-e-44/",
-   "pesquisa_id": "2-nexus-2026-06-28-6585",
+   "pesquisa_id": "2-nexus-2026-06-28-6594",
    "cenario": 1,
-   "id": "2-nexus-2026-06-28-6585-c1",
+   "id": "2-nexus-2026-06-28-6594-c1",
    "total_cenarios": 4
   },
   {
@@ -9524,9 +9545,9 @@ window.PESQUISAS = {
    "margem": 2.15,
    "amostra": 2100,
    "link": "https://www.poder360.com.br/poder-pesquisas/flavio-e-lula-empatam-no-2o-turno-diz-pesquisa-2/",
-   "pesquisa_id": "2-vox-brasil-2026-06-25-6622",
+   "pesquisa_id": "2-vox-brasil-2026-06-25-6631",
    "cenario": 3,
-   "id": "2-vox-brasil-2026-06-25-6622-c3",
+   "id": "2-vox-brasil-2026-06-25-6631-c3",
    "total_cenarios": 3
   },
   {
@@ -9545,9 +9566,9 @@ window.PESQUISAS = {
    "margem": 2.15,
    "amostra": 2100,
    "link": "https://www.poder360.com.br/poder-pesquisas/flavio-e-lula-empatam-no-2o-turno-diz-pesquisa-2/",
-   "pesquisa_id": "2-vox-brasil-2026-06-25-6622",
+   "pesquisa_id": "2-vox-brasil-2026-06-25-6631",
    "cenario": 2,
-   "id": "2-vox-brasil-2026-06-25-6622-c2",
+   "id": "2-vox-brasil-2026-06-25-6631-c2",
    "total_cenarios": 3
   },
   {
@@ -9591,9 +9612,9 @@ window.PESQUISAS = {
    "margem": 2.15,
    "amostra": 2100,
    "link": "https://www.poder360.com.br/poder-pesquisas/flavio-e-lula-empatam-no-2o-turno-diz-pesquisa-2/",
-   "pesquisa_id": "2-vox-brasil-2026-06-25-6622",
+   "pesquisa_id": "2-vox-brasil-2026-06-25-6631",
    "cenario": 1,
-   "id": "2-vox-brasil-2026-06-25-6622-c1",
+   "id": "2-vox-brasil-2026-06-25-6631-c1",
    "total_cenarios": 3
   },
   {
@@ -9612,9 +9633,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2400,
    "link": "https://www.poder360.com.br/poderdata/lula-tem-46-contra-43-de-flavio-no-2o-turno-diz-poderdata/",
-   "pesquisa_id": "2-poderdata-2026-06-24-6651",
+   "pesquisa_id": "2-poderdata-2026-06-24-6660",
    "cenario": 4,
-   "id": "2-poderdata-2026-06-24-6651-c4",
+   "id": "2-poderdata-2026-06-24-6660-c4",
    "total_cenarios": 4
   },
   {
@@ -9633,9 +9654,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2400,
    "link": "https://www.poder360.com.br/poderdata/lula-tem-46-contra-43-de-flavio-no-2o-turno-diz-poderdata/",
-   "pesquisa_id": "2-poderdata-2026-06-24-6651",
+   "pesquisa_id": "2-poderdata-2026-06-24-6660",
    "cenario": 3,
-   "id": "2-poderdata-2026-06-24-6651-c3",
+   "id": "2-poderdata-2026-06-24-6660-c3",
    "total_cenarios": 4
   },
   {
@@ -9654,9 +9675,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2400,
    "link": "https://www.poder360.com.br/poderdata/lula-tem-46-contra-43-de-flavio-no-2o-turno-diz-poderdata/",
-   "pesquisa_id": "2-poderdata-2026-06-24-6651",
+   "pesquisa_id": "2-poderdata-2026-06-24-6660",
    "cenario": 2,
-   "id": "2-poderdata-2026-06-24-6651-c2",
+   "id": "2-poderdata-2026-06-24-6660-c2",
    "total_cenarios": 4
   },
   {
@@ -9700,9 +9721,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2400,
    "link": "https://www.poder360.com.br/poderdata/lula-tem-46-contra-43-de-flavio-no-2o-turno-diz-poderdata/",
-   "pesquisa_id": "2-poderdata-2026-06-24-6651",
+   "pesquisa_id": "2-poderdata-2026-06-24-6660",
    "cenario": 1,
-   "id": "2-poderdata-2026-06-24-6651-c1",
+   "id": "2-poderdata-2026-06-24-6660-c1",
    "total_cenarios": 4
   },
   {
@@ -9721,9 +9742,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.jota.info/eleicoes/eleicoes-2026/indexa-lula-amplia-vantagem-e-chega-a-42-flavio-bolsonaro-tem-31",
-   "pesquisa_id": "2-indexa-2026-06-20-6688",
+   "pesquisa_id": "2-indexa-2026-06-20-6697",
    "cenario": 4,
-   "id": "2-indexa-2026-06-20-6688-c4",
+   "id": "2-indexa-2026-06-20-6697-c4",
    "total_cenarios": 4
   },
   {
@@ -9742,9 +9763,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.jota.info/eleicoes/eleicoes-2026/indexa-lula-amplia-vantagem-e-chega-a-42-flavio-bolsonaro-tem-31",
-   "pesquisa_id": "2-indexa-2026-06-20-6688",
+   "pesquisa_id": "2-indexa-2026-06-20-6697",
    "cenario": 3,
-   "id": "2-indexa-2026-06-20-6688-c3",
+   "id": "2-indexa-2026-06-20-6697-c3",
    "total_cenarios": 4
   },
   {
@@ -9763,9 +9784,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.jota.info/eleicoes/eleicoes-2026/indexa-lula-amplia-vantagem-e-chega-a-42-flavio-bolsonaro-tem-31",
-   "pesquisa_id": "2-indexa-2026-06-20-6688",
+   "pesquisa_id": "2-indexa-2026-06-20-6697",
    "cenario": 2,
-   "id": "2-indexa-2026-06-20-6688-c2",
+   "id": "2-indexa-2026-06-20-6697-c2",
    "total_cenarios": 4
   },
   {
@@ -9809,9 +9830,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.jota.info/eleicoes/eleicoes-2026/indexa-lula-amplia-vantagem-e-chega-a-42-flavio-bolsonaro-tem-31",
-   "pesquisa_id": "2-indexa-2026-06-20-6688",
+   "pesquisa_id": "2-indexa-2026-06-20-6697",
    "cenario": 1,
-   "id": "2-indexa-2026-06-20-6688-c1",
+   "id": "2-indexa-2026-06-20-6697-c1",
    "total_cenarios": 4
   },
   {
@@ -9830,9 +9851,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.cnnbrasil.com.br/eleicoes/no-2o-turno-lula-tem-47-contra-43-de-flavio-bolsonaro-diz-datafolha/",
-   "pesquisa_id": "2-datafolha-2026-06-18-6725",
+   "pesquisa_id": "2-datafolha-2026-06-18-6734",
    "cenario": 3,
-   "id": "2-datafolha-2026-06-18-6725-c3",
+   "id": "2-datafolha-2026-06-18-6734-c3",
    "total_cenarios": 3
   },
   {
@@ -9851,9 +9872,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.cnnbrasil.com.br/eleicoes/no-2o-turno-lula-tem-47-contra-43-de-flavio-bolsonaro-diz-datafolha/",
-   "pesquisa_id": "2-datafolha-2026-06-18-6725",
+   "pesquisa_id": "2-datafolha-2026-06-18-6734",
    "cenario": 2,
-   "id": "2-datafolha-2026-06-18-6725-c2",
+   "id": "2-datafolha-2026-06-18-6734-c2",
    "total_cenarios": 3
   },
   {
@@ -9897,9 +9918,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.cnnbrasil.com.br/eleicoes/no-2o-turno-lula-tem-47-contra-43-de-flavio-bolsonaro-diz-datafolha/",
-   "pesquisa_id": "2-datafolha-2026-06-18-6725",
+   "pesquisa_id": "2-datafolha-2026-06-18-6734",
    "cenario": 1,
-   "id": "2-datafolha-2026-06-18-6725-c1",
+   "id": "2-datafolha-2026-06-18-6734-c1",
    "total_cenarios": 3
   },
   {
@@ -9918,9 +9939,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2017,
    "link": "https://www.cnnbrasil.com.br/eleicoes/nexus-btg-no-2o-turno-lula-vai-a-49-flavio-mantem-43/",
-   "pesquisa_id": "2-nexus-2026-06-14-6754",
+   "pesquisa_id": "2-nexus-2026-06-14-6763",
    "cenario": 4,
-   "id": "2-nexus-2026-06-14-6754-c4",
+   "id": "2-nexus-2026-06-14-6763-c4",
    "total_cenarios": 4
   },
   {
@@ -9939,9 +9960,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2017,
    "link": "https://www.cnnbrasil.com.br/eleicoes/nexus-btg-no-2o-turno-lula-vai-a-49-flavio-mantem-43/",
-   "pesquisa_id": "2-nexus-2026-06-14-6754",
+   "pesquisa_id": "2-nexus-2026-06-14-6763",
    "cenario": 3,
-   "id": "2-nexus-2026-06-14-6754-c3",
+   "id": "2-nexus-2026-06-14-6763-c3",
    "total_cenarios": 4
   },
   {
@@ -9984,9 +10005,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2017,
    "link": "https://www.cnnbrasil.com.br/eleicoes/nexus-btg-no-2o-turno-lula-vai-a-49-flavio-mantem-43/",
-   "pesquisa_id": "2-nexus-2026-06-14-6754",
+   "pesquisa_id": "2-nexus-2026-06-14-6763",
    "cenario": 2,
-   "id": "2-nexus-2026-06-14-6754-c2",
+   "id": "2-nexus-2026-06-14-6763-c2",
    "total_cenarios": 4
   },
   {
@@ -10030,9 +10051,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2017,
    "link": "https://www.cnnbrasil.com.br/eleicoes/nexus-btg-no-2o-turno-lula-vai-a-49-flavio-mantem-43/",
-   "pesquisa_id": "2-nexus-2026-06-14-6754",
+   "pesquisa_id": "2-nexus-2026-06-14-6763",
    "cenario": 1,
-   "id": "2-nexus-2026-06-14-6754-c1",
+   "id": "2-nexus-2026-06-14-6763-c1",
    "total_cenarios": 4
   },
   {
@@ -10051,9 +10072,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.cartacapital.com.br/politica/as-intencoes-de-voto-de-lula-e-flavio-bolsonaro-no-2o-turno-em-nova-pesquisa-cnt-mda/",
-   "pesquisa_id": "2-mda-2026-06-14-6791",
+   "pesquisa_id": "2-mda-2026-06-14-6800",
    "cenario": 5,
-   "id": "2-mda-2026-06-14-6791-c5",
+   "id": "2-mda-2026-06-14-6800-c5",
    "total_cenarios": 5
   },
   {
@@ -10072,9 +10093,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.cartacapital.com.br/politica/as-intencoes-de-voto-de-lula-e-flavio-bolsonaro-no-2o-turno-em-nova-pesquisa-cnt-mda/",
-   "pesquisa_id": "2-mda-2026-06-14-6791",
+   "pesquisa_id": "2-mda-2026-06-14-6800",
    "cenario": 4,
-   "id": "2-mda-2026-06-14-6791-c4",
+   "id": "2-mda-2026-06-14-6800-c4",
    "total_cenarios": 5
   },
   {
@@ -10093,9 +10114,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.cartacapital.com.br/politica/as-intencoes-de-voto-de-lula-e-flavio-bolsonaro-no-2o-turno-em-nova-pesquisa-cnt-mda/",
-   "pesquisa_id": "2-mda-2026-06-14-6791",
+   "pesquisa_id": "2-mda-2026-06-14-6800",
    "cenario": 3,
-   "id": "2-mda-2026-06-14-6791-c3",
+   "id": "2-mda-2026-06-14-6800-c3",
    "total_cenarios": 5
   },
   {
@@ -10114,9 +10135,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.cartacapital.com.br/politica/as-intencoes-de-voto-de-lula-e-flavio-bolsonaro-no-2o-turno-em-nova-pesquisa-cnt-mda/",
-   "pesquisa_id": "2-mda-2026-06-14-6791",
+   "pesquisa_id": "2-mda-2026-06-14-6800",
    "cenario": 2,
-   "id": "2-mda-2026-06-14-6791-c2",
+   "id": "2-mda-2026-06-14-6800-c2",
    "total_cenarios": 5
   },
   {
@@ -10160,9 +10181,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.cartacapital.com.br/politica/as-intencoes-de-voto-de-lula-e-flavio-bolsonaro-no-2o-turno-em-nova-pesquisa-cnt-mda/",
-   "pesquisa_id": "2-mda-2026-06-14-6791",
+   "pesquisa_id": "2-mda-2026-06-14-6800",
    "cenario": 1,
-   "id": "2-mda-2026-06-14-6791-c1",
+   "id": "2-mda-2026-06-14-6800-c1",
    "total_cenarios": 5
   },
   {
@@ -10181,9 +10202,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/futura-apex-lula-tem-481-e-flavio-429-no-2o-turno/",
-   "pesquisa_id": "2-futura-2026-06-12-6836",
+   "pesquisa_id": "2-futura-2026-06-12-6845",
    "cenario": 4,
-   "id": "2-futura-2026-06-12-6836-c4",
+   "id": "2-futura-2026-06-12-6845-c4",
    "total_cenarios": 4
   },
   {
@@ -10225,9 +10246,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/futura-apex-lula-tem-481-e-flavio-429-no-2o-turno/",
-   "pesquisa_id": "2-futura-2026-06-12-6836",
+   "pesquisa_id": "2-futura-2026-06-12-6845",
    "cenario": 3,
-   "id": "2-futura-2026-06-12-6836-c3",
+   "id": "2-futura-2026-06-12-6845-c3",
    "total_cenarios": 4
   },
   {
@@ -10270,9 +10291,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/futura-apex-lula-tem-481-e-flavio-429-no-2o-turno/",
-   "pesquisa_id": "2-futura-2026-06-12-6836",
+   "pesquisa_id": "2-futura-2026-06-12-6845",
    "cenario": 2,
-   "id": "2-futura-2026-06-12-6836-c2",
+   "id": "2-futura-2026-06-12-6845-c2",
    "total_cenarios": 4
   },
   {
@@ -10316,9 +10337,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/futura-apex-lula-tem-481-e-flavio-429-no-2o-turno/",
-   "pesquisa_id": "2-futura-2026-06-12-6836",
+   "pesquisa_id": "2-futura-2026-06-12-6845",
    "cenario": 1,
-   "id": "2-futura-2026-06-12-6836-c1",
+   "id": "2-futura-2026-06-12-6845-c1",
    "total_cenarios": 4
   },
   {
@@ -10337,9 +10358,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.cnnbrasil.com.br/eleicoes/quaest-no-2o-turno-lula-vai-a-44-flavio-tem-38-das-intencoes-de-voto/",
-   "pesquisa_id": "2-quaest-2026-06-08-6873",
+   "pesquisa_id": "2-quaest-2026-06-08-6882",
    "cenario": 4,
-   "id": "2-quaest-2026-06-08-6873-c4",
+   "id": "2-quaest-2026-06-08-6882-c4",
    "total_cenarios": 4
   },
   {
@@ -10358,9 +10379,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.cnnbrasil.com.br/eleicoes/quaest-no-2o-turno-lula-vai-a-44-flavio-tem-38-das-intencoes-de-voto/",
-   "pesquisa_id": "2-quaest-2026-06-08-6873",
+   "pesquisa_id": "2-quaest-2026-06-08-6882",
    "cenario": 3,
-   "id": "2-quaest-2026-06-08-6873-c3",
+   "id": "2-quaest-2026-06-08-6882-c3",
    "total_cenarios": 4
   },
   {
@@ -10379,9 +10400,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.cnnbrasil.com.br/eleicoes/quaest-no-2o-turno-lula-vai-a-44-flavio-tem-38-das-intencoes-de-voto/",
-   "pesquisa_id": "2-quaest-2026-06-08-6873",
+   "pesquisa_id": "2-quaest-2026-06-08-6882",
    "cenario": 2,
-   "id": "2-quaest-2026-06-08-6873-c2",
+   "id": "2-quaest-2026-06-08-6882-c2",
    "total_cenarios": 4
   },
   {
@@ -10425,9 +10446,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.cnnbrasil.com.br/eleicoes/quaest-no-2o-turno-lula-vai-a-44-flavio-tem-38-das-intencoes-de-voto/",
-   "pesquisa_id": "2-quaest-2026-06-08-6873",
+   "pesquisa_id": "2-quaest-2026-06-08-6882",
    "cenario": 1,
-   "id": "2-quaest-2026-06-08-6873-c1",
+   "id": "2-quaest-2026-06-08-6882-c1",
    "total_cenarios": 4
   },
   {
@@ -10446,9 +10467,9 @@ window.PESQUISAS = {
    "margem": 2.15,
    "amostra": 2100,
    "link": "https://www.poder360.com.br/poder-eleicoes/lula-tem-478-e-flavio-413-no-2o-turno-diz-pesquisa/",
-   "pesquisa_id": "2-vox-brasil-2026-06-03-6910",
+   "pesquisa_id": "2-vox-brasil-2026-06-03-6919",
    "cenario": 3,
-   "id": "2-vox-brasil-2026-06-03-6910-c3",
+   "id": "2-vox-brasil-2026-06-03-6919-c3",
    "total_cenarios": 3
   },
   {
@@ -10467,9 +10488,9 @@ window.PESQUISAS = {
    "margem": 2.15,
    "amostra": 2100,
    "link": "https://www.poder360.com.br/poder-eleicoes/lula-tem-478-e-flavio-413-no-2o-turno-diz-pesquisa/",
-   "pesquisa_id": "2-vox-brasil-2026-06-03-6910",
+   "pesquisa_id": "2-vox-brasil-2026-06-03-6919",
    "cenario": 2,
-   "id": "2-vox-brasil-2026-06-03-6910-c2",
+   "id": "2-vox-brasil-2026-06-03-6919-c2",
    "total_cenarios": 3
   },
   {
@@ -10513,9 +10534,9 @@ window.PESQUISAS = {
    "margem": 2.15,
    "amostra": 2100,
    "link": "https://www.poder360.com.br/poder-eleicoes/lula-tem-478-e-flavio-413-no-2o-turno-diz-pesquisa/",
-   "pesquisa_id": "2-vox-brasil-2026-06-03-6910",
+   "pesquisa_id": "2-vox-brasil-2026-06-03-6919",
    "cenario": 1,
-   "id": "2-vox-brasil-2026-06-03-6910-c1",
+   "id": "2-vox-brasil-2026-06-03-6919-c1",
    "total_cenarios": 3
   },
   {
@@ -10534,9 +10555,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/real-time-lula-empata-com-caiado-e-zema-em-2o-turno-e-vence-flavio/",
-   "pesquisa_id": "2-real-time-2026-05-30-6939",
+   "pesquisa_id": "2-real-time-2026-05-30-6948",
    "cenario": 4,
-   "id": "2-real-time-2026-05-30-6939-c4",
+   "id": "2-real-time-2026-05-30-6948-c4",
    "total_cenarios": 4
   },
   {
@@ -10555,9 +10576,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/real-time-lula-empata-com-caiado-e-zema-em-2o-turno-e-vence-flavio/",
-   "pesquisa_id": "2-real-time-2026-05-30-6939",
+   "pesquisa_id": "2-real-time-2026-05-30-6948",
    "cenario": 3,
-   "id": "2-real-time-2026-05-30-6939-c3",
+   "id": "2-real-time-2026-05-30-6948-c3",
    "total_cenarios": 4
   },
   {
@@ -10576,9 +10597,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/real-time-lula-empata-com-caiado-e-zema-em-2o-turno-e-vence-flavio/",
-   "pesquisa_id": "2-real-time-2026-05-30-6939",
+   "pesquisa_id": "2-real-time-2026-05-30-6948",
    "cenario": 2,
-   "id": "2-real-time-2026-05-30-6939-c2",
+   "id": "2-real-time-2026-05-30-6948-c2",
    "total_cenarios": 4
   },
   {
@@ -10622,9 +10643,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/real-time-lula-empata-com-caiado-e-zema-em-2o-turno-e-vence-flavio/",
-   "pesquisa_id": "2-real-time-2026-05-30-6939",
+   "pesquisa_id": "2-real-time-2026-05-30-6948",
    "cenario": 1,
-   "id": "2-real-time-2026-05-30-6939-c1",
+   "id": "2-real-time-2026-05-30-6948-c1",
    "total_cenarios": 4
   },
   {
@@ -10643,9 +10664,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2400,
    "link": "https://www.poder360.com.br/poderdata/poderdata-aya-lula-e-flavio-empatam-no-2o-turno/",
-   "pesquisa_id": "2-poderdata-2026-05-28-6976",
+   "pesquisa_id": "2-poderdata-2026-05-28-6985",
    "cenario": 4,
-   "id": "2-poderdata-2026-05-28-6976-c4",
+   "id": "2-poderdata-2026-05-28-6985-c4",
    "total_cenarios": 4
   },
   {
@@ -10664,9 +10685,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2400,
    "link": "https://www.poder360.com.br/poderdata/poderdata-aya-lula-e-flavio-empatam-no-2o-turno/",
-   "pesquisa_id": "2-poderdata-2026-05-28-6976",
+   "pesquisa_id": "2-poderdata-2026-05-28-6985",
    "cenario": 3,
-   "id": "2-poderdata-2026-05-28-6976-c3",
+   "id": "2-poderdata-2026-05-28-6985-c3",
    "total_cenarios": 4
   },
   {
@@ -10685,9 +10706,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2400,
    "link": "https://www.poder360.com.br/poderdata/poderdata-aya-lula-e-flavio-empatam-no-2o-turno/",
-   "pesquisa_id": "2-poderdata-2026-05-28-6976",
+   "pesquisa_id": "2-poderdata-2026-05-28-6985",
    "cenario": 2,
-   "id": "2-poderdata-2026-05-28-6976-c2",
+   "id": "2-poderdata-2026-05-28-6985-c2",
    "total_cenarios": 4
   },
   {
@@ -10731,9 +10752,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2400,
    "link": "https://www.poder360.com.br/poderdata/poderdata-aya-lula-e-flavio-empatam-no-2o-turno/",
-   "pesquisa_id": "2-poderdata-2026-05-28-6976",
+   "pesquisa_id": "2-poderdata-2026-05-28-6985",
    "cenario": 1,
-   "id": "2-poderdata-2026-05-28-6976-c1",
+   "id": "2-poderdata-2026-05-28-6985-c1",
    "total_cenarios": 4
   },
   {
@@ -10752,9 +10773,9 @@ window.PESQUISAS = {
    "margem": 2.5,
    "amostra": 1500,
    "link": "https://www.canalmeio.com.br/wp-content/uploads/2026/05/Pesquisa-Meio_Ideia-Maio-2.pdf",
-   "pesquisa_id": "2-ideia-2026-05-27-7013",
+   "pesquisa_id": "2-ideia-2026-05-27-7022",
    "cenario": 4,
-   "id": "2-ideia-2026-05-27-7013-c4",
+   "id": "2-ideia-2026-05-27-7022-c4",
    "total_cenarios": 4
   },
   {
@@ -10773,9 +10794,9 @@ window.PESQUISAS = {
    "margem": 2.5,
    "amostra": 1500,
    "link": "https://www.canalmeio.com.br/wp-content/uploads/2026/05/Pesquisa-Meio_Ideia-Maio-2.pdf",
-   "pesquisa_id": "2-ideia-2026-05-27-7013",
+   "pesquisa_id": "2-ideia-2026-05-27-7022",
    "cenario": 3,
-   "id": "2-ideia-2026-05-27-7013-c3",
+   "id": "2-ideia-2026-05-27-7022-c3",
    "total_cenarios": 4
   },
   {
@@ -10794,9 +10815,9 @@ window.PESQUISAS = {
    "margem": 2.5,
    "amostra": 1500,
    "link": "https://www.canalmeio.com.br/wp-content/uploads/2026/05/Pesquisa-Meio_Ideia-Maio-2.pdf",
-   "pesquisa_id": "2-ideia-2026-05-27-7013",
+   "pesquisa_id": "2-ideia-2026-05-27-7022",
    "cenario": 2,
-   "id": "2-ideia-2026-05-27-7013-c2",
+   "id": "2-ideia-2026-05-27-7022-c2",
    "total_cenarios": 4
   },
   {
@@ -10839,9 +10860,9 @@ window.PESQUISAS = {
    "margem": 2.5,
    "amostra": 1500,
    "link": "https://www.canalmeio.com.br/wp-content/uploads/2026/05/Pesquisa-Meio_Ideia-Maio-2.pdf",
-   "pesquisa_id": "2-ideia-2026-05-27-7013",
+   "pesquisa_id": "2-ideia-2026-05-27-7022",
    "cenario": 1,
-   "id": "2-ideia-2026-05-27-7013-c1",
+   "id": "2-ideia-2026-05-27-7022-c1",
    "total_cenarios": 4
   },
   {
@@ -10860,9 +10881,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2045,
    "link": "https://www.cnnbrasil.com.br/eleicoes/nexus-btg-lula-tem-47-contra-43-de-flavio-no-2o-turno/",
-   "pesquisa_id": "2-nexus-2026-05-24-7079",
+   "pesquisa_id": "2-nexus-2026-05-24-7088",
    "cenario": 3,
-   "id": "2-nexus-2026-05-24-7079-c3",
+   "id": "2-nexus-2026-05-24-7088-c3",
    "total_cenarios": 3
   },
   {
@@ -10905,9 +10926,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2045,
    "link": "https://www.cnnbrasil.com.br/eleicoes/nexus-btg-lula-tem-47-contra-43-de-flavio-no-2o-turno/",
-   "pesquisa_id": "2-nexus-2026-05-24-7079",
+   "pesquisa_id": "2-nexus-2026-05-24-7088",
    "cenario": 2,
-   "id": "2-nexus-2026-05-24-7079-c2",
+   "id": "2-nexus-2026-05-24-7088-c2",
    "total_cenarios": 3
   },
   {
@@ -10951,9 +10972,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2045,
    "link": "https://www.cnnbrasil.com.br/eleicoes/nexus-btg-lula-tem-47-contra-43-de-flavio-no-2o-turno/",
-   "pesquisa_id": "2-nexus-2026-05-24-7079",
+   "pesquisa_id": "2-nexus-2026-05-24-7088",
    "cenario": 1,
-   "id": "2-nexus-2026-05-24-7079-c1",
+   "id": "2-nexus-2026-05-24-7088-c1",
    "total_cenarios": 3
   },
   {
@@ -10972,9 +10993,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.jota.info/eleicoes/eleicoes-2026/lula-lidera-com-39-e-flavio-bolsonaro-tem-30-no-1o-turno-diz-indexa-pesquisas",
-   "pesquisa_id": "2-indexa-2026-05-24-7050",
+   "pesquisa_id": "2-indexa-2026-05-24-7059",
    "cenario": 3,
-   "id": "2-indexa-2026-05-24-7050-c3",
+   "id": "2-indexa-2026-05-24-7059-c3",
    "total_cenarios": 3
   },
   {
@@ -10993,9 +11014,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.jota.info/eleicoes/eleicoes-2026/lula-lidera-com-39-e-flavio-bolsonaro-tem-30-no-1o-turno-diz-indexa-pesquisas",
-   "pesquisa_id": "2-indexa-2026-05-24-7050",
+   "pesquisa_id": "2-indexa-2026-05-24-7059",
    "cenario": 2,
-   "id": "2-indexa-2026-05-24-7050-c2",
+   "id": "2-indexa-2026-05-24-7059-c2",
    "total_cenarios": 3
   },
   {
@@ -11039,9 +11060,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.jota.info/eleicoes/eleicoes-2026/lula-lidera-com-39-e-flavio-bolsonaro-tem-30-no-1o-turno-diz-indexa-pesquisas",
-   "pesquisa_id": "2-indexa-2026-05-24-7050",
+   "pesquisa_id": "2-indexa-2026-05-24-7059",
    "cenario": 1,
-   "id": "2-indexa-2026-05-24-7050-c1",
+   "id": "2-indexa-2026-05-24-7059-c1",
    "total_cenarios": 3
   },
   {
@@ -11060,9 +11081,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/05/22/datafolha-2o-turno-lula-flavio.ghtml",
-   "pesquisa_id": "2-datafolha-2026-05-22-7108",
+   "pesquisa_id": "2-datafolha-2026-05-22-7117",
    "cenario": 3,
-   "id": "2-datafolha-2026-05-22-7108-c3",
+   "id": "2-datafolha-2026-05-22-7117-c3",
    "total_cenarios": 3
   },
   {
@@ -11081,9 +11102,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/05/22/datafolha-2o-turno-lula-flavio.ghtml",
-   "pesquisa_id": "2-datafolha-2026-05-22-7108",
+   "pesquisa_id": "2-datafolha-2026-05-22-7117",
    "cenario": 2,
-   "id": "2-datafolha-2026-05-22-7108-c2",
+   "id": "2-datafolha-2026-05-22-7117-c2",
    "total_cenarios": 3
   },
   {
@@ -11127,9 +11148,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/05/22/datafolha-2o-turno-lula-flavio.ghtml",
-   "pesquisa_id": "2-datafolha-2026-05-22-7108",
+   "pesquisa_id": "2-datafolha-2026-05-22-7117",
    "cenario": 1,
-   "id": "2-datafolha-2026-05-22-7108-c1",
+   "id": "2-datafolha-2026-05-22-7117-c1",
    "total_cenarios": 3
   },
   {
@@ -11148,9 +11169,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.poder360.com.br/poder-eleicoes/lula-tem-427-contra-356-de-flavio-no-1o-turno-diz-futura/",
-   "pesquisa_id": "2-futura-2026-05-20-7137",
+   "pesquisa_id": "2-futura-2026-05-20-7146",
    "cenario": 3,
-   "id": "2-futura-2026-05-20-7137-c3",
+   "id": "2-futura-2026-05-20-7146-c3",
    "total_cenarios": 3
   },
   {
@@ -11193,9 +11214,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.poder360.com.br/poder-eleicoes/lula-tem-427-contra-356-de-flavio-no-1o-turno-diz-futura/",
-   "pesquisa_id": "2-futura-2026-05-20-7137",
+   "pesquisa_id": "2-futura-2026-05-20-7146",
    "cenario": 2,
-   "id": "2-futura-2026-05-20-7137-c2",
+   "id": "2-futura-2026-05-20-7146-c2",
    "total_cenarios": 3
   },
   {
@@ -11239,9 +11260,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.poder360.com.br/poder-eleicoes/lula-tem-427-contra-356-de-flavio-no-1o-turno-diz-futura/",
-   "pesquisa_id": "2-futura-2026-05-20-7137",
+   "pesquisa_id": "2-futura-2026-05-20-7146",
    "cenario": 1,
-   "id": "2-futura-2026-05-20-7137-c1",
+   "id": "2-futura-2026-05-20-7146-c1",
    "total_cenarios": 3
   },
   {
@@ -11260,9 +11281,9 @@ window.PESQUISAS = {
    "margem": 2.15,
    "amostra": 2100,
    "link": "https://www.poder360.com.br/poder-eleicoes/lula-tem-468-e-flavio-381-no-2o-turno-diz-pesquisa/",
-   "pesquisa_id": "2-vox-brasil-2026-05-19-7166",
+   "pesquisa_id": "2-vox-brasil-2026-05-19-7175",
    "cenario": 3,
-   "id": "2-vox-brasil-2026-05-19-7166-c3",
+   "id": "2-vox-brasil-2026-05-19-7175-c3",
    "total_cenarios": 3
   },
   {
@@ -11281,9 +11302,9 @@ window.PESQUISAS = {
    "margem": 2.15,
    "amostra": 2100,
    "link": "https://www.poder360.com.br/poder-eleicoes/lula-tem-468-e-flavio-381-no-2o-turno-diz-pesquisa/",
-   "pesquisa_id": "2-vox-brasil-2026-05-19-7166",
+   "pesquisa_id": "2-vox-brasil-2026-05-19-7175",
    "cenario": 2,
-   "id": "2-vox-brasil-2026-05-19-7166-c2",
+   "id": "2-vox-brasil-2026-05-19-7175-c2",
    "total_cenarios": 3
   },
   {
@@ -11327,9 +11348,9 @@ window.PESQUISAS = {
    "margem": 2.15,
    "amostra": 2100,
    "link": "https://www.poder360.com.br/poder-eleicoes/lula-tem-468-e-flavio-381-no-2o-turno-diz-pesquisa/",
-   "pesquisa_id": "2-vox-brasil-2026-05-19-7166",
+   "pesquisa_id": "2-vox-brasil-2026-05-19-7175",
    "cenario": 1,
-   "id": "2-vox-brasil-2026-05-19-7166-c1",
+   "id": "2-vox-brasil-2026-05-19-7175-c1",
    "total_cenarios": 3
   },
   {
@@ -11348,9 +11369,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5032,
    "link": "https://www.cnnbrasil.com.br/eleicoes/atlas-flavio-cai-seis-pontos-e-tem-418-contra-489-de-lula-no-2o-turno/",
-   "pesquisa_id": "2-atlasintel-2026-05-18-7195",
+   "pesquisa_id": "2-atlasintel-2026-05-18-7204",
    "cenario": 4,
-   "id": "2-atlasintel-2026-05-18-7195-c4",
+   "id": "2-atlasintel-2026-05-18-7204-c4",
    "total_cenarios": 4
   },
   {
@@ -11369,9 +11390,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5032,
    "link": "https://www.cnnbrasil.com.br/eleicoes/atlas-flavio-cai-seis-pontos-e-tem-418-contra-489-de-lula-no-2o-turno/",
-   "pesquisa_id": "2-atlasintel-2026-05-18-7195",
+   "pesquisa_id": "2-atlasintel-2026-05-18-7204",
    "cenario": 3,
-   "id": "2-atlasintel-2026-05-18-7195-c3",
+   "id": "2-atlasintel-2026-05-18-7204-c3",
    "total_cenarios": 4
   },
   {
@@ -11414,9 +11435,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5032,
    "link": "https://www.cnnbrasil.com.br/eleicoes/atlas-flavio-cai-seis-pontos-e-tem-418-contra-489-de-lula-no-2o-turno/",
-   "pesquisa_id": "2-atlasintel-2026-05-18-7195",
+   "pesquisa_id": "2-atlasintel-2026-05-18-7204",
    "cenario": 2,
-   "id": "2-atlasintel-2026-05-18-7195-c2",
+   "id": "2-atlasintel-2026-05-18-7204-c2",
    "total_cenarios": 4
   },
   {
@@ -11460,9 +11481,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5032,
    "link": "https://www.cnnbrasil.com.br/eleicoes/atlas-flavio-cai-seis-pontos-e-tem-418-contra-489-de-lula-no-2o-turno/",
-   "pesquisa_id": "2-atlasintel-2026-05-18-7195",
+   "pesquisa_id": "2-atlasintel-2026-05-18-7204",
    "cenario": 1,
-   "id": "2-atlasintel-2026-05-18-7195-c1",
+   "id": "2-atlasintel-2026-05-18-7204-c1",
    "total_cenarios": 4
   },
   {
@@ -11481,9 +11502,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/05/16/datafolha-2o-turno-maio.ghtml",
-   "pesquisa_id": "2-datafolha-2026-05-13-7235",
+   "pesquisa_id": "2-datafolha-2026-05-13-7244",
    "cenario": 3,
-   "id": "2-datafolha-2026-05-13-7235-c3",
+   "id": "2-datafolha-2026-05-13-7244-c3",
    "total_cenarios": 3
   },
   {
@@ -11502,9 +11523,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/05/16/datafolha-2o-turno-maio.ghtml",
-   "pesquisa_id": "2-datafolha-2026-05-13-7235",
+   "pesquisa_id": "2-datafolha-2026-05-13-7244",
    "cenario": 2,
-   "id": "2-datafolha-2026-05-13-7235-c2",
+   "id": "2-datafolha-2026-05-13-7244-c2",
    "total_cenarios": 3
   },
   {
@@ -11548,9 +11569,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/05/16/datafolha-2o-turno-maio.ghtml",
-   "pesquisa_id": "2-datafolha-2026-05-13-7235",
+   "pesquisa_id": "2-datafolha-2026-05-13-7244",
    "cenario": 1,
-   "id": "2-datafolha-2026-05-13-7235-c1",
+   "id": "2-datafolha-2026-05-13-7244-c1",
    "total_cenarios": 3
   },
   {
@@ -11569,9 +11590,9 @@ window.PESQUISAS = {
    "margem": 2.15,
    "amostra": 2100,
    "link": "https://www.poder360.com.br/poder-eleicoes/flavio-tem-438-e-lula-402-no-2o-turno-diz-vox/",
-   "pesquisa_id": "2-vox-brasil-2026-05-12-7264",
+   "pesquisa_id": "2-vox-brasil-2026-05-12-7273",
    "cenario": 4,
-   "id": "2-vox-brasil-2026-05-12-7264-c4",
+   "id": "2-vox-brasil-2026-05-12-7273-c4",
    "total_cenarios": 4
   },
   {
@@ -11590,9 +11611,9 @@ window.PESQUISAS = {
    "margem": 2.15,
    "amostra": 2100,
    "link": "https://www.poder360.com.br/poder-eleicoes/flavio-tem-438-e-lula-402-no-2o-turno-diz-vox/",
-   "pesquisa_id": "2-vox-brasil-2026-05-12-7264",
+   "pesquisa_id": "2-vox-brasil-2026-05-12-7273",
    "cenario": 3,
-   "id": "2-vox-brasil-2026-05-12-7264-c3",
+   "id": "2-vox-brasil-2026-05-12-7273-c3",
    "total_cenarios": 4
   },
   {
@@ -11611,9 +11632,9 @@ window.PESQUISAS = {
    "margem": 2.15,
    "amostra": 2100,
    "link": "https://www.poder360.com.br/poder-eleicoes/flavio-tem-438-e-lula-402-no-2o-turno-diz-vox/",
-   "pesquisa_id": "2-vox-brasil-2026-05-12-7264",
+   "pesquisa_id": "2-vox-brasil-2026-05-12-7273",
    "cenario": 2,
-   "id": "2-vox-brasil-2026-05-12-7264-c2",
+   "id": "2-vox-brasil-2026-05-12-7273-c2",
    "total_cenarios": 4
   },
   {
@@ -11657,9 +11678,9 @@ window.PESQUISAS = {
    "margem": 2.15,
    "amostra": 2100,
    "link": "https://www.poder360.com.br/poder-eleicoes/flavio-tem-438-e-lula-402-no-2o-turno-diz-vox/",
-   "pesquisa_id": "2-vox-brasil-2026-05-12-7264",
+   "pesquisa_id": "2-vox-brasil-2026-05-12-7273",
    "cenario": 1,
-   "id": "2-vox-brasil-2026-05-12-7264-c1",
+   "id": "2-vox-brasil-2026-05-12-7273-c1",
    "total_cenarios": 4
   },
   {
@@ -11678,9 +11699,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.cnnbrasil.com.br/eleicoes/quaest-lula-tem-42-das-intencoes-de-voto-no-2o-turno-flavio-41/",
-   "pesquisa_id": "2-quaest-2026-05-11-7301",
+   "pesquisa_id": "2-quaest-2026-05-11-7310",
    "cenario": 4,
-   "id": "2-quaest-2026-05-11-7301-c4",
+   "id": "2-quaest-2026-05-11-7310-c4",
    "total_cenarios": 4
   },
   {
@@ -11699,9 +11720,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.cnnbrasil.com.br/eleicoes/quaest-lula-tem-42-das-intencoes-de-voto-no-2o-turno-flavio-41/",
-   "pesquisa_id": "2-quaest-2026-05-11-7301",
+   "pesquisa_id": "2-quaest-2026-05-11-7310",
    "cenario": 3,
-   "id": "2-quaest-2026-05-11-7301-c3",
+   "id": "2-quaest-2026-05-11-7310-c3",
    "total_cenarios": 4
   },
   {
@@ -11720,9 +11741,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.cnnbrasil.com.br/eleicoes/quaest-lula-tem-42-das-intencoes-de-voto-no-2o-turno-flavio-41/",
-   "pesquisa_id": "2-quaest-2026-05-11-7301",
+   "pesquisa_id": "2-quaest-2026-05-11-7310",
    "cenario": 2,
-   "id": "2-quaest-2026-05-11-7301-c2",
+   "id": "2-quaest-2026-05-11-7310-c2",
    "total_cenarios": 4
   },
   {
@@ -11766,9 +11787,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.cnnbrasil.com.br/eleicoes/quaest-lula-tem-42-das-intencoes-de-voto-no-2o-turno-flavio-41/",
-   "pesquisa_id": "2-quaest-2026-05-11-7301",
+   "pesquisa_id": "2-quaest-2026-05-11-7310",
    "cenario": 1,
-   "id": "2-quaest-2026-05-11-7301-c1",
+   "id": "2-quaest-2026-05-11-7310-c1",
    "total_cenarios": 4
   },
   {
@@ -11787,9 +11808,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/futura-apex-flavio-e-lula-empatam-tecnicamente-no-2o-turno/",
-   "pesquisa_id": "2-futura-2026-05-08-7338",
+   "pesquisa_id": "2-futura-2026-05-08-7347",
    "cenario": 3,
-   "id": "2-futura-2026-05-08-7338-c3",
+   "id": "2-futura-2026-05-08-7347-c3",
    "total_cenarios": 3
   },
   {
@@ -11833,9 +11854,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/futura-apex-flavio-e-lula-empatam-tecnicamente-no-2o-turno/",
-   "pesquisa_id": "2-futura-2026-05-08-7338",
+   "pesquisa_id": "2-futura-2026-05-08-7347",
    "cenario": 2,
-   "id": "2-futura-2026-05-08-7338-c2",
+   "id": "2-futura-2026-05-08-7347-c2",
    "total_cenarios": 3
   },
   {
@@ -11878,9 +11899,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/futura-apex-flavio-e-lula-empatam-tecnicamente-no-2o-turno/",
-   "pesquisa_id": "2-futura-2026-05-08-7338",
+   "pesquisa_id": "2-futura-2026-05-08-7347",
    "cenario": 1,
-   "id": "2-futura-2026-05-08-7338-c1",
+   "id": "2-futura-2026-05-08-7347-c1",
    "total_cenarios": 3
   },
   {
@@ -11899,9 +11920,9 @@ window.PESQUISAS = {
    "margem": 2.5,
    "amostra": 1500,
    "link": "https://www.canalmeio.com.br/wp-content/uploads/2026/05/Pesquisa-Meio_Ideia-Maio-1.pdf",
-   "pesquisa_id": "2-ideia-2026-05-05-7367",
+   "pesquisa_id": "2-ideia-2026-05-05-7376",
    "cenario": 4,
-   "id": "2-ideia-2026-05-05-7367-c4",
+   "id": "2-ideia-2026-05-05-7376-c4",
    "total_cenarios": 4
   },
   {
@@ -11920,9 +11941,9 @@ window.PESQUISAS = {
    "margem": 2.5,
    "amostra": 1500,
    "link": "https://www.canalmeio.com.br/wp-content/uploads/2026/05/Pesquisa-Meio_Ideia-Maio-1.pdf",
-   "pesquisa_id": "2-ideia-2026-05-05-7367",
+   "pesquisa_id": "2-ideia-2026-05-05-7376",
    "cenario": 3,
-   "id": "2-ideia-2026-05-05-7367-c3",
+   "id": "2-ideia-2026-05-05-7376-c3",
    "total_cenarios": 4
   },
   {
@@ -11941,9 +11962,9 @@ window.PESQUISAS = {
    "margem": 2.5,
    "amostra": 1500,
    "link": "https://www.canalmeio.com.br/wp-content/uploads/2026/05/Pesquisa-Meio_Ideia-Maio-1.pdf",
-   "pesquisa_id": "2-ideia-2026-05-05-7367",
+   "pesquisa_id": "2-ideia-2026-05-05-7376",
    "cenario": 2,
-   "id": "2-ideia-2026-05-05-7367-c2",
+   "id": "2-ideia-2026-05-05-7376-c2",
    "total_cenarios": 4
   },
   {
@@ -11987,9 +12008,9 @@ window.PESQUISAS = {
    "margem": 2.5,
    "amostra": 1500,
    "link": "https://www.canalmeio.com.br/wp-content/uploads/2026/05/Pesquisa-Meio_Ideia-Maio-1.pdf",
-   "pesquisa_id": "2-ideia-2026-05-05-7367",
+   "pesquisa_id": "2-ideia-2026-05-05-7376",
    "cenario": 1,
-   "id": "2-ideia-2026-05-05-7367-c1",
+   "id": "2-ideia-2026-05-05-7376-c1",
    "total_cenarios": 4
   },
   {
@@ -12008,9 +12029,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2000,
    "link": "https://www.poder360.com.br/poder-eleicoes/lula-aparece-a-frente-de-flavio-no-1o-turno-diz-pesquisa/",
-   "pesquisa_id": "2-real-time-2026-05-04-7404",
+   "pesquisa_id": "2-real-time-2026-05-04-7413",
    "cenario": 4,
-   "id": "2-real-time-2026-05-04-7404-c4",
+   "id": "2-real-time-2026-05-04-7413-c4",
    "total_cenarios": 4
   },
   {
@@ -12029,9 +12050,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2000,
    "link": "https://www.poder360.com.br/poder-eleicoes/lula-aparece-a-frente-de-flavio-no-1o-turno-diz-pesquisa/",
-   "pesquisa_id": "2-real-time-2026-05-04-7404",
+   "pesquisa_id": "2-real-time-2026-05-04-7413",
    "cenario": 3,
-   "id": "2-real-time-2026-05-04-7404-c3",
+   "id": "2-real-time-2026-05-04-7413-c3",
    "total_cenarios": 4
   },
   {
@@ -12075,9 +12096,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2000,
    "link": "https://www.poder360.com.br/poder-eleicoes/lula-aparece-a-frente-de-flavio-no-1o-turno-diz-pesquisa/",
-   "pesquisa_id": "2-real-time-2026-05-04-7404",
+   "pesquisa_id": "2-real-time-2026-05-04-7413",
    "cenario": 2,
-   "id": "2-real-time-2026-05-04-7404-c2",
+   "id": "2-real-time-2026-05-04-7413-c2",
    "total_cenarios": 4
   },
   {
@@ -12121,9 +12142,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2000,
    "link": "https://www.poder360.com.br/poder-eleicoes/lula-aparece-a-frente-de-flavio-no-1o-turno-diz-pesquisa/",
-   "pesquisa_id": "2-real-time-2026-05-04-7404",
+   "pesquisa_id": "2-real-time-2026-05-04-7413",
    "cenario": 1,
-   "id": "2-real-time-2026-05-04-7404-c1",
+   "id": "2-real-time-2026-05-04-7413-c1",
    "total_cenarios": 4
   },
   {
@@ -12142,9 +12163,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5008,
    "link": "https://www.cnnbrasil.com.br/eleicoes/atlas-bloomberg-lula-empata-com-flavio-jair-e-zema-em-eventual-2o-turno/",
-   "pesquisa_id": "2-atlasintel-2026-04-27-7441",
+   "pesquisa_id": "2-atlasintel-2026-04-27-7450",
    "cenario": 4,
-   "id": "2-atlasintel-2026-04-27-7441-c4",
+   "id": "2-atlasintel-2026-04-27-7450-c4",
    "total_cenarios": 4
   },
   {
@@ -12163,9 +12184,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5008,
    "link": "https://www.cnnbrasil.com.br/eleicoes/atlas-bloomberg-lula-empata-com-flavio-jair-e-zema-em-eventual-2o-turno/",
-   "pesquisa_id": "2-atlasintel-2026-04-27-7441",
+   "pesquisa_id": "2-atlasintel-2026-04-27-7450",
    "cenario": 3,
-   "id": "2-atlasintel-2026-04-27-7441-c3",
+   "id": "2-atlasintel-2026-04-27-7450-c3",
    "total_cenarios": 4
   },
   {
@@ -12209,9 +12230,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5008,
    "link": "https://www.cnnbrasil.com.br/eleicoes/atlas-bloomberg-lula-empata-com-flavio-jair-e-zema-em-eventual-2o-turno/",
-   "pesquisa_id": "2-atlasintel-2026-04-27-7441",
+   "pesquisa_id": "2-atlasintel-2026-04-27-7450",
    "cenario": 2,
-   "id": "2-atlasintel-2026-04-27-7441-c2",
+   "id": "2-atlasintel-2026-04-27-7450-c2",
    "total_cenarios": 4
   },
   {
@@ -12255,9 +12276,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5008,
    "link": "https://www.cnnbrasil.com.br/eleicoes/atlas-bloomberg-lula-empata-com-flavio-jair-e-zema-em-eventual-2o-turno/",
-   "pesquisa_id": "2-atlasintel-2026-04-27-7441",
+   "pesquisa_id": "2-atlasintel-2026-04-27-7450",
    "cenario": 1,
-   "id": "2-atlasintel-2026-04-27-7441-c1",
+   "id": "2-atlasintel-2026-04-27-7450-c1",
    "total_cenarios": 4
   },
   {
@@ -12299,9 +12320,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2028,
    "link": "https://www.cnnbrasil.com.br/eleicoes/nexus-no-2o-turno-lula-tem-empate-tecnico-com-flavio-zema-e-caiado/",
-   "pesquisa_id": "2-nexus-2026-04-26-7478",
+   "pesquisa_id": "2-nexus-2026-04-26-7487",
    "cenario": 3,
-   "id": "2-nexus-2026-04-26-7478-c3",
+   "id": "2-nexus-2026-04-26-7487-c3",
    "total_cenarios": 3
   },
   {
@@ -12344,9 +12365,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2028,
    "link": "https://www.cnnbrasil.com.br/eleicoes/nexus-no-2o-turno-lula-tem-empate-tecnico-com-flavio-zema-e-caiado/",
-   "pesquisa_id": "2-nexus-2026-04-26-7478",
+   "pesquisa_id": "2-nexus-2026-04-26-7487",
    "cenario": 2,
-   "id": "2-nexus-2026-04-26-7478-c2",
+   "id": "2-nexus-2026-04-26-7487-c2",
    "total_cenarios": 3
   },
   {
@@ -12390,9 +12411,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2028,
    "link": "https://www.cnnbrasil.com.br/eleicoes/nexus-no-2o-turno-lula-tem-empate-tecnico-com-flavio-zema-e-caiado/",
-   "pesquisa_id": "2-nexus-2026-04-26-7478",
+   "pesquisa_id": "2-nexus-2026-04-26-7487",
    "cenario": 1,
-   "id": "2-nexus-2026-04-26-7478-c1",
+   "id": "2-nexus-2026-04-26-7487-c1",
    "total_cenarios": 3
   },
   {
@@ -12411,9 +12432,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.cnnbrasil.com.br/eleicoes/quaest-no-2o-turno-flavio-vai-a-42-lula-tem-40/",
-   "pesquisa_id": "2-quaest-2026-04-13-7507",
+   "pesquisa_id": "2-quaest-2026-04-13-7516",
    "cenario": 5,
-   "id": "2-quaest-2026-04-13-7507-c5",
+   "id": "2-quaest-2026-04-13-7516-c5",
    "total_cenarios": 5
   },
   {
@@ -12432,9 +12453,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.cnnbrasil.com.br/eleicoes/quaest-no-2o-turno-flavio-vai-a-42-lula-tem-40/",
-   "pesquisa_id": "2-quaest-2026-04-13-7507",
+   "pesquisa_id": "2-quaest-2026-04-13-7516",
    "cenario": 4,
-   "id": "2-quaest-2026-04-13-7507-c4",
+   "id": "2-quaest-2026-04-13-7516-c4",
    "total_cenarios": 5
   },
   {
@@ -12453,9 +12474,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.cnnbrasil.com.br/eleicoes/quaest-no-2o-turno-flavio-vai-a-42-lula-tem-40/",
-   "pesquisa_id": "2-quaest-2026-04-13-7507",
+   "pesquisa_id": "2-quaest-2026-04-13-7516",
    "cenario": 3,
-   "id": "2-quaest-2026-04-13-7507-c3",
+   "id": "2-quaest-2026-04-13-7516-c3",
    "total_cenarios": 5
   },
   {
@@ -12474,9 +12495,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.cnnbrasil.com.br/eleicoes/quaest-no-2o-turno-flavio-vai-a-42-lula-tem-40/",
-   "pesquisa_id": "2-quaest-2026-04-13-7507",
+   "pesquisa_id": "2-quaest-2026-04-13-7516",
    "cenario": 2,
-   "id": "2-quaest-2026-04-13-7507-c2",
+   "id": "2-quaest-2026-04-13-7516-c2",
    "total_cenarios": 5
   },
   {
@@ -12520,9 +12541,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.cnnbrasil.com.br/eleicoes/quaest-no-2o-turno-flavio-vai-a-42-lula-tem-40/",
-   "pesquisa_id": "2-quaest-2026-04-13-7507",
+   "pesquisa_id": "2-quaest-2026-04-13-7516",
    "cenario": 1,
-   "id": "2-quaest-2026-04-13-7507-c1",
+   "id": "2-quaest-2026-04-13-7516-c1",
    "total_cenarios": 5
   },
   {
@@ -12541,9 +12562,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2002,
    "link": "https://www.cnnbrasil.com.br/eleicoes/pesquisa-cnt-mda-lula-tem-449-e-flavio-402-no-2o-turno/",
-   "pesquisa_id": "2-mda-2026-04-12-7552",
+   "pesquisa_id": "2-mda-2026-04-12-7561",
    "cenario": 4,
-   "id": "2-mda-2026-04-12-7552-c4",
+   "id": "2-mda-2026-04-12-7561-c4",
    "total_cenarios": 4
   },
   {
@@ -12562,9 +12583,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2002,
    "link": "https://www.cnnbrasil.com.br/eleicoes/pesquisa-cnt-mda-lula-tem-449-e-flavio-402-no-2o-turno/",
-   "pesquisa_id": "2-mda-2026-04-12-7552",
+   "pesquisa_id": "2-mda-2026-04-12-7561",
    "cenario": 3,
-   "id": "2-mda-2026-04-12-7552-c3",
+   "id": "2-mda-2026-04-12-7561-c3",
    "total_cenarios": 4
   },
   {
@@ -12583,9 +12604,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2002,
    "link": "https://www.cnnbrasil.com.br/eleicoes/pesquisa-cnt-mda-lula-tem-449-e-flavio-402-no-2o-turno/",
-   "pesquisa_id": "2-mda-2026-04-12-7552",
+   "pesquisa_id": "2-mda-2026-04-12-7561",
    "cenario": 2,
-   "id": "2-mda-2026-04-12-7552-c2",
+   "id": "2-mda-2026-04-12-7561-c2",
    "total_cenarios": 4
   },
   {
@@ -12628,9 +12649,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2002,
    "link": "https://www.cnnbrasil.com.br/eleicoes/pesquisa-cnt-mda-lula-tem-449-e-flavio-402-no-2o-turno/",
-   "pesquisa_id": "2-mda-2026-04-12-7552",
+   "pesquisa_id": "2-mda-2026-04-12-7561",
    "cenario": 1,
-   "id": "2-mda-2026-04-12-7552-c1",
+   "id": "2-mda-2026-04-12-7561-c1",
    "total_cenarios": 4
   },
   {
@@ -12649,9 +12670,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/futura-apex-flavio-venceria-lula-no-2o-turno-por-48-a-426/",
-   "pesquisa_id": "2-futura-2026-04-11-7589",
+   "pesquisa_id": "2-futura-2026-04-11-7598",
    "cenario": 3,
-   "id": "2-futura-2026-04-11-7589-c3",
+   "id": "2-futura-2026-04-11-7598-c3",
    "total_cenarios": 3
   },
   {
@@ -12694,9 +12715,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/futura-apex-flavio-venceria-lula-no-2o-turno-por-48-a-426/",
-   "pesquisa_id": "2-futura-2026-04-11-7589",
+   "pesquisa_id": "2-futura-2026-04-11-7598",
    "cenario": 2,
-   "id": "2-futura-2026-04-11-7589-c2",
+   "id": "2-futura-2026-04-11-7598-c2",
    "total_cenarios": 3
   },
   {
@@ -12740,9 +12761,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/futura-apex-flavio-venceria-lula-no-2o-turno-por-48-a-426/",
-   "pesquisa_id": "2-futura-2026-04-11-7589",
+   "pesquisa_id": "2-futura-2026-04-11-7598",
    "cenario": 1,
-   "id": "2-futura-2026-04-11-7589-c1",
+   "id": "2-futura-2026-04-11-7598-c1",
    "total_cenarios": 3
   },
   {
@@ -12761,9 +12782,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.cnnbrasil.com.br/eleicoes/datafolha-2o-turno-lula-perde-vantagem-e-empata-com-flavio-caiado-e-zema/",
-   "pesquisa_id": "2-datafolha-2026-04-09-7618",
+   "pesquisa_id": "2-datafolha-2026-04-09-7627",
    "cenario": 3,
-   "id": "2-datafolha-2026-04-09-7618-c3",
+   "id": "2-datafolha-2026-04-09-7627-c3",
    "total_cenarios": 3
   },
   {
@@ -12782,9 +12803,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.cnnbrasil.com.br/eleicoes/datafolha-2o-turno-lula-perde-vantagem-e-empata-com-flavio-caiado-e-zema/",
-   "pesquisa_id": "2-datafolha-2026-04-09-7618",
+   "pesquisa_id": "2-datafolha-2026-04-09-7627",
    "cenario": 2,
-   "id": "2-datafolha-2026-04-09-7618-c2",
+   "id": "2-datafolha-2026-04-09-7627-c2",
    "total_cenarios": 3
   },
   {
@@ -12827,9 +12848,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.cnnbrasil.com.br/eleicoes/datafolha-2o-turno-lula-perde-vantagem-e-empata-com-flavio-caiado-e-zema/",
-   "pesquisa_id": "2-datafolha-2026-04-09-7618",
+   "pesquisa_id": "2-datafolha-2026-04-09-7627",
    "cenario": 1,
-   "id": "2-datafolha-2026-04-09-7618-c1",
+   "id": "2-datafolha-2026-04-09-7627-c1",
    "total_cenarios": 3
   },
   {
@@ -12848,9 +12869,9 @@ window.PESQUISAS = {
    "margem": 2.5,
    "amostra": 1500,
    "link": "https://www.cnnbrasil.com.br/eleicoes/meio-ideia-flavio-tem-458-e-lula-455-no-2o-turno/",
-   "pesquisa_id": "2-ideia-2026-04-07-7647",
+   "pesquisa_id": "2-ideia-2026-04-07-7656",
    "cenario": 4,
-   "id": "2-ideia-2026-04-07-7647-c4",
+   "id": "2-ideia-2026-04-07-7656-c4",
    "total_cenarios": 4
   },
   {
@@ -12869,9 +12890,9 @@ window.PESQUISAS = {
    "margem": 2.5,
    "amostra": 1500,
    "link": "https://www.cnnbrasil.com.br/eleicoes/meio-ideia-flavio-tem-458-e-lula-455-no-2o-turno/",
-   "pesquisa_id": "2-ideia-2026-04-07-7647",
+   "pesquisa_id": "2-ideia-2026-04-07-7656",
    "cenario": 3,
-   "id": "2-ideia-2026-04-07-7647-c3",
+   "id": "2-ideia-2026-04-07-7656-c3",
    "total_cenarios": 4
   },
   {
@@ -12890,9 +12911,9 @@ window.PESQUISAS = {
    "margem": 2.5,
    "amostra": 1500,
    "link": "https://www.cnnbrasil.com.br/eleicoes/meio-ideia-flavio-tem-458-e-lula-455-no-2o-turno/",
-   "pesquisa_id": "2-ideia-2026-04-07-7647",
+   "pesquisa_id": "2-ideia-2026-04-07-7656",
    "cenario": 2,
-   "id": "2-ideia-2026-04-07-7647-c2",
+   "id": "2-ideia-2026-04-07-7656-c2",
    "total_cenarios": 4
   },
   {
@@ -12935,9 +12956,9 @@ window.PESQUISAS = {
    "margem": 2.5,
    "amostra": 1500,
    "link": "https://www.cnnbrasil.com.br/eleicoes/meio-ideia-flavio-tem-458-e-lula-455-no-2o-turno/",
-   "pesquisa_id": "2-ideia-2026-04-07-7647",
+   "pesquisa_id": "2-ideia-2026-04-07-7656",
    "cenario": 1,
-   "id": "2-ideia-2026-04-07-7647-c1",
+   "id": "2-ideia-2026-04-07-7656-c1",
    "total_cenarios": 4
   },
   {
@@ -12978,9 +12999,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2000,
    "link": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/03/30/btgnexus-lula-e-flavio-bolsonaro-empatam-em-46-em-eventual-2-turno-da-corrida-presidencial.htm",
-   "pesquisa_id": "2-nexus-2026-03-29-7709",
+   "pesquisa_id": "2-nexus-2026-03-29-7718",
    "cenario": 3,
-   "id": "2-nexus-2026-03-29-7709-c3",
+   "id": "2-nexus-2026-03-29-7718-c3",
    "total_cenarios": 3
   },
   {
@@ -13022,9 +13043,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2000,
    "link": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/03/30/btgnexus-lula-e-flavio-bolsonaro-empatam-em-46-em-eventual-2-turno-da-corrida-presidencial.htm",
-   "pesquisa_id": "2-nexus-2026-03-29-7709",
+   "pesquisa_id": "2-nexus-2026-03-29-7718",
    "cenario": 2,
-   "id": "2-nexus-2026-03-29-7709-c2",
+   "id": "2-nexus-2026-03-29-7718-c2",
    "total_cenarios": 3
   },
   {
@@ -13066,9 +13087,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2000,
    "link": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/03/30/btgnexus-lula-e-flavio-bolsonaro-empatam-em-46-em-eventual-2-turno-da-corrida-presidencial.htm",
-   "pesquisa_id": "2-nexus-2026-03-29-7709",
+   "pesquisa_id": "2-nexus-2026-03-29-7718",
    "cenario": 1,
-   "id": "2-nexus-2026-03-29-7709-c1",
+   "id": "2-nexus-2026-03-29-7718-c1",
    "total_cenarios": 3
   },
   {
@@ -13110,9 +13131,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2080,
    "link": "https://www.metropoles.com/brasil/parana-pesquisas-lula-e-flavio-bolsonaro-empatam-no-1o-e-2o-turnos",
-   "pesquisa_id": "2-paran-pesquisas-2026-03-28-7738",
+   "pesquisa_id": "2-paran-pesquisas-2026-03-28-7747",
    "cenario": 1,
-   "id": "2-paran-pesquisas-2026-03-28-7738-c1",
+   "id": "2-paran-pesquisas-2026-03-28-7747-c1",
    "total_cenarios": 1
   },
   {
@@ -13155,9 +13176,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://jovempan.com.br/noticias/politica/gerp-zema-e-o-melhor-candidato-a-vice-para-flavio-e-alckmin-para-lula.html",
-   "pesquisa_id": "2-gerp-2026-03-25-7751",
+   "pesquisa_id": "2-gerp-2026-03-25-7760",
    "cenario": 1,
-   "id": "2-gerp-2026-03-25-7751-c1",
+   "id": "2-gerp-2026-03-25-7760-c1",
    "total_cenarios": 1
   },
   {
@@ -13200,9 +13221,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5028,
    "link": "https://www.cnnbrasil.com.br/eleicoes/atlas-bloomberg-flavio-e-lula-surgem-empatados-em-cenario-de-2o-turno/",
-   "pesquisa_id": "2-atlasintel-2026-03-23-7764",
+   "pesquisa_id": "2-atlasintel-2026-03-23-7773",
    "cenario": 4,
-   "id": "2-atlasintel-2026-03-23-7764-c4",
+   "id": "2-atlasintel-2026-03-23-7773-c4",
    "total_cenarios": 4
   },
   {
@@ -13244,9 +13265,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5028,
    "link": "https://www.cnnbrasil.com.br/eleicoes/atlas-bloomberg-flavio-e-lula-surgem-empatados-em-cenario-de-2o-turno/",
-   "pesquisa_id": "2-atlasintel-2026-03-23-7764",
+   "pesquisa_id": "2-atlasintel-2026-03-23-7773",
    "cenario": 3,
-   "id": "2-atlasintel-2026-03-23-7764-c3",
+   "id": "2-atlasintel-2026-03-23-7773-c3",
    "total_cenarios": 4
   },
   {
@@ -13288,9 +13309,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5028,
    "link": "https://www.cnnbrasil.com.br/eleicoes/atlas-bloomberg-flavio-e-lula-surgem-empatados-em-cenario-de-2o-turno/",
-   "pesquisa_id": "2-atlasintel-2026-03-23-7764",
+   "pesquisa_id": "2-atlasintel-2026-03-23-7773",
    "cenario": 2,
-   "id": "2-atlasintel-2026-03-23-7764-c2",
+   "id": "2-atlasintel-2026-03-23-7773-c2",
    "total_cenarios": 4
   },
   {
@@ -13332,9 +13353,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5028,
    "link": "https://www.cnnbrasil.com.br/eleicoes/atlas-bloomberg-flavio-e-lula-surgem-empatados-em-cenario-de-2o-turno/",
-   "pesquisa_id": "2-atlasintel-2026-03-23-7764",
+   "pesquisa_id": "2-atlasintel-2026-03-23-7773",
    "cenario": 1,
-   "id": "2-atlasintel-2026-03-23-7764-c1",
+   "id": "2-atlasintel-2026-03-23-7773-c1",
    "total_cenarios": 4
   },
   {
@@ -13353,9 +13374,9 @@ window.PESQUISAS = {
    "margem": 2.5,
    "amostra": 1500,
    "link": "https://www.canalmeio.com.br/wp-content/uploads/2026/03/Pesquisa-Meio_Ideia-Marco-2026.pdf",
-   "pesquisa_id": "2-ideia-2026-03-10-7801",
+   "pesquisa_id": "2-ideia-2026-03-10-7810",
    "cenario": 5,
-   "id": "2-ideia-2026-03-10-7801-c5",
+   "id": "2-ideia-2026-03-10-7810-c5",
    "total_cenarios": 5
   },
   {
@@ -13396,9 +13417,9 @@ window.PESQUISAS = {
    "margem": 2.5,
    "amostra": 1500,
    "link": "https://www.canalmeio.com.br/wp-content/uploads/2026/03/Pesquisa-Meio_Ideia-Marco-2026.pdf",
-   "pesquisa_id": "2-ideia-2026-03-10-7801",
+   "pesquisa_id": "2-ideia-2026-03-10-7810",
    "cenario": 4,
-   "id": "2-ideia-2026-03-10-7801-c4",
+   "id": "2-ideia-2026-03-10-7810-c4",
    "total_cenarios": 5
   },
   {
@@ -13440,9 +13461,9 @@ window.PESQUISAS = {
    "margem": 2.5,
    "amostra": 1500,
    "link": "https://www.canalmeio.com.br/wp-content/uploads/2026/03/Pesquisa-Meio_Ideia-Marco-2026.pdf",
-   "pesquisa_id": "2-ideia-2026-03-10-7801",
+   "pesquisa_id": "2-ideia-2026-03-10-7810",
    "cenario": 3,
-   "id": "2-ideia-2026-03-10-7801-c3",
+   "id": "2-ideia-2026-03-10-7810-c3",
    "total_cenarios": 5
   },
   {
@@ -13484,9 +13505,9 @@ window.PESQUISAS = {
    "margem": 2.5,
    "amostra": 1500,
    "link": "https://www.canalmeio.com.br/wp-content/uploads/2026/03/Pesquisa-Meio_Ideia-Marco-2026.pdf",
-   "pesquisa_id": "2-ideia-2026-03-10-7801",
+   "pesquisa_id": "2-ideia-2026-03-10-7810",
    "cenario": 2,
-   "id": "2-ideia-2026-03-10-7801-c2",
+   "id": "2-ideia-2026-03-10-7810-c2",
    "total_cenarios": 5
   },
   {
@@ -13528,9 +13549,9 @@ window.PESQUISAS = {
    "margem": 2.5,
    "amostra": 1500,
    "link": "https://www.canalmeio.com.br/wp-content/uploads/2026/03/Pesquisa-Meio_Ideia-Marco-2026.pdf",
-   "pesquisa_id": "2-ideia-2026-03-10-7801",
+   "pesquisa_id": "2-ideia-2026-03-10-7810",
    "cenario": 1,
-   "id": "2-ideia-2026-03-10-7801-c1",
+   "id": "2-ideia-2026-03-10-7810-c1",
    "total_cenarios": 5
   },
   {
@@ -13637,9 +13658,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.cnnbrasil.com.br/eleicoes/genial-quaest-flavio-sobe-e-empata-com-lula-no-2o-turno/",
-   "pesquisa_id": "2-quaest-2026-03-09-7846",
+   "pesquisa_id": "2-quaest-2026-03-09-7855",
    "cenario": 4,
-   "id": "2-quaest-2026-03-09-7846-c4",
+   "id": "2-quaest-2026-03-09-7855-c4",
    "total_cenarios": 4
   },
   {
@@ -13681,9 +13702,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.cnnbrasil.com.br/eleicoes/genial-quaest-flavio-sobe-e-empata-com-lula-no-2o-turno/",
-   "pesquisa_id": "2-quaest-2026-03-09-7846",
+   "pesquisa_id": "2-quaest-2026-03-09-7855",
    "cenario": 3,
-   "id": "2-quaest-2026-03-09-7846-c3",
+   "id": "2-quaest-2026-03-09-7855-c3",
    "total_cenarios": 4
   },
   {
@@ -13725,9 +13746,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.cnnbrasil.com.br/eleicoes/genial-quaest-flavio-sobe-e-empata-com-lula-no-2o-turno/",
-   "pesquisa_id": "2-quaest-2026-03-09-7846",
+   "pesquisa_id": "2-quaest-2026-03-09-7855",
    "cenario": 2,
-   "id": "2-quaest-2026-03-09-7846-c2",
+   "id": "2-quaest-2026-03-09-7855-c2",
    "total_cenarios": 4
   },
   {
@@ -13769,9 +13790,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.cnnbrasil.com.br/eleicoes/genial-quaest-flavio-sobe-e-empata-com-lula-no-2o-turno/",
-   "pesquisa_id": "2-quaest-2026-03-09-7846",
+   "pesquisa_id": "2-quaest-2026-03-09-7855",
    "cenario": 1,
-   "id": "2-quaest-2026-03-09-7846-c1",
+   "id": "2-quaest-2026-03-09-7855-c1",
    "total_cenarios": 4
   },
   {
@@ -13858,9 +13879,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/futura-lula-perde-para-flavio-e-empata-com-nomes-da-direita-em-2o-turno/",
-   "pesquisa_id": "2-futura-2026-03-06-7883",
+   "pesquisa_id": "2-futura-2026-03-06-7892",
    "cenario": 2,
-   "id": "2-futura-2026-03-06-7883-c2",
+   "id": "2-futura-2026-03-06-7892-c2",
    "total_cenarios": 2
   },
   {
@@ -13901,9 +13922,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.cnnbrasil.com.br/eleicoes/futura-lula-perde-para-flavio-e-empata-com-nomes-da-direita-em-2o-turno/",
-   "pesquisa_id": "2-futura-2026-03-06-7883",
+   "pesquisa_id": "2-futura-2026-03-06-7892",
    "cenario": 1,
-   "id": "2-futura-2026-03-06-7883-c1",
+   "id": "2-futura-2026-03-06-7892-c1",
    "total_cenarios": 2
   },
   {
@@ -13945,9 +13966,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.cnnbrasil.com.br/eleicoes/flavio-bolsonaro-empata-com-lula-no-2o-turno-aponta-datafolha/",
-   "pesquisa_id": "2-datafolha-2026-03-05-7904",
+   "pesquisa_id": "2-datafolha-2026-03-05-7913",
    "cenario": 4,
-   "id": "2-datafolha-2026-03-05-7904-c4",
+   "id": "2-datafolha-2026-03-05-7913-c4",
    "total_cenarios": 4
   },
   {
@@ -13989,9 +14010,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.cnnbrasil.com.br/eleicoes/flavio-bolsonaro-empata-com-lula-no-2o-turno-aponta-datafolha/",
-   "pesquisa_id": "2-datafolha-2026-03-05-7904",
+   "pesquisa_id": "2-datafolha-2026-03-05-7913",
    "cenario": 3,
-   "id": "2-datafolha-2026-03-05-7904-c3",
+   "id": "2-datafolha-2026-03-05-7913-c3",
    "total_cenarios": 4
   },
   {
@@ -14033,9 +14054,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.cnnbrasil.com.br/eleicoes/flavio-bolsonaro-empata-com-lula-no-2o-turno-aponta-datafolha/",
-   "pesquisa_id": "2-datafolha-2026-03-05-7904",
+   "pesquisa_id": "2-datafolha-2026-03-05-7913",
    "cenario": 2,
-   "id": "2-datafolha-2026-03-05-7904-c2",
+   "id": "2-datafolha-2026-03-05-7913-c2",
    "total_cenarios": 4
   },
   {
@@ -14077,9 +14098,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.cnnbrasil.com.br/eleicoes/flavio-bolsonaro-empata-com-lula-no-2o-turno-aponta-datafolha/",
-   "pesquisa_id": "2-datafolha-2026-03-05-7904",
+   "pesquisa_id": "2-datafolha-2026-03-05-7913",
    "cenario": 1,
-   "id": "2-datafolha-2026-03-05-7904-c1",
+   "id": "2-datafolha-2026-03-05-7913-c1",
    "total_cenarios": 4
   },
   {
@@ -14098,9 +14119,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2000,
    "link": "https://www.poder360.com.br/poder-eleicoes/lula-empata-no-2o-turno-com-flavio-e-ratinho-junior-diz-pesquisa/",
-   "pesquisa_id": "2-real-time-2026-03-02-7941",
+   "pesquisa_id": "2-real-time-2026-03-02-7950",
    "cenario": 4,
-   "id": "2-real-time-2026-03-02-7941-c4",
+   "id": "2-real-time-2026-03-02-7950-c4",
    "total_cenarios": 4
   },
   {
@@ -14142,9 +14163,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2000,
    "link": "https://www.poder360.com.br/poder-eleicoes/lula-empata-no-2o-turno-com-flavio-e-ratinho-junior-diz-pesquisa/",
-   "pesquisa_id": "2-real-time-2026-03-02-7941",
+   "pesquisa_id": "2-real-time-2026-03-02-7950",
    "cenario": 3,
-   "id": "2-real-time-2026-03-02-7941-c3",
+   "id": "2-real-time-2026-03-02-7950-c3",
    "total_cenarios": 4
   },
   {
@@ -14186,9 +14207,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2000,
    "link": "https://www.poder360.com.br/poder-eleicoes/lula-empata-no-2o-turno-com-flavio-e-ratinho-junior-diz-pesquisa/",
-   "pesquisa_id": "2-real-time-2026-03-02-7941",
+   "pesquisa_id": "2-real-time-2026-03-02-7950",
    "cenario": 2,
-   "id": "2-real-time-2026-03-02-7941-c2",
+   "id": "2-real-time-2026-03-02-7950-c2",
    "total_cenarios": 4
   },
   {
@@ -14230,9 +14251,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2000,
    "link": "https://www.poder360.com.br/poder-eleicoes/lula-empata-no-2o-turno-com-flavio-e-ratinho-junior-diz-pesquisa/",
-   "pesquisa_id": "2-real-time-2026-03-02-7941",
+   "pesquisa_id": "2-real-time-2026-03-02-7950",
    "cenario": 1,
-   "id": "2-real-time-2026-03-02-7941-c1",
+   "id": "2-real-time-2026-03-02-7950-c1",
    "total_cenarios": 4
   },
   {
@@ -14251,9 +14272,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2080,
    "link": "https://www.poder360.com.br/poder-eleicoes/lula-e-flavio-empatam-no-1o-turno-diz-parana-pesquisas/",
-   "pesquisa_id": "2-paran-pesquisas-2026-02-25-7978",
+   "pesquisa_id": "2-paran-pesquisas-2026-02-25-7987",
    "cenario": 3,
-   "id": "2-paran-pesquisas-2026-02-25-7978-c3",
+   "id": "2-paran-pesquisas-2026-02-25-7987-c3",
    "total_cenarios": 3
   },
   {
@@ -14295,9 +14316,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2080,
    "link": "https://www.poder360.com.br/poder-eleicoes/lula-e-flavio-empatam-no-1o-turno-diz-parana-pesquisas/",
-   "pesquisa_id": "2-paran-pesquisas-2026-02-25-7978",
+   "pesquisa_id": "2-paran-pesquisas-2026-02-25-7987",
    "cenario": 2,
-   "id": "2-paran-pesquisas-2026-02-25-7978-c2",
+   "id": "2-paran-pesquisas-2026-02-25-7987-c2",
    "total_cenarios": 3
   },
   {
@@ -14339,9 +14360,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2080,
    "link": "https://www.poder360.com.br/poder-eleicoes/lula-e-flavio-empatam-no-1o-turno-diz-parana-pesquisas/",
-   "pesquisa_id": "2-paran-pesquisas-2026-02-25-7978",
+   "pesquisa_id": "2-paran-pesquisas-2026-02-25-7987",
    "cenario": 1,
-   "id": "2-paran-pesquisas-2026-02-25-7978-c1",
+   "id": "2-paran-pesquisas-2026-02-25-7987-c1",
    "total_cenarios": 3
   },
   {
@@ -14383,9 +14404,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 4986,
    "link": "https://www.cnnbrasil.com.br/eleicoes/atlas-2o-turno-flavio-bolsonaro-sobe-e-empata-com-lula/",
-   "pesquisa_id": "2-atlasintel-2026-02-24-8007",
+   "pesquisa_id": "2-atlasintel-2026-02-24-8016",
    "cenario": 5,
-   "id": "2-atlasintel-2026-02-24-8007-c5",
+   "id": "2-atlasintel-2026-02-24-8016-c5",
    "total_cenarios": 5
   },
   {
@@ -14427,9 +14448,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 4986,
    "link": "https://www.cnnbrasil.com.br/eleicoes/atlas-2o-turno-flavio-bolsonaro-sobe-e-empata-com-lula/",
-   "pesquisa_id": "2-atlasintel-2026-02-24-8007",
+   "pesquisa_id": "2-atlasintel-2026-02-24-8016",
    "cenario": 4,
-   "id": "2-atlasintel-2026-02-24-8007-c4",
+   "id": "2-atlasintel-2026-02-24-8016-c4",
    "total_cenarios": 5
   },
   {
@@ -14471,9 +14492,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 4986,
    "link": "https://www.cnnbrasil.com.br/eleicoes/atlas-2o-turno-flavio-bolsonaro-sobe-e-empata-com-lula/",
-   "pesquisa_id": "2-atlasintel-2026-02-24-8007",
+   "pesquisa_id": "2-atlasintel-2026-02-24-8016",
    "cenario": 3,
-   "id": "2-atlasintel-2026-02-24-8007-c3",
+   "id": "2-atlasintel-2026-02-24-8016-c3",
    "total_cenarios": 5
   },
   {
@@ -14515,9 +14536,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 4986,
    "link": "https://www.cnnbrasil.com.br/eleicoes/atlas-2o-turno-flavio-bolsonaro-sobe-e-empata-com-lula/",
-   "pesquisa_id": "2-atlasintel-2026-02-24-8007",
+   "pesquisa_id": "2-atlasintel-2026-02-24-8016",
    "cenario": 2,
-   "id": "2-atlasintel-2026-02-24-8007-c2",
+   "id": "2-atlasintel-2026-02-24-8016-c2",
    "total_cenarios": 5
   },
   {
@@ -14560,9 +14581,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 4986,
    "link": "https://www.cnnbrasil.com.br/eleicoes/atlas-2o-turno-flavio-bolsonaro-sobe-e-empata-com-lula/",
-   "pesquisa_id": "2-atlasintel-2026-02-24-8007",
+   "pesquisa_id": "2-atlasintel-2026-02-24-8016",
    "cenario": 1,
-   "id": "2-atlasintel-2026-02-24-8007-c1",
+   "id": "2-atlasintel-2026-02-24-8016-c1",
    "total_cenarios": 5
   },
   {
@@ -14603,9 +14624,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.cnnbrasil.com.br/eleicoes/quaest-lula-ganharia-de-flavio-em-eventual-2o-turno/",
-   "pesquisa_id": "2-quaest-2026-02-09-8052",
+   "pesquisa_id": "2-quaest-2026-02-09-8061",
    "cenario": 4,
-   "id": "2-quaest-2026-02-09-8052-c4",
+   "id": "2-quaest-2026-02-09-8061-c4",
    "total_cenarios": 4
   },
   {
@@ -14647,9 +14668,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.cnnbrasil.com.br/eleicoes/quaest-lula-ganharia-de-flavio-em-eventual-2o-turno/",
-   "pesquisa_id": "2-quaest-2026-02-09-8052",
+   "pesquisa_id": "2-quaest-2026-02-09-8061",
    "cenario": 3,
-   "id": "2-quaest-2026-02-09-8052-c3",
+   "id": "2-quaest-2026-02-09-8061-c3",
    "total_cenarios": 4
   },
   {
@@ -14690,9 +14711,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.cnnbrasil.com.br/eleicoes/quaest-lula-ganharia-de-flavio-em-eventual-2o-turno/",
-   "pesquisa_id": "2-quaest-2026-02-09-8052",
+   "pesquisa_id": "2-quaest-2026-02-09-8061",
    "cenario": 2,
-   "id": "2-quaest-2026-02-09-8052-c2",
+   "id": "2-quaest-2026-02-09-8061-c2",
    "total_cenarios": 4
   },
   {
@@ -14734,9 +14755,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.cnnbrasil.com.br/eleicoes/quaest-lula-ganharia-de-flavio-em-eventual-2o-turno/",
-   "pesquisa_id": "2-quaest-2026-02-09-8052",
+   "pesquisa_id": "2-quaest-2026-02-09-8061",
    "cenario": 1,
-   "id": "2-quaest-2026-02-09-8052-c1",
+   "id": "2-quaest-2026-02-09-8061-c1",
    "total_cenarios": 4
   },
   {
@@ -14847,9 +14868,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/pesquisa-100-cidades-futura-presidente-da-republica-fevereiro-2026/",
-   "pesquisa_id": "2-futura-2026-02-07-8089",
+   "pesquisa_id": "2-futura-2026-02-07-8098",
    "cenario": 2,
-   "id": "2-futura-2026-02-07-8089-c2",
+   "id": "2-futura-2026-02-07-8098-c2",
    "total_cenarios": 2
   },
   {
@@ -14891,9 +14912,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/pesquisa-100-cidades-futura-presidente-da-republica-fevereiro-2026/",
-   "pesquisa_id": "2-futura-2026-02-07-8089",
+   "pesquisa_id": "2-futura-2026-02-07-8098",
    "cenario": 1,
-   "id": "2-futura-2026-02-07-8089-c1",
+   "id": "2-futura-2026-02-07-8098-c1",
    "total_cenarios": 2
   },
   {
@@ -14912,9 +14933,9 @@ window.PESQUISAS = {
    "margem": 2.5,
    "amostra": 1500,
    "link": "https://www.poder360.com.br/poder-eleicoes/lula-lidera-em-5-de-7-cenarios-no-1o-turno-diz-pesquisa/",
-   "pesquisa_id": "2-ideia-2026-02-02-8147",
+   "pesquisa_id": "2-ideia-2026-02-02-8156",
    "cenario": 5,
-   "id": "2-ideia-2026-02-02-8147-c5",
+   "id": "2-ideia-2026-02-02-8156-c5",
    "total_cenarios": 5
   },
   {
@@ -14933,9 +14954,9 @@ window.PESQUISAS = {
    "margem": 2.5,
    "amostra": 1500,
    "link": "https://www.poder360.com.br/poder-eleicoes/lula-lidera-em-5-de-7-cenarios-no-1o-turno-diz-pesquisa/",
-   "pesquisa_id": "2-ideia-2026-02-02-8147",
+   "pesquisa_id": "2-ideia-2026-02-02-8156",
    "cenario": 4,
-   "id": "2-ideia-2026-02-02-8147-c4",
+   "id": "2-ideia-2026-02-02-8156-c4",
    "total_cenarios": 5
   },
   {
@@ -14976,9 +14997,9 @@ window.PESQUISAS = {
    "margem": 2.5,
    "amostra": 1500,
    "link": "https://www.poder360.com.br/poder-eleicoes/lula-lidera-em-5-de-7-cenarios-no-1o-turno-diz-pesquisa/",
-   "pesquisa_id": "2-ideia-2026-02-02-8147",
+   "pesquisa_id": "2-ideia-2026-02-02-8156",
    "cenario": 3,
-   "id": "2-ideia-2026-02-02-8147-c3",
+   "id": "2-ideia-2026-02-02-8156-c3",
    "total_cenarios": 5
   },
   {
@@ -15020,9 +15041,9 @@ window.PESQUISAS = {
    "margem": 2.5,
    "amostra": 1500,
    "link": "https://www.poder360.com.br/poder-eleicoes/lula-lidera-em-5-de-7-cenarios-no-1o-turno-diz-pesquisa/",
-   "pesquisa_id": "2-ideia-2026-02-02-8147",
+   "pesquisa_id": "2-ideia-2026-02-02-8156",
    "cenario": 2,
-   "id": "2-ideia-2026-02-02-8147-c2",
+   "id": "2-ideia-2026-02-02-8156-c2",
    "total_cenarios": 5
   },
   {
@@ -15064,9 +15085,9 @@ window.PESQUISAS = {
    "margem": 2.5,
    "amostra": 1500,
    "link": "https://www.poder360.com.br/poder-eleicoes/lula-lidera-em-5-de-7-cenarios-no-1o-turno-diz-pesquisa/",
-   "pesquisa_id": "2-ideia-2026-02-02-8147",
+   "pesquisa_id": "2-ideia-2026-02-02-8156",
    "cenario": 1,
-   "id": "2-ideia-2026-02-02-8147-c1",
+   "id": "2-ideia-2026-02-02-8156-c1",
    "total_cenarios": 5
   },
   {
@@ -15085,9 +15106,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/pesquisa-instituto-gerp-presidente-da-republica-fevereiro-2026/",
-   "pesquisa_id": "2-gerp-2026-02-02-8110",
+   "pesquisa_id": "2-gerp-2026-02-02-8119",
    "cenario": 4,
-   "id": "2-gerp-2026-02-02-8110-c4",
+   "id": "2-gerp-2026-02-02-8119-c4",
    "total_cenarios": 4
   },
   {
@@ -15106,9 +15127,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/pesquisa-instituto-gerp-presidente-da-republica-fevereiro-2026/",
-   "pesquisa_id": "2-gerp-2026-02-02-8110",
+   "pesquisa_id": "2-gerp-2026-02-02-8119",
    "cenario": 3,
-   "id": "2-gerp-2026-02-02-8110-c3",
+   "id": "2-gerp-2026-02-02-8119-c3",
    "total_cenarios": 4
   },
   {
@@ -15127,9 +15148,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/pesquisa-instituto-gerp-presidente-da-republica-fevereiro-2026/",
-   "pesquisa_id": "2-gerp-2026-02-02-8110",
+   "pesquisa_id": "2-gerp-2026-02-02-8119",
    "cenario": 2,
-   "id": "2-gerp-2026-02-02-8110-c2",
+   "id": "2-gerp-2026-02-02-8119-c2",
    "total_cenarios": 4
   },
   {
@@ -15172,9 +15193,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/pesquisa-instituto-gerp-presidente-da-republica-fevereiro-2026/",
-   "pesquisa_id": "2-gerp-2026-02-02-8110",
+   "pesquisa_id": "2-gerp-2026-02-02-8119",
    "cenario": 1,
-   "id": "2-gerp-2026-02-02-8110-c1",
+   "id": "2-gerp-2026-02-02-8119-c1",
    "total_cenarios": 4
   },
   {
@@ -15193,9 +15214,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2080,
    "link": "https://www.cnnbrasil.com.br/eleicoes/parana-pesquisas-flavio-e-tarcisio-empatam-com-lula-em-2o-turno/",
-   "pesquisa_id": "2-paran-pesquisas-2026-01-28-8192",
+   "pesquisa_id": "2-paran-pesquisas-2026-01-28-8201",
    "cenario": 3,
-   "id": "2-paran-pesquisas-2026-01-28-8192-c3",
+   "id": "2-paran-pesquisas-2026-01-28-8201-c3",
    "total_cenarios": 3
   },
   {
@@ -15237,9 +15258,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2080,
    "link": "https://www.cnnbrasil.com.br/eleicoes/parana-pesquisas-flavio-e-tarcisio-empatam-com-lula-em-2o-turno/",
-   "pesquisa_id": "2-paran-pesquisas-2026-01-28-8192",
+   "pesquisa_id": "2-paran-pesquisas-2026-01-28-8201",
    "cenario": 2,
-   "id": "2-paran-pesquisas-2026-01-28-8192-c2",
+   "id": "2-paran-pesquisas-2026-01-28-8201-c2",
    "total_cenarios": 3
   },
   {
@@ -15282,9 +15303,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2080,
    "link": "https://www.cnnbrasil.com.br/eleicoes/parana-pesquisas-flavio-e-tarcisio-empatam-com-lula-em-2o-turno/",
-   "pesquisa_id": "2-paran-pesquisas-2026-01-28-8192",
+   "pesquisa_id": "2-paran-pesquisas-2026-01-28-8201",
    "cenario": 1,
-   "id": "2-paran-pesquisas-2026-01-28-8192-c1",
+   "id": "2-paran-pesquisas-2026-01-28-8201-c1",
    "total_cenarios": 3
   },
   {
@@ -15303,9 +15324,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5418,
    "link": "https://www.poder360.com.br/poder-pesquisas/lula-venceria-eleicao-no-1o-turno-em-cenario-sem-flavio-e-com-tarcisio/",
-   "pesquisa_id": "2-atlasintel-2026-01-20-8221",
+   "pesquisa_id": "2-atlasintel-2026-01-20-8230",
    "cenario": 5,
-   "id": "2-atlasintel-2026-01-20-8221-c5",
+   "id": "2-atlasintel-2026-01-20-8230-c5",
    "total_cenarios": 5
   },
   {
@@ -15347,9 +15368,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5418,
    "link": "https://www.poder360.com.br/poder-pesquisas/lula-venceria-eleicao-no-1o-turno-em-cenario-sem-flavio-e-com-tarcisio/",
-   "pesquisa_id": "2-atlasintel-2026-01-20-8221",
+   "pesquisa_id": "2-atlasintel-2026-01-20-8230",
    "cenario": 4,
-   "id": "2-atlasintel-2026-01-20-8221-c4",
+   "id": "2-atlasintel-2026-01-20-8230-c4",
    "total_cenarios": 5
   },
   {
@@ -15392,9 +15413,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5418,
    "link": "https://www.poder360.com.br/poder-pesquisas/lula-venceria-eleicao-no-1o-turno-em-cenario-sem-flavio-e-com-tarcisio/",
-   "pesquisa_id": "2-atlasintel-2026-01-20-8221",
+   "pesquisa_id": "2-atlasintel-2026-01-20-8230",
    "cenario": 3,
-   "id": "2-atlasintel-2026-01-20-8221-c3",
+   "id": "2-atlasintel-2026-01-20-8230-c3",
    "total_cenarios": 5
   },
   {
@@ -15437,9 +15458,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5418,
    "link": "https://www.poder360.com.br/poder-pesquisas/lula-venceria-eleicao-no-1o-turno-em-cenario-sem-flavio-e-com-tarcisio/",
-   "pesquisa_id": "2-atlasintel-2026-01-20-8221",
+   "pesquisa_id": "2-atlasintel-2026-01-20-8230",
    "cenario": 2,
-   "id": "2-atlasintel-2026-01-20-8221-c2",
+   "id": "2-atlasintel-2026-01-20-8230-c2",
    "total_cenarios": 5
   },
   {
@@ -15483,9 +15504,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5418,
    "link": "https://www.poder360.com.br/poder-pesquisas/lula-venceria-eleicao-no-1o-turno-em-cenario-sem-flavio-e-com-tarcisio/",
-   "pesquisa_id": "2-atlasintel-2026-01-20-8221",
+   "pesquisa_id": "2-atlasintel-2026-01-20-8230",
    "cenario": 1,
-   "id": "2-atlasintel-2026-01-20-8221-c1",
+   "id": "2-atlasintel-2026-01-20-8230-c1",
    "total_cenarios": 5
   },
   {
@@ -15528,9 +15549,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.poder360.com.br/poder-pesquisas/flavio-bolsonaro-vence-em-2o-turno-contra-lula-diz-pesquisa/",
-   "pesquisa_id": "2-futura-2026-01-19-8266",
+   "pesquisa_id": "2-futura-2026-01-19-8275",
    "cenario": 2,
-   "id": "2-futura-2026-01-19-8266-c2",
+   "id": "2-futura-2026-01-19-8275-c2",
    "total_cenarios": 2
   },
   {
@@ -15573,9 +15594,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.poder360.com.br/poder-pesquisas/flavio-bolsonaro-vence-em-2o-turno-contra-lula-diz-pesquisa/",
-   "pesquisa_id": "2-futura-2026-01-19-8266",
+   "pesquisa_id": "2-futura-2026-01-19-8275",
    "cenario": 1,
-   "id": "2-futura-2026-01-19-8266-c1",
+   "id": "2-futura-2026-01-19-8275-c1",
    "total_cenarios": 2
   },
   {
@@ -15594,9 +15615,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.poder360.com.br/poder-pesquisas/lula-lidera-em-todos-os-cenarios-de-1o-turno-diz-pesquisa-meio-ideia/",
-   "pesquisa_id": "2-ideia-2026-01-12-8287",
+   "pesquisa_id": "2-ideia-2026-01-12-8296",
    "cenario": 5,
-   "id": "2-ideia-2026-01-12-8287-c5",
+   "id": "2-ideia-2026-01-12-8296-c5",
    "total_cenarios": 5
   },
   {
@@ -15615,9 +15636,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.poder360.com.br/poder-pesquisas/lula-lidera-em-todos-os-cenarios-de-1o-turno-diz-pesquisa-meio-ideia/",
-   "pesquisa_id": "2-ideia-2026-01-12-8287",
+   "pesquisa_id": "2-ideia-2026-01-12-8296",
    "cenario": 4,
-   "id": "2-ideia-2026-01-12-8287-c4",
+   "id": "2-ideia-2026-01-12-8296-c4",
    "total_cenarios": 5
   },
   {
@@ -15636,9 +15657,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.poder360.com.br/poder-pesquisas/lula-lidera-em-todos-os-cenarios-de-1o-turno-diz-pesquisa-meio-ideia/",
-   "pesquisa_id": "2-ideia-2026-01-12-8287",
+   "pesquisa_id": "2-ideia-2026-01-12-8296",
    "cenario": 3,
-   "id": "2-ideia-2026-01-12-8287-c3",
+   "id": "2-ideia-2026-01-12-8296-c3",
    "total_cenarios": 5
   },
   {
@@ -15680,9 +15701,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.poder360.com.br/poder-pesquisas/lula-lidera-em-todos-os-cenarios-de-1o-turno-diz-pesquisa-meio-ideia/",
-   "pesquisa_id": "2-ideia-2026-01-12-8287",
+   "pesquisa_id": "2-ideia-2026-01-12-8296",
    "cenario": 2,
-   "id": "2-ideia-2026-01-12-8287-c2",
+   "id": "2-ideia-2026-01-12-8296-c2",
    "total_cenarios": 5
   },
   {
@@ -15725,9 +15746,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://www.poder360.com.br/poder-pesquisas/lula-lidera-em-todos-os-cenarios-de-1o-turno-diz-pesquisa-meio-ideia/",
-   "pesquisa_id": "2-ideia-2026-01-12-8287",
+   "pesquisa_id": "2-ideia-2026-01-12-8296",
    "cenario": 1,
-   "id": "2-ideia-2026-01-12-8287-c1",
+   "id": "2-ideia-2026-01-12-8296-c1",
    "total_cenarios": 5
   },
   {
@@ -15768,9 +15789,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://g1.globo.com/politica/noticia/2026/01/14/quaest-2o-turno-lula-venceria-em-todos-os-cenarios-menor-diferenca-e-contra-tarcisio.ghtml",
-   "pesquisa_id": "2-quaest-2026-01-11-8332",
+   "pesquisa_id": "2-quaest-2026-01-11-8341",
    "cenario": 5,
-   "id": "2-quaest-2026-01-11-8332-c5",
+   "id": "2-quaest-2026-01-11-8341-c5",
    "total_cenarios": 5
   },
   {
@@ -15811,9 +15832,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://g1.globo.com/politica/noticia/2026/01/14/quaest-2o-turno-lula-venceria-em-todos-os-cenarios-menor-diferenca-e-contra-tarcisio.ghtml",
-   "pesquisa_id": "2-quaest-2026-01-11-8332",
+   "pesquisa_id": "2-quaest-2026-01-11-8341",
    "cenario": 4,
-   "id": "2-quaest-2026-01-11-8332-c4",
+   "id": "2-quaest-2026-01-11-8341-c4",
    "total_cenarios": 5
   },
   {
@@ -15854,9 +15875,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://g1.globo.com/politica/noticia/2026/01/14/quaest-2o-turno-lula-venceria-em-todos-os-cenarios-menor-diferenca-e-contra-tarcisio.ghtml",
-   "pesquisa_id": "2-quaest-2026-01-11-8332",
+   "pesquisa_id": "2-quaest-2026-01-11-8341",
    "cenario": 3,
-   "id": "2-quaest-2026-01-11-8332-c3",
+   "id": "2-quaest-2026-01-11-8341-c3",
    "total_cenarios": 5
   },
   {
@@ -15899,9 +15920,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://g1.globo.com/politica/noticia/2026/01/14/quaest-2o-turno-lula-venceria-em-todos-os-cenarios-menor-diferenca-e-contra-tarcisio.ghtml",
-   "pesquisa_id": "2-quaest-2026-01-11-8332",
+   "pesquisa_id": "2-quaest-2026-01-11-8341",
    "cenario": 2,
-   "id": "2-quaest-2026-01-11-8332-c2",
+   "id": "2-quaest-2026-01-11-8341-c2",
    "total_cenarios": 5
   },
   {
@@ -15945,9 +15966,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://g1.globo.com/politica/noticia/2026/01/14/quaest-2o-turno-lula-venceria-em-todos-os-cenarios-menor-diferenca-e-contra-tarcisio.ghtml",
-   "pesquisa_id": "2-quaest-2026-01-11-8332",
+   "pesquisa_id": "2-quaest-2026-01-11-8341",
    "cenario": 1,
-   "id": "2-quaest-2026-01-11-8332-c1",
+   "id": "2-quaest-2026-01-11-8341-c1",
    "total_cenarios": 5
   },
   {
@@ -15966,9 +15987,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2038,
    "link": "https://www.poder360.com.br/poder-eleicoes/lula-lidera-em-5-de-7-cenarios-no-1o-turno-diz-pesquisa/",
-   "pesquisa_id": "2-paran-pesquisas-2025-12-22-8396",
+   "pesquisa_id": "2-paran-pesquisas-2025-12-22-8405",
    "cenario": 3,
-   "id": "2-paran-pesquisas-2025-12-22-8396-c3",
+   "id": "2-paran-pesquisas-2025-12-22-8405-c3",
    "total_cenarios": 3
   },
   {
@@ -16011,9 +16032,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2038,
    "link": "https://www.poder360.com.br/poder-eleicoes/lula-lidera-em-5-de-7-cenarios-no-1o-turno-diz-pesquisa/",
-   "pesquisa_id": "2-paran-pesquisas-2025-12-22-8396",
+   "pesquisa_id": "2-paran-pesquisas-2025-12-22-8405",
    "cenario": 2,
-   "id": "2-paran-pesquisas-2025-12-22-8396-c2",
+   "id": "2-paran-pesquisas-2025-12-22-8405-c2",
    "total_cenarios": 3
   },
   {
@@ -16056,9 +16077,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2038,
    "link": "https://www.poder360.com.br/poder-eleicoes/lula-lidera-em-5-de-7-cenarios-no-1o-turno-diz-pesquisa/",
-   "pesquisa_id": "2-paran-pesquisas-2025-12-22-8396",
+   "pesquisa_id": "2-paran-pesquisas-2025-12-22-8405",
    "cenario": 1,
-   "id": "2-paran-pesquisas-2025-12-22-8396-c1",
+   "id": "2-paran-pesquisas-2025-12-22-8405-c1",
    "total_cenarios": 3
   },
   {
@@ -16077,9 +16098,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 18154,
    "link": "https://www.cartacapital.com.br/politica/lula-lidera-com-folga-as-disputas-contra-flavio-tarcisio-e-michelle-veja-a-nova-pesquisa-sobre-2026/",
-   "pesquisa_id": "2-atlasintel-2025-12-15-8425",
+   "pesquisa_id": "2-atlasintel-2025-12-15-8434",
    "cenario": 5,
-   "id": "2-atlasintel-2025-12-15-8425-c5",
+   "id": "2-atlasintel-2025-12-15-8434-c5",
    "total_cenarios": 5
   },
   {
@@ -16121,9 +16142,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 18154,
    "link": "https://www.cartacapital.com.br/politica/lula-lidera-com-folga-as-disputas-contra-flavio-tarcisio-e-michelle-veja-a-nova-pesquisa-sobre-2026/",
-   "pesquisa_id": "2-atlasintel-2025-12-15-8425",
+   "pesquisa_id": "2-atlasintel-2025-12-15-8434",
    "cenario": 4,
-   "id": "2-atlasintel-2025-12-15-8425-c4",
+   "id": "2-atlasintel-2025-12-15-8434-c4",
    "total_cenarios": 5
   },
   {
@@ -16166,9 +16187,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 18154,
    "link": "https://www.cartacapital.com.br/politica/lula-lidera-com-folga-as-disputas-contra-flavio-tarcisio-e-michelle-veja-a-nova-pesquisa-sobre-2026/",
-   "pesquisa_id": "2-atlasintel-2025-12-15-8425",
+   "pesquisa_id": "2-atlasintel-2025-12-15-8434",
    "cenario": 3,
-   "id": "2-atlasintel-2025-12-15-8425-c3",
+   "id": "2-atlasintel-2025-12-15-8434-c3",
    "total_cenarios": 5
   },
   {
@@ -16211,9 +16232,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 18154,
    "link": "https://www.cartacapital.com.br/politica/lula-lidera-com-folga-as-disputas-contra-flavio-tarcisio-e-michelle-veja-a-nova-pesquisa-sobre-2026/",
-   "pesquisa_id": "2-atlasintel-2025-12-15-8425",
+   "pesquisa_id": "2-atlasintel-2025-12-15-8434",
    "cenario": 2,
-   "id": "2-atlasintel-2025-12-15-8425-c2",
+   "id": "2-atlasintel-2025-12-15-8434-c2",
    "total_cenarios": 5
   },
   {
@@ -16257,9 +16278,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 18154,
    "link": "https://www.cartacapital.com.br/politica/lula-lidera-com-folga-as-disputas-contra-flavio-tarcisio-e-michelle-veja-a-nova-pesquisa-sobre-2026/",
-   "pesquisa_id": "2-atlasintel-2025-12-15-8425",
+   "pesquisa_id": "2-atlasintel-2025-12-15-8434",
    "cenario": 1,
-   "id": "2-atlasintel-2025-12-15-8425-c1",
+   "id": "2-atlasintel-2025-12-15-8434-c1",
    "total_cenarios": 5
   },
   {
@@ -16278,9 +16299,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://g1.globo.com/politica/noticia/2025/12/16/quaest-primeiro-turno-2026.ghtml",
-   "pesquisa_id": "2-quaest-2025-12-14-8470",
+   "pesquisa_id": "2-quaest-2025-12-14-8479",
    "cenario": 5,
-   "id": "2-quaest-2025-12-14-8470-c5",
+   "id": "2-quaest-2025-12-14-8479-c5",
    "total_cenarios": 5
   },
   {
@@ -16299,9 +16320,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://g1.globo.com/politica/noticia/2025/12/16/quaest-primeiro-turno-2026.ghtml",
-   "pesquisa_id": "2-quaest-2025-12-14-8470",
+   "pesquisa_id": "2-quaest-2025-12-14-8479",
    "cenario": 4,
-   "id": "2-quaest-2025-12-14-8470-c4",
+   "id": "2-quaest-2025-12-14-8479-c4",
    "total_cenarios": 5
   },
   {
@@ -16345,9 +16366,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://g1.globo.com/politica/noticia/2025/12/16/quaest-primeiro-turno-2026.ghtml",
-   "pesquisa_id": "2-quaest-2025-12-14-8470",
+   "pesquisa_id": "2-quaest-2025-12-14-8479",
    "cenario": 3,
-   "id": "2-quaest-2025-12-14-8470-c3",
+   "id": "2-quaest-2025-12-14-8479-c3",
    "total_cenarios": 5
   },
   {
@@ -16388,9 +16409,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://g1.globo.com/politica/noticia/2025/12/16/quaest-primeiro-turno-2026.ghtml",
-   "pesquisa_id": "2-quaest-2025-12-14-8470",
+   "pesquisa_id": "2-quaest-2025-12-14-8479",
    "cenario": 2,
-   "id": "2-quaest-2025-12-14-8470-c2",
+   "id": "2-quaest-2025-12-14-8479-c2",
    "total_cenarios": 5
   },
   {
@@ -16431,9 +16452,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://g1.globo.com/politica/noticia/2025/12/16/quaest-primeiro-turno-2026.ghtml",
-   "pesquisa_id": "2-quaest-2025-12-14-8470",
+   "pesquisa_id": "2-quaest-2025-12-14-8479",
    "cenario": 1,
-   "id": "2-quaest-2025-12-14-8470-c1",
+   "id": "2-quaest-2025-12-14-8479-c1",
    "total_cenarios": 5
   },
   {
@@ -16452,9 +16473,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://jovempan.com.br/noticias/politica/pesquisa-gerp-lula-lidera-primeiro-turno-mas-empata-com-flavio-bolsonaro-no-segundo.html",
-   "pesquisa_id": "2-gerp-2025-12-10-8515",
+   "pesquisa_id": "2-gerp-2025-12-10-8524",
    "cenario": 4,
-   "id": "2-gerp-2025-12-10-8515-c4",
+   "id": "2-gerp-2025-12-10-8524-c4",
    "total_cenarios": 4
   },
   {
@@ -16473,9 +16494,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://jovempan.com.br/noticias/politica/pesquisa-gerp-lula-lidera-primeiro-turno-mas-empata-com-flavio-bolsonaro-no-segundo.html",
-   "pesquisa_id": "2-gerp-2025-12-10-8515",
+   "pesquisa_id": "2-gerp-2025-12-10-8524",
    "cenario": 3,
-   "id": "2-gerp-2025-12-10-8515-c3",
+   "id": "2-gerp-2025-12-10-8524-c3",
    "total_cenarios": 4
   },
   {
@@ -16494,9 +16515,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://jovempan.com.br/noticias/politica/pesquisa-gerp-lula-lidera-primeiro-turno-mas-empata-com-flavio-bolsonaro-no-segundo.html",
-   "pesquisa_id": "2-gerp-2025-12-10-8515",
+   "pesquisa_id": "2-gerp-2025-12-10-8524",
    "cenario": 2,
-   "id": "2-gerp-2025-12-10-8515-c2",
+   "id": "2-gerp-2025-12-10-8524-c2",
    "total_cenarios": 4
   },
   {
@@ -16540,9 +16561,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://jovempan.com.br/noticias/politica/pesquisa-gerp-lula-lidera-primeiro-turno-mas-empata-com-flavio-bolsonaro-no-segundo.html",
-   "pesquisa_id": "2-gerp-2025-12-10-8515",
+   "pesquisa_id": "2-gerp-2025-12-10-8524",
    "cenario": 1,
-   "id": "2-gerp-2025-12-10-8515-c1",
+   "id": "2-gerp-2025-12-10-8524-c1",
    "total_cenarios": 4
   },
   {
@@ -16609,9 +16630,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2519,
    "link": "https://oantagonista.com.br/brasil/instituto-verita-tarcisio-e-michelle-sao-mais-fortes-que-flavio-em-2026/",
-   "pesquisa_id": "2-verit-2025-12-07-8552",
+   "pesquisa_id": "2-verit-2025-12-07-8561",
    "cenario": 2,
-   "id": "2-verit-2025-12-07-8552-c2",
+   "id": "2-verit-2025-12-07-8561-c2",
    "total_cenarios": 2
   },
   {
@@ -16630,9 +16651,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2519,
    "link": "https://oantagonista.com.br/brasil/instituto-verita-tarcisio-e-michelle-sao-mais-fortes-que-flavio-em-2026/",
-   "pesquisa_id": "2-verit-2025-12-07-8552",
+   "pesquisa_id": "2-verit-2025-12-07-8561",
    "cenario": 1,
-   "id": "2-verit-2025-12-07-8552-c1",
+   "id": "2-verit-2025-12-07-8561-c1",
    "total_cenarios": 2
   },
   {
@@ -16651,9 +16672,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2002,
    "link": "https://www1.folha.uol.com.br/poder/2025/12/datafolha-lula-bate-flavio-bolsonaro-por-15-pontos-e-tarcisio-por-5-no-2o-turno.shtml",
-   "pesquisa_id": "2-datafolha-2025-12-04-8573",
+   "pesquisa_id": "2-datafolha-2025-12-04-8582",
    "cenario": 3,
-   "id": "2-datafolha-2025-12-04-8573-c3",
+   "id": "2-datafolha-2025-12-04-8582-c3",
    "total_cenarios": 3
   },
   {
@@ -16696,9 +16717,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2002,
    "link": "https://www1.folha.uol.com.br/poder/2025/12/datafolha-lula-bate-flavio-bolsonaro-por-15-pontos-e-tarcisio-por-5-no-2o-turno.shtml",
-   "pesquisa_id": "2-datafolha-2025-12-04-8573",
+   "pesquisa_id": "2-datafolha-2025-12-04-8582",
    "cenario": 2,
-   "id": "2-datafolha-2025-12-04-8573-c2",
+   "id": "2-datafolha-2025-12-04-8582-c2",
    "total_cenarios": 3
   },
   {
@@ -16741,9 +16762,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2002,
    "link": "https://www1.folha.uol.com.br/poder/2025/12/datafolha-lula-bate-flavio-bolsonaro-por-15-pontos-e-tarcisio-por-5-no-2o-turno.shtml",
-   "pesquisa_id": "2-datafolha-2025-12-04-8573",
+   "pesquisa_id": "2-datafolha-2025-12-04-8582",
    "cenario": 1,
-   "id": "2-datafolha-2025-12-04-8573-c1",
+   "id": "2-datafolha-2025-12-04-8582-c1",
    "total_cenarios": 3
   },
   {
@@ -16762,9 +16783,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5510,
    "link": "https://www.poder360.com.br/poder-pesquisas/atlasintel-lula-lidera-em-todos-os-cenarios-de-1o-turno/",
-   "pesquisa_id": "2-atlasintel-2025-11-27-8602",
+   "pesquisa_id": "2-atlasintel-2025-11-27-8611",
    "cenario": 4,
-   "id": "2-atlasintel-2025-11-27-8602-c4",
+   "id": "2-atlasintel-2025-11-27-8611-c4",
    "total_cenarios": 4
   },
   {
@@ -16783,9 +16804,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5510,
    "link": "https://www.poder360.com.br/poder-pesquisas/atlasintel-lula-lidera-em-todos-os-cenarios-de-1o-turno/",
-   "pesquisa_id": "2-atlasintel-2025-11-27-8602",
+   "pesquisa_id": "2-atlasintel-2025-11-27-8611",
    "cenario": 3,
-   "id": "2-atlasintel-2025-11-27-8602-c3",
+   "id": "2-atlasintel-2025-11-27-8611-c3",
    "total_cenarios": 4
   },
   {
@@ -16828,9 +16849,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5510,
    "link": "https://www.poder360.com.br/poder-pesquisas/atlasintel-lula-lidera-em-todos-os-cenarios-de-1o-turno/",
-   "pesquisa_id": "2-atlasintel-2025-11-27-8602",
+   "pesquisa_id": "2-atlasintel-2025-11-27-8611",
    "cenario": 2,
-   "id": "2-atlasintel-2025-11-27-8602-c2",
+   "id": "2-atlasintel-2025-11-27-8611-c2",
    "total_cenarios": 4
   },
   {
@@ -16873,9 +16894,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5510,
    "link": "https://www.poder360.com.br/poder-pesquisas/atlasintel-lula-lidera-em-todos-os-cenarios-de-1o-turno/",
-   "pesquisa_id": "2-atlasintel-2025-11-27-8602",
+   "pesquisa_id": "2-atlasintel-2025-11-27-8611",
    "cenario": 1,
-   "id": "2-atlasintel-2025-11-27-8602-c1",
+   "id": "2-atlasintel-2025-11-27-8611-c1",
    "total_cenarios": 4
   },
   {
@@ -16894,9 +16915,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2002,
    "link": "https://www.cartacapital.com.br/politica/nova-pesquisa-testa-lula-contra-tarcisio-michelle-e-eduardo-em-2026-veja-os-resultados/",
-   "pesquisa_id": "2-mda-2025-11-23-8639",
+   "pesquisa_id": "2-mda-2025-11-23-8648",
    "cenario": 4,
-   "id": "2-mda-2025-11-23-8639-c4",
+   "id": "2-mda-2025-11-23-8648-c4",
    "total_cenarios": 4
   },
   {
@@ -16915,9 +16936,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2002,
    "link": "https://www.cartacapital.com.br/politica/nova-pesquisa-testa-lula-contra-tarcisio-michelle-e-eduardo-em-2026-veja-os-resultados/",
-   "pesquisa_id": "2-mda-2025-11-23-8639",
+   "pesquisa_id": "2-mda-2025-11-23-8648",
    "cenario": 3,
-   "id": "2-mda-2025-11-23-8639-c3",
+   "id": "2-mda-2025-11-23-8648-c3",
    "total_cenarios": 4
   },
   {
@@ -16960,9 +16981,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2002,
    "link": "https://www.cartacapital.com.br/politica/nova-pesquisa-testa-lula-contra-tarcisio-michelle-e-eduardo-em-2026-veja-os-resultados/",
-   "pesquisa_id": "2-mda-2025-11-23-8639",
+   "pesquisa_id": "2-mda-2025-11-23-8648",
    "cenario": 2,
-   "id": "2-mda-2025-11-23-8639-c2",
+   "id": "2-mda-2025-11-23-8648-c2",
    "total_cenarios": 4
   },
   {
@@ -17004,9 +17025,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2002,
    "link": "https://www.cartacapital.com.br/politica/nova-pesquisa-testa-lula-contra-tarcisio-michelle-e-eduardo-em-2026-veja-os-resultados/",
-   "pesquisa_id": "2-mda-2025-11-23-8639",
+   "pesquisa_id": "2-mda-2025-11-23-8648",
    "cenario": 1,
-   "id": "2-mda-2025-11-23-8639-c1",
+   "id": "2-mda-2025-11-23-8648-c1",
    "total_cenarios": 4
   },
   {
@@ -17050,9 +17071,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2020,
    "link": "https://paranapesquisas.com.br/pesquisas/parana-pesquisas-divulga-pesquisa-nacional-situacao-eleitoral-para-o-executivo-federal-em-2026-novembro-2025/",
-   "pesquisa_id": "2-paran-pesquisas-2025-11-10-8676",
+   "pesquisa_id": "2-paran-pesquisas-2025-11-10-8685",
    "cenario": 2,
-   "id": "2-paran-pesquisas-2025-11-10-8676-c2",
+   "id": "2-paran-pesquisas-2025-11-10-8685-c2",
    "total_cenarios": 2
   },
   {
@@ -17096,9 +17117,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2020,
    "link": "https://paranapesquisas.com.br/pesquisas/parana-pesquisas-divulga-pesquisa-nacional-situacao-eleitoral-para-o-executivo-federal-em-2026-novembro-2025/",
-   "pesquisa_id": "2-paran-pesquisas-2025-11-10-8676",
+   "pesquisa_id": "2-paran-pesquisas-2025-11-10-8685",
    "cenario": 1,
-   "id": "2-paran-pesquisas-2025-11-10-8676-c1",
+   "id": "2-paran-pesquisas-2025-11-10-8685-c1",
    "total_cenarios": 2
   },
   {
@@ -17141,9 +17162,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://g1.globo.com/politica/noticia/2025/11/13/quaest-eleicao-2026-novembro.ghtml",
-   "pesquisa_id": "2-quaest-2025-11-09-8697",
+   "pesquisa_id": "2-quaest-2025-11-09-8706",
    "cenario": 1,
-   "id": "2-quaest-2025-11-09-8697-c1",
+   "id": "2-quaest-2025-11-09-8706-c1",
    "total_cenarios": 1
   },
   {
@@ -17187,9 +17208,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2020,
    "link": "https://www.cartacapital.com.br/politica/lula-amplia-vantagem-contra-candidatos-da-direita-em-pesquisa-eleitoral-sobre-2026-veja-os-resultados/",
-   "pesquisa_id": "2-paran-pesquisas-2025-10-24-8710",
+   "pesquisa_id": "2-paran-pesquisas-2025-10-24-8719",
    "cenario": 2,
-   "id": "2-paran-pesquisas-2025-10-24-8710-c2",
+   "id": "2-paran-pesquisas-2025-10-24-8719-c2",
    "total_cenarios": 2
   },
   {
@@ -17233,9 +17254,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2020,
    "link": "https://www.cartacapital.com.br/politica/lula-amplia-vantagem-contra-candidatos-da-direita-em-pesquisa-eleitoral-sobre-2026-veja-os-resultados/",
-   "pesquisa_id": "2-paran-pesquisas-2025-10-24-8710",
+   "pesquisa_id": "2-paran-pesquisas-2025-10-24-8719",
    "cenario": 1,
-   "id": "2-paran-pesquisas-2025-10-24-8710-c1",
+   "id": "2-paran-pesquisas-2025-10-24-8719-c1",
    "total_cenarios": 2
   },
   {
@@ -17278,9 +17299,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 14063,
    "link": "https://www.poder360.com.br/poder-pesquisas/lula-ganha-em-todos-os-cenarios-de-1o-e-2o-turnos-diz-atlasintel/",
-   "pesquisa_id": "2-atlasintel-2025-10-19-8731",
+   "pesquisa_id": "2-atlasintel-2025-10-19-8740",
    "cenario": 1,
-   "id": "2-atlasintel-2025-10-19-8731-c1",
+   "id": "2-atlasintel-2025-10-19-8740-c1",
    "total_cenarios": 1
   },
   {
@@ -17324,9 +17345,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://jovempan.com.br/noticias/politica/pesquisa-gerp-aponta-disputa-aberta-para-2026-e-leve-recuperacao-de-lula.html",
-   "pesquisa_id": "2-gerp-2025-10-06-8757",
+   "pesquisa_id": "2-gerp-2025-10-06-8766",
    "cenario": 1,
-   "id": "2-gerp-2025-10-06-8757-c1",
+   "id": "2-gerp-2025-10-06-8766-c1",
    "total_cenarios": 1
   },
   {
@@ -17369,9 +17390,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://g1.globo.com/politica/noticia/2025/10/09/quaest-eleicao-presidencial-2026.ghtml",
-   "pesquisa_id": "2-quaest-2025-10-05-8744",
+   "pesquisa_id": "2-quaest-2025-10-05-8753",
    "cenario": 1,
-   "id": "2-quaest-2025-10-05-8744-c1",
+   "id": "2-quaest-2025-10-05-8753-c1",
    "total_cenarios": 1
   },
   {
@@ -17414,9 +17435,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://g1.globo.com/politica/noticia/2025/09/18/quaest-lula-venceria-ciro-tarcisio-ratinho-jr-bolsonaro-zema-michelle-caiado-eduardo-bolsonaro-e-leite-no-2o-turno-de-2026.ghtml",
-   "pesquisa_id": "2-quaest-2025-09-14-8770",
+   "pesquisa_id": "2-quaest-2025-09-14-8779",
    "cenario": 1,
-   "id": "2-quaest-2025-09-14-8770-c1",
+   "id": "2-quaest-2025-09-14-8779-c1",
    "total_cenarios": 1
   },
   {
@@ -17460,9 +17481,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 7291,
    "link": "https://www.cnnbrasil.com.br/politica/atlas-em-2o-turno-lula-teria-506-dos-votos-tarcisio-acumularia-452/",
-   "pesquisa_id": "2-atlasintel-2025-09-14-8783",
+   "pesquisa_id": "2-atlasintel-2025-09-14-8792",
    "cenario": 1,
-   "id": "2-atlasintel-2025-09-14-8783-c1",
+   "id": "2-atlasintel-2025-09-14-8792-c1",
    "total_cenarios": 1
   },
   {
@@ -17506,9 +17527,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2002,
    "link": "https://www.cnnbrasil.com.br/politica/em-2o-turno-lula-teria-439-e-tarcisio-376-diz-pesquisa-cnt-mda",
-   "pesquisa_id": "2-mda-2025-09-06-8796",
+   "pesquisa_id": "2-mda-2025-09-06-8805",
    "cenario": 1,
-   "id": "2-mda-2025-09-06-8796-c1",
+   "id": "2-mda-2025-09-06-8805-c1",
    "total_cenarios": 1
   },
   {
@@ -17574,9 +17595,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 6238,
    "link": "https://www.cartacapital.com.br/politica/atlasintel-testa-tarcisio-e-michelle-contra-lula-na-disputa-pela-presidencia-em-2026-veja-os-resultados/",
-   "pesquisa_id": "2-atlasintel-2025-08-25-8809",
+   "pesquisa_id": "2-atlasintel-2025-08-25-8818",
    "cenario": 1,
-   "id": "2-atlasintel-2025-08-25-8809-c1",
+   "id": "2-atlasintel-2025-08-25-8818-c1",
    "total_cenarios": 1
   },
   {
@@ -17619,9 +17640,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2020,
    "link": "https://www.poder360.com.br/poder-pesquisas/lula-empata-com-bolsonaro-michelle-e-tarcisio-no-2-turno/",
-   "pesquisa_id": "2-paran-pesquisas-2025-08-21-8822",
+   "pesquisa_id": "2-paran-pesquisas-2025-08-21-8831",
    "cenario": 1,
-   "id": "2-paran-pesquisas-2025-08-21-8822-c1",
+   "id": "2-paran-pesquisas-2025-08-21-8831-c1",
    "total_cenarios": 1
   },
   {
@@ -17665,9 +17686,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 12150,
    "link": "https://g1.globo.com/politica/noticia/2025/08/21/quaest-eleicao-2026-lula-cenarios-agosto.ghtml",
-   "pesquisa_id": "2-quaest-2025-08-17-8835",
+   "pesquisa_id": "2-quaest-2025-08-17-8844",
    "cenario": 2,
-   "id": "2-quaest-2025-08-17-8835-c2",
+   "id": "2-quaest-2025-08-17-8844-c2",
    "total_cenarios": 2
   },
   {
@@ -17710,9 +17731,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 12150,
    "link": "https://g1.globo.com/politica/noticia/2025/08/21/quaest-eleicao-2026-lula-cenarios-agosto.ghtml",
-   "pesquisa_id": "2-quaest-2025-08-17-8835",
+   "pesquisa_id": "2-quaest-2025-08-17-8844",
    "cenario": 1,
-   "id": "2-quaest-2025-08-17-8835-c1",
+   "id": "2-quaest-2025-08-17-8844-c1",
    "total_cenarios": 2
   },
   {
@@ -17755,9 +17776,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www1.folha.uol.com.br/poder/2025/08/datafolha-lula-ganha-vantagem-sobre-bolsonarismo-em-1o-e-2o-turnos.shtml",
-   "pesquisa_id": "2-datafolha-2025-07-30-8856",
+   "pesquisa_id": "2-datafolha-2025-07-30-8865",
    "cenario": 2,
-   "id": "2-datafolha-2025-07-30-8856-c2",
+   "id": "2-datafolha-2025-07-30-8865-c2",
    "total_cenarios": 2
   },
   {
@@ -17800,9 +17821,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www1.folha.uol.com.br/poder/2025/08/datafolha-lula-ganha-vantagem-sobre-bolsonarismo-em-1o-e-2o-turnos.shtml",
-   "pesquisa_id": "2-datafolha-2025-07-30-8856",
+   "pesquisa_id": "2-datafolha-2025-07-30-8865",
    "cenario": 1,
-   "id": "2-datafolha-2025-07-30-8856-c1",
+   "id": "2-datafolha-2025-07-30-8865-c1",
    "total_cenarios": 2
   },
   {
@@ -17846,9 +17867,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 7334,
    "link": "https://exame.com/brasil/lula-vence-bolsonaro-tarcisio-e-michelle-e-outros-4-nomes-da-direita-em-2026-diz-atlasintel/",
-   "pesquisa_id": "2-atlasintel-2025-07-28-8876",
+   "pesquisa_id": "2-atlasintel-2025-07-28-8885",
    "cenario": 1,
-   "id": "2-atlasintel-2025-07-28-8876-c1",
+   "id": "2-atlasintel-2025-07-28-8885-c1",
    "total_cenarios": 1
   },
   {
@@ -17891,9 +17912,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://g1.globo.com/politica/noticia/2025/07/17/quaest-eleicao-2026.ghtml",
-   "pesquisa_id": "2-quaest-2025-07-14-8889",
+   "pesquisa_id": "2-quaest-2025-07-14-8898",
    "cenario": 1,
-   "id": "2-quaest-2025-07-14-8889-c1",
+   "id": "2-quaest-2025-07-14-8898-c1",
    "total_cenarios": 1
   },
   {
@@ -17937,9 +17958,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2621,
    "link": "https://cdn.atlasintel.org/99d32184-8a96-4363-940d-ea86480cc08b.pdf",
-   "pesquisa_id": "2-atlasintel-2025-06-30-8902",
+   "pesquisa_id": "2-atlasintel-2025-06-30-8911",
    "cenario": 1,
-   "id": "2-atlasintel-2025-06-30-8902-c1",
+   "id": "2-atlasintel-2025-06-30-8911-c1",
    "total_cenarios": 1
   },
   {
@@ -17981,9 +18002,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2020,
    "link": "https://www.gazetadopovo.com.br/republica/lula-perderia-tarcisio-apoio-bolsonaro-segundo-turno/",
-   "pesquisa_id": "2-neokemp-2025-06-27-8915",
+   "pesquisa_id": "2-neokemp-2025-06-27-8924",
    "cenario": 1,
-   "id": "2-neokemp-2025-06-27-8915-c1",
+   "id": "2-neokemp-2025-06-27-8924-c1",
    "total_cenarios": 1
   },
   {
@@ -18025,9 +18046,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2000,
    "link": "https://exame.com/brasil/lula-perde-para-bolsonaro-michelle-e-tarcisio-por-mais-de-10-pontos-no-2o-turno-em-2026-diz-futura/",
-   "pesquisa_id": "2-futura-2025-06-23-8928",
+   "pesquisa_id": "2-futura-2025-06-23-8937",
    "cenario": 1,
-   "id": "2-futura-2025-06-23-8928-c1",
+   "id": "2-futura-2025-06-23-8937-c1",
    "total_cenarios": 1
   },
   {
@@ -18070,9 +18091,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2020,
    "link": "https://www.cnnbrasil.com.br/politica/parana-pesquisas-lula-empata-com-michelle-eduardo-e-tarcisio-em-2o-turno/",
-   "pesquisa_id": "2-paran-pesquisas-2025-06-22-8941",
+   "pesquisa_id": "2-paran-pesquisas-2025-06-22-8950",
    "cenario": 2,
-   "id": "2-paran-pesquisas-2025-06-22-8941-c2",
+   "id": "2-paran-pesquisas-2025-06-22-8950-c2",
    "total_cenarios": 2
   },
   {
@@ -18115,9 +18136,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2020,
    "link": "https://www.cnnbrasil.com.br/politica/parana-pesquisas-lula-empata-com-michelle-eduardo-e-tarcisio-em-2o-turno/",
-   "pesquisa_id": "2-paran-pesquisas-2025-06-22-8941",
+   "pesquisa_id": "2-paran-pesquisas-2025-06-22-8950",
    "cenario": 1,
-   "id": "2-paran-pesquisas-2025-06-22-8941-c1",
+   "id": "2-paran-pesquisas-2025-06-22-8950-c1",
    "total_cenarios": 2
   },
   {
@@ -18184,9 +18205,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://g1.globo.com/politica/noticia/2025/06/14/datafolha-cenarios-eleicoes-2026.ghtml",
-   "pesquisa_id": "2-datafolha-2025-06-11-8962",
+   "pesquisa_id": "2-datafolha-2025-06-11-8971",
    "cenario": 2,
-   "id": "2-datafolha-2025-06-11-8962-c2",
+   "id": "2-datafolha-2025-06-11-8971-c2",
    "total_cenarios": 2
   },
   {
@@ -18229,9 +18250,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://g1.globo.com/politica/noticia/2025/06/14/datafolha-cenarios-eleicoes-2026.ghtml",
-   "pesquisa_id": "2-datafolha-2025-06-11-8962",
+   "pesquisa_id": "2-datafolha-2025-06-11-8971",
    "cenario": 1,
-   "id": "2-datafolha-2025-06-11-8962-c1",
+   "id": "2-datafolha-2025-06-11-8971-c1",
    "total_cenarios": 2
   },
   {
@@ -18250,9 +18271,9 @@ window.PESQUISAS = {
    "margem": 3.1,
    "amostra": 1001,
    "link": "https://exame.com/brasil/lula-bolsonaro-tarcisio-o-que-as-novas-pesquisas-mostram-sobre-as-eleicoes-de-2026/",
-   "pesquisa_id": "2-futura-2025-06-04-8982",
+   "pesquisa_id": "2-futura-2025-06-04-8991",
    "cenario": 1,
-   "id": "2-futura-2025-06-04-8982-c1",
+   "id": "2-futura-2025-06-04-8991-c1",
    "total_cenarios": 1
   },
   {
@@ -18271,9 +18292,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.cnnbrasil.com.br/politica/lula-e-bolsonaro-empatariam-com-41-no-2o-turno-em-2026-diz-quaest/",
-   "pesquisa_id": "2-quaest-2025-06-01-8995",
+   "pesquisa_id": "2-quaest-2025-06-01-9004",
    "cenario": 2,
-   "id": "2-quaest-2025-06-01-8995-c2",
+   "id": "2-quaest-2025-06-01-9004-c2",
    "total_cenarios": 2
   },
   {
@@ -18292,9 +18313,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://www.cnnbrasil.com.br/politica/lula-e-bolsonaro-empatariam-com-41-no-2o-turno-em-2026-diz-quaest/",
-   "pesquisa_id": "2-quaest-2025-06-01-8995",
+   "pesquisa_id": "2-quaest-2025-06-01-9004",
    "cenario": 1,
-   "id": "2-quaest-2025-06-01-8995-c1",
+   "id": "2-quaest-2025-06-01-9004-c1",
    "total_cenarios": 2
   },
   {
@@ -18362,9 +18383,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 4399,
    "link": "https://www.cnnbrasil.com.br/politica/lula-perde-para-bolsonaro-tarcisio-e-michelle-em-segundo-turno-diz-atlas/",
-   "pesquisa_id": "2-atlasintel-2025-05-23-9016",
+   "pesquisa_id": "2-atlasintel-2025-05-23-9025",
    "cenario": 1,
-   "id": "2-atlasintel-2025-05-23-9016-c1",
+   "id": "2-atlasintel-2025-05-23-9025-c1",
    "total_cenarios": 1
   },
   {
@@ -18431,9 +18452,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5419,
    "link": "https://www.estadao.com.br/politica/lula-tarcisio-freitas-michelle-bolsonaro-pesquisa-atlasintel-eleicoes-2026-nprp/",
-   "pesquisa_id": "2-atlasintel-2025-04-24-9029",
+   "pesquisa_id": "2-atlasintel-2025-04-24-9038",
    "cenario": 1,
-   "id": "2-atlasintel-2025-04-24-9029-c1",
+   "id": "2-atlasintel-2025-04-24-9038-c1",
    "total_cenarios": 1
   },
   {
@@ -18475,9 +18496,9 @@ window.PESQUISAS = {
    "margem": 2.2,
    "amostra": 2020,
    "link": "https://www1.folha.uol.com.br/poder/2025/04/datafolha-lula-venceria-bolsonaro-e-demais-nomes-da-direita-se-eleicao-fosse-hoje.shtml",
-   "pesquisa_id": "2-paran-pesquisas-2025-04-19-9042",
+   "pesquisa_id": "2-paran-pesquisas-2025-04-19-9051",
    "cenario": 1,
-   "id": "2-paran-pesquisas-2025-04-19-9042-c1",
+   "id": "2-paran-pesquisas-2025-04-19-9051-c1",
    "total_cenarios": 1
   },
   {
@@ -18520,9 +18541,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 3054,
    "link": "https://www1.folha.uol.com.br/poder/2025/04/datafolha-lula-teria-48-contra-39-de-tarcisio-em-cenario-de-2o-turno.shtml",
-   "pesquisa_id": "2-datafolha-2025-04-03-9055",
+   "pesquisa_id": "2-datafolha-2025-04-03-9064",
    "cenario": 1,
-   "id": "2-datafolha-2025-04-03-9055-c1",
+   "id": "2-datafolha-2025-04-03-9064-c1",
    "total_cenarios": 1
   },
   {
@@ -18541,9 +18562,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 2004,
    "link": "https://g1.globo.com/politica/noticia/2025/04/03/quaest-lula-bolsonaro-cenarios-2026.ghtml",
-   "pesquisa_id": "2-quaest-2025-03-31-9068",
+   "pesquisa_id": "2-quaest-2025-03-31-9077",
    "cenario": 1,
-   "id": "2-quaest-2025-03-31-9068-c1",
+   "id": "2-quaest-2025-03-31-9077-c1",
    "total_cenarios": 1
   },
   {
@@ -18562,9 +18583,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 4659,
    "link": "https://www.cnnbrasil.com.br/politica/lula-tarcisio-bolsonaro-marcal-pesquisa-atlas-simula-2-turno-para-2026/",
-   "pesquisa_id": "2-atlasintel-2025-03-24-9081",
+   "pesquisa_id": "2-atlasintel-2025-03-24-9090",
    "cenario": 1,
-   "id": "2-atlasintel-2025-03-24-9081-c1",
+   "id": "2-atlasintel-2025-03-24-9090-c1",
    "total_cenarios": 1
   },
   {
@@ -18583,9 +18604,9 @@ window.PESQUISAS = {
    "margem": 3.1,
    "amostra": 1000,
    "link": "https://www.cnnbrasil.com.br/politica/pesquisa-futura-tarcisio-tem-423-e-lula-376-em-simulacao-de-2o-turno/",
-   "pesquisa_id": "2-futura-2025-03-22-9094",
+   "pesquisa_id": "2-futura-2025-03-22-9103",
    "cenario": 1,
-   "id": "2-futura-2025-03-22-9094-c1",
+   "id": "2-futura-2025-03-22-9103-c1",
    "total_cenarios": 1
   },
   {
@@ -18627,9 +18648,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 5710,
    "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2025/03/07/lula-tarcisio-pesquisa-atlas.htm",
-   "pesquisa_id": "2-atlasintel-2025-02-27-9107",
+   "pesquisa_id": "2-atlasintel-2025-02-27-9116",
    "cenario": 1,
-   "id": "2-atlasintel-2025-02-27-9107-c1",
+   "id": "2-atlasintel-2025-02-27-9116-c1",
    "total_cenarios": 1
   },
   {
@@ -18672,9 +18693,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 3125,
    "link": "https://www.cnnbrasil.com.br/politica/tarcisio-vai-melhor-que-bolsonaro-contra-lula-no-2o-turno-diz-atlasintel/",
-   "pesquisa_id": "2-atlasintel-2025-01-31-9120",
+   "pesquisa_id": "2-atlasintel-2025-01-31-9129",
    "cenario": 2,
-   "id": "2-atlasintel-2025-01-31-9120-c2",
+   "id": "2-atlasintel-2025-01-31-9129-c2",
    "total_cenarios": 2
   },
   {
@@ -18693,9 +18714,9 @@ window.PESQUISAS = {
    "margem": 2.0,
    "amostra": 3125,
    "link": "https://www.cnnbrasil.com.br/politica/tarcisio-vai-melhor-que-bolsonaro-contra-lula-no-2o-turno-diz-atlasintel/",
-   "pesquisa_id": "2-atlasintel-2025-01-31-9120",
+   "pesquisa_id": "2-atlasintel-2025-01-31-9129",
    "cenario": 1,
-   "id": "2-atlasintel-2025-01-31-9120-c1",
+   "id": "2-atlasintel-2025-01-31-9129-c1",
    "total_cenarios": 2
   },
   {
@@ -18714,9 +18735,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 4500,
    "link": "https://www.terra.com.br/noticias/brasil/lula-e-favorito-em-cenarios-para-2026-sem-bolsonaro-gusttavo-lima-e-quem-mais-se-aproxima-em-2-turno-diz-genialquaest,9e6300574518cb1c5333483ad5e31f63rbaprc7o.html",
-   "pesquisa_id": "2-quaest-2025-01-26-9141",
+   "pesquisa_id": "2-quaest-2025-01-26-9150",
    "cenario": 3,
-   "id": "2-quaest-2025-01-26-9141-c3",
+   "id": "2-quaest-2025-01-26-9150-c3",
    "total_cenarios": 3
   },
   {
@@ -18735,9 +18756,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 4500,
    "link": "https://www.terra.com.br/noticias/brasil/lula-e-favorito-em-cenarios-para-2026-sem-bolsonaro-gusttavo-lima-e-quem-mais-se-aproxima-em-2-turno-diz-genialquaest,9e6300574518cb1c5333483ad5e31f63rbaprc7o.html",
-   "pesquisa_id": "2-quaest-2025-01-26-9141",
+   "pesquisa_id": "2-quaest-2025-01-26-9150",
    "cenario": 2,
-   "id": "2-quaest-2025-01-26-9141-c2",
+   "id": "2-quaest-2025-01-26-9150-c2",
    "total_cenarios": 3
   },
   {
@@ -18780,9 +18801,9 @@ window.PESQUISAS = {
    "margem": 1.0,
    "amostra": 4500,
    "link": "https://www.terra.com.br/noticias/brasil/lula-e-favorito-em-cenarios-para-2026-sem-bolsonaro-gusttavo-lima-e-quem-mais-se-aproxima-em-2-turno-diz-genialquaest,9e6300574518cb1c5333483ad5e31f63rbaprc7o.html",
-   "pesquisa_id": "2-quaest-2025-01-26-9141",
+   "pesquisa_id": "2-quaest-2025-01-26-9150",
    "cenario": 1,
-   "id": "2-quaest-2025-01-26-9141-c1",
+   "id": "2-quaest-2025-01-26-9150-c1",
    "total_cenarios": 3
   }
  ]
