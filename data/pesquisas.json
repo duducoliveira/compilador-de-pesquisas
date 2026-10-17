@@ -1,5 +1,5 @@
 {
- "atualizado_em": "2026-10-16T21:06+00:00",
+ "atualizado_em": "2026-10-17T04:23+00:00",
  "fonte": {
   "nome": "Wikipédia — Opinion polling for the 2026 Brazilian presidential election",
   "url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Brazilian_presidential_election"
@@ -246,6 +246,27 @@
  "pesquisas": [
   {
    "turno": 2,
+   "instituto": "Gerp",
+   "inicio": "2026-10-14",
+   "fim": "2026-10-16",
+   "periodo": "14–16 Oct",
+   "secao": "October (after 1st round)",
+   "candidatos": {
+    "Lula": 45.0,
+    "Flávio Bolsonaro": 50.0
+   },
+   "outros": null,
+   "brancos_nulos_indecisos": 5.0,
+   "margem": 2.0,
+   "amostra": 2400,
+   "link": "https://tmc.com.br/politica/pesquisa-gerp-flavio-bolsonaro-lidera-com-50-contra-45-de-lula/title=Pesquisa",
+   "pesquisa_id": "2-gerp-2026-10-16-3446",
+   "cenario": 1,
+   "id": "2-gerp-2026-10-16-3446-c1",
+   "total_cenarios": 1
+  },
+  {
+   "turno": 2,
    "instituto": "PoderData",
    "inicio": "2026-10-13",
    "fim": "2026-10-15",
@@ -431,27 +452,6 @@
    "pesquisa_id": "2-nexus-2026-10-12-3527",
    "cenario": 1,
    "id": "2-nexus-2026-10-12-3527-c1",
-   "total_cenarios": 1
-  },
-  {
-   "turno": 2,
-   "instituto": "Gerp",
-   "inicio": "2026-10-08",
-   "fim": "2026-10-12",
-   "periodo": "8–12 Oct",
-   "secao": "October (after 1st round)",
-   "candidatos": {
-    "Lula": 45.0,
-    "Flávio Bolsonaro": 50.0
-   },
-   "outros": null,
-   "brancos_nulos_indecisos": 5.0,
-   "margem": 2.0,
-   "amostra": 2400,
-   "link": "https://tmc.com.br/politica/pesquisa-gerp-flavio-bolsonaro-lidera-com-50-contra-45-de-lula/title=Pesquisa",
-   "pesquisa_id": "2-gerp-2026-10-12-3446",
-   "cenario": 1,
-   "id": "2-gerp-2026-10-12-3446-c1",
    "total_cenarios": 1
   },
   {
