@@ -1,5 +1,5 @@
 window.PESQUISAS = {
- "atualizado_em": "2026-10-17T20:35+00:00",
+ "atualizado_em": "2026-10-18T04:31+00:00",
  "fonte": {
   "nome": "Wikipédia — Opinion polling for the 2026 Brazilian presidential election",
   "url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Brazilian_presidential_election"
@@ -280,7 +280,7 @@ window.PESQUISAS = {
    "brancos_nulos_indecisos": 5.0,
    "margem": 2.0,
    "amostra": 2400,
-   "link": "https://tmc.com.br/politica/pesquisa-gerp-flavio-bolsonaro-lidera-com-50-contra-45-de-lula/title=Pesquisa",
+   "link": "https://tmc.com.br/politica/pesquisa-gerp-flavio-bolsonaro-lidera-com-50-contra-45-de-lula/",
    "pesquisa_id": "2-gerp-2026-10-16-3446",
    "cenario": 1,
    "id": "2-gerp-2026-10-16-3446-c1",
