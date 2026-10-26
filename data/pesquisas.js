@@ -1,5 +1,5 @@
 window.PESQUISAS = {
- "atualizado_em": "2026-10-25T11:25+00:00",
+ "atualizado_em": "2026-10-26T04:44+00:00",
  "fonte": {
   "nome": "Wikipédia — Opinion polling for the 2026 Brazilian presidential election",
   "url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Brazilian_presidential_election"
@@ -82,6 +82,25 @@ window.PESQUISAS = {
     },
     "outros": 0.22,
     "brancos_nulos": 4.77
+   }
+  },
+  "2": {
+   "data": "2026-10-25",
+   "validos": {
+    "candidatos": {
+     "Lula": 51.79,
+     "Flávio Bolsonaro": 48.21
+    },
+    "outros": null,
+    "brancos_nulos": null
+   },
+   "totais": {
+    "candidatos": {
+     "Lula": 50.11,
+     "Flávio Bolsonaro": 46.65
+    },
+    "outros": null,
+    "brancos_nulos": 3.24
    }
   }
  },
